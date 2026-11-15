@@ -33,3 +33,7 @@ git subtree split --prefix dist -b pages-update
 git push github pages-update:gh-pages
 git branch -D pages-update
 ```
+
+## Megjelenés
+
+Kézzel összeállított fanzin: a felhasználó képei, tépett plakátrétegek, grafitrajz és fotó, ragasztószalagok, kivágott betűk, kézírás és írógépbetűk. Y2K-elemek: CD-matrica, fájlcímkék, retró ablakfejléc és reliefes gombok. A külön `dist/zine.css` a vizuális réteg; a játéklogika és a tananyag nem változott. A képfájlok megfeleltetése: `dist/assets/README.md`.

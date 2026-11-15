@@ -52,7 +52,7 @@ function lessonMap(){
 }
 
 let state=null;const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
-function cards(){ $('#games').innerHTML=bank.map((g,i)=>{let best=storage.get('best-v2:'+i+':all',null);return `<button class="gamecard" data-game="${i}"><span class="cardtop"><span>0${i+1} / ${g.tag}</span><span>${g.qs.length} FELADAT</span></span><span class="icon">${g.icon}</span><h3>${g.title}</h3><p>${g.desc}</p><span class="cardbottom"><span>${best===null?'KEZDHETJÜK?':`LEGJOBB TESZT: ${best}%`}</span><span class="arrow">↗</span></span></button>`}).join(''); document.querySelectorAll('[data-game]').forEach(b=>b.onclick=()=>setup(+b.dataset.game));}
+function cards(){ $('#games').innerHTML=bank.map((g,i)=>{let best=storage.get('best-v2:'+i+':all',null);return `<button class="gamecard" data-game="${i}"><span class="cardtop"><span>0${i+1} / ${g.tag}</span><span>${g.qs.length} FELADAT</span></span><span class="icon">${g.icon}</span><span class="card-art art-${i}" aria-hidden="true"></span><h3>${g.title}</h3><p>${g.desc}</p><span class="cardbottom"><span>${best===null?'KEZDHETJÜK?':`LEGJOBB TESZT: ${best}%`}</span><span class="arrow">↗</span></span></button>`}).join(''); document.querySelectorAll('[data-game]').forEach(b=>b.onclick=()=>setup(+b.dataset.game));}
 function show(){ $('#arena').hidden=false;$('#arena').scrollIntoView({behavior:'smooth',block:'start'});}
 function setup(id,scope='all'){
  state={id,scope}; const g=bank[id];
