@@ -73,7 +73,7 @@ window.grammarData = [
     {
       "id": "G006",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy ház → több házak",
+      "example": "Egy ház → házak",
       "options": [
         "Képző",
         "Jel",
@@ -157,7 +157,7 @@ window.grammarData = [
     {
       "id": "G012",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy vár → több várak",
+      "example": "Egy vár → várak",
       "options": [
         "Képző",
         "Jel",
@@ -241,7 +241,7 @@ window.grammarData = [
     {
       "id": "G018",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy fal → több falak",
+      "example": "Egy fal → falak",
       "options": [
         "Képző",
         "Jel",
@@ -325,7 +325,7 @@ window.grammarData = [
     {
       "id": "G024",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy pad → több padok",
+      "example": "Egy pad → padok",
       "options": [
         "Képző",
         "Jel",
@@ -409,7 +409,7 @@ window.grammarData = [
     {
       "id": "G030",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy asztal → több asztalok",
+      "example": "Egy asztal → asztalok",
       "options": [
         "Képző",
         "Jel",
@@ -493,7 +493,7 @@ window.grammarData = [
     {
       "id": "G036",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy ablak → több ablakok",
+      "example": "Egy ablak → ablakok",
       "options": [
         "Képző",
         "Jel",
@@ -577,7 +577,7 @@ window.grammarData = [
     {
       "id": "G042",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy udvar → több udvarok",
+      "example": "Egy udvar → udvarok",
       "options": [
         "Képző",
         "Jel",
@@ -661,7 +661,7 @@ window.grammarData = [
     {
       "id": "G048",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy vonat → több vonatok",
+      "example": "Egy vonat → vonatok",
       "options": [
         "Képző",
         "Jel",
@@ -745,7 +745,7 @@ window.grammarData = [
     {
       "id": "G054",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy hajó → több hajók",
+      "example": "Egy hajó → hajók",
       "options": [
         "Képző",
         "Jel",
@@ -829,7 +829,7 @@ window.grammarData = [
     {
       "id": "G060",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy autó → több autók",
+      "example": "Egy autó → autók",
       "options": [
         "Képző",
         "Jel",
@@ -913,7 +913,7 @@ window.grammarData = [
     {
       "id": "G066",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy labda → több labdák",
+      "example": "Egy labda → labdák",
       "options": [
         "Képző",
         "Jel",
@@ -997,7 +997,7 @@ window.grammarData = [
     {
       "id": "G072",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy alma → több almák",
+      "example": "Egy alma → almák",
       "options": [
         "Képző",
         "Jel",
@@ -1081,7 +1081,7 @@ window.grammarData = [
     {
       "id": "G078",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy iskola → több iskolák",
+      "example": "Egy iskola → iskolák",
       "options": [
         "Képző",
         "Jel",
@@ -1165,7 +1165,7 @@ window.grammarData = [
     {
       "id": "G084",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy szoba → több szobák",
+      "example": "Egy szoba → szobák",
       "options": [
         "Képző",
         "Jel",
@@ -1249,7 +1249,7 @@ window.grammarData = [
     {
       "id": "G090",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy táska → több táskák",
+      "example": "Egy táska → táskák",
       "options": [
         "Képző",
         "Jel",
@@ -1333,7 +1333,7 @@ window.grammarData = [
     {
       "id": "G096",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy kert → több kertek",
+      "example": "Egy kert → kertek",
       "options": [
         "Képző",
         "Jel",
@@ -1417,7 +1417,7 @@ window.grammarData = [
     {
       "id": "G102",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy kép → több képek",
+      "example": "Egy kép → képek",
       "options": [
         "Képző",
         "Jel",
@@ -1501,7 +1501,7 @@ window.grammarData = [
     {
       "id": "G108",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy gép → több gépek",
+      "example": "Egy gép → gépek",
       "options": [
         "Képző",
         "Jel",
@@ -1585,7 +1585,7 @@ window.grammarData = [
     {
       "id": "G114",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy szék → több székek",
+      "example": "Egy szék → székek",
       "options": [
         "Képző",
         "Jel",
@@ -1669,7 +1669,7 @@ window.grammarData = [
     {
       "id": "G120",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy nép → több népek",
+      "example": "Egy nép → népek",
       "options": [
         "Képző",
         "Jel",
@@ -1753,7 +1753,7 @@ window.grammarData = [
     {
       "id": "G126",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy kéz → több kezek",
+      "example": "Egy kéz → kezek",
       "options": [
         "Képző",
         "Jel",
@@ -1837,7 +1837,7 @@ window.grammarData = [
     {
       "id": "G132",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy hely → több helyek",
+      "example": "Egy hely → helyek",
       "options": [
         "Képző",
         "Jel",
@@ -1921,7 +1921,7 @@ window.grammarData = [
     {
       "id": "G138",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy hegy → több hegyek",
+      "example": "Egy hegy → hegyek",
       "options": [
         "Képző",
         "Jel",
@@ -2005,7 +2005,7 @@ window.grammarData = [
     {
       "id": "G144",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy jegy → több jegyek",
+      "example": "Egy jegy → jegyek",
       "options": [
         "Képző",
         "Jel",
@@ -2089,7 +2089,7 @@ window.grammarData = [
     {
       "id": "G150",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy levél → több levelek",
+      "example": "Egy levél → levelek",
       "options": [
         "Képző",
         "Jel",
@@ -2173,7 +2173,7 @@ window.grammarData = [
     {
       "id": "G156",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy könyv → több könyvek",
+      "example": "Egy könyv → könyvek",
       "options": [
         "Képző",
         "Jel",
@@ -2257,7 +2257,7 @@ window.grammarData = [
     {
       "id": "G162",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy füzet → több füzetek",
+      "example": "Egy füzet → füzetek",
       "options": [
         "Képző",
         "Jel",
@@ -2341,7 +2341,7 @@ window.grammarData = [
     {
       "id": "G168",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy erdő → több erdők",
+      "example": "Egy erdő → erdők",
       "options": [
         "Képző",
         "Jel",
@@ -2425,7 +2425,7 @@ window.grammarData = [
     {
       "id": "G174",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy mező → több mezők",
+      "example": "Egy mező → mezők",
       "options": [
         "Képző",
         "Jel",
@@ -2509,7 +2509,7 @@ window.grammarData = [
     {
       "id": "G180",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy felhő → több felhők",
+      "example": "Egy felhő → felhők",
       "options": [
         "Képző",
         "Jel",
@@ -2593,7 +2593,7 @@ window.grammarData = [
     {
       "id": "G186",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy hős → több hősök",
+      "example": "Egy hős → hősök",
       "options": [
         "Képző",
         "Jel",
@@ -2677,7 +2677,7 @@ window.grammarData = [
     {
       "id": "G192",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy bőr → több bőrök",
+      "example": "Egy bőr → bőrök",
       "options": [
         "Képző",
         "Jel",
@@ -2761,7 +2761,7 @@ window.grammarData = [
     {
       "id": "G198",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy őr → több őrök",
+      "example": "Egy őr → őrök",
       "options": [
         "Képző",
         "Jel",
@@ -2845,7 +2845,7 @@ window.grammarData = [
     {
       "id": "G204",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy kör → több körök",
+      "example": "Egy kör → körök",
       "options": [
         "Képző",
         "Jel",
@@ -2929,7 +2929,7 @@ window.grammarData = [
     {
       "id": "G210",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy kürt → több kürtök",
+      "example": "Egy kürt → kürtök",
       "options": [
         "Képző",
         "Jel",
@@ -3013,7 +3013,7 @@ window.grammarData = [
     {
       "id": "G216",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy ceruza → több ceruzák",
+      "example": "Egy ceruza → ceruzák",
       "options": [
         "Képző",
         "Jel",
@@ -3097,7 +3097,7 @@ window.grammarData = [
     {
       "id": "G222",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy diák → több diákok",
+      "example": "Egy diák → diákok",
       "options": [
         "Képző",
         "Jel",
@@ -3181,7 +3181,7 @@ window.grammarData = [
     {
       "id": "G228",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy tanár → több tanárok",
+      "example": "Egy tanár → tanárok",
       "options": [
         "Képző",
         "Jel",
@@ -3265,7 +3265,7 @@ window.grammarData = [
     {
       "id": "G234",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy barát → több barátok",
+      "example": "Egy barát → barátok",
       "options": [
         "Képző",
         "Jel",
@@ -3349,7 +3349,7 @@ window.grammarData = [
     {
       "id": "G240",
       "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy virág → több virágok",
+      "example": "Egy virág → virágok",
       "options": [
         "Képző",
         "Jel",
@@ -6482,7 +6482,7 @@ window.grammarData = [
     {
       "id": "G476",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több házak van.\nÉn olvasok.",
+      "example": "Itt házak vannak.\nÉn olvasok.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6495,7 +6495,7 @@ window.grammarData = [
     {
       "id": "G477",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több várak van.\nÉn rajzolok.",
+      "example": "Itt várak vannak.\nÉn rajzolok.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6508,7 +6508,7 @@ window.grammarData = [
     {
       "id": "G478",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több falak van.\nÉn tanulok.",
+      "example": "Itt falak vannak.\nÉn tanulok.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6521,7 +6521,7 @@ window.grammarData = [
     {
       "id": "G479",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több padok van.\nÉn sétálok.",
+      "example": "Itt padok vannak.\nÉn sétálok.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6534,7 +6534,7 @@ window.grammarData = [
     {
       "id": "G480",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több asztalok van.\nÉn ugrálok.",
+      "example": "Itt asztalok vannak.\nÉn ugrálok.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6547,7 +6547,7 @@ window.grammarData = [
     {
       "id": "G481",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több ablakok van.\nÉn futok.",
+      "example": "Itt ablakok vannak.\nÉn futok.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6560,7 +6560,7 @@ window.grammarData = [
     {
       "id": "G482",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több udvarok van.\nÉn indulok.",
+      "example": "Itt udvarok vannak.\nÉn indulok.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6573,7 +6573,7 @@ window.grammarData = [
     {
       "id": "G483",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több vonatok van.\nÉn sétáltatok.",
+      "example": "Itt vonatok vannak.\nÉn sétáltatok.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6586,7 +6586,7 @@ window.grammarData = [
     {
       "id": "G484",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több hajók van.\nÉn várok.",
+      "example": "Itt hajók vannak.\nÉn várok.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6599,7 +6599,7 @@ window.grammarData = [
     {
       "id": "G485",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több autók van.\nÉn kérek.",
+      "example": "Itt autók vannak.\nÉn kérek.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6612,7 +6612,7 @@ window.grammarData = [
     {
       "id": "G486",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több labdák van.\nÉn nézek.",
+      "example": "Itt labdák vannak.\nÉn nézek.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6625,7 +6625,7 @@ window.grammarData = [
     {
       "id": "G487",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több almák van.\nÉn beszélek.",
+      "example": "Itt almák vannak.\nÉn beszélek.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6638,7 +6638,7 @@ window.grammarData = [
     {
       "id": "G488",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több iskolák van.\nÉn mesélek.",
+      "example": "Itt iskolák vannak.\nÉn mesélek.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6651,7 +6651,7 @@ window.grammarData = [
     {
       "id": "G489",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több szobák van.\nÉn énekelek.",
+      "example": "Itt szobák vannak.\nÉn énekelek.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6664,7 +6664,7 @@ window.grammarData = [
     {
       "id": "G490",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több táskák van.\nÉn nevetek.",
+      "example": "Itt táskák vannak.\nÉn nevetek.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6677,7 +6677,7 @@ window.grammarData = [
     {
       "id": "G491",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több kertek van.\nÉn segítek.",
+      "example": "Itt kertek vannak.\nÉn segítek.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6690,7 +6690,7 @@ window.grammarData = [
     {
       "id": "G492",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több képek van.\nÉn építek.",
+      "example": "Itt képek vannak.\nÉn építek.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6703,7 +6703,7 @@ window.grammarData = [
     {
       "id": "G493",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több gépek van.\nÉn festek.",
+      "example": "Itt gépek vannak.\nÉn festek.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6716,7 +6716,7 @@ window.grammarData = [
     {
       "id": "G494",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több székek van.\nÉn keresek.",
+      "example": "Itt székek vannak.\nÉn keresek.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6729,7 +6729,7 @@ window.grammarData = [
     {
       "id": "G495",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több népek van.\nÉn válaszolok.",
+      "example": "Itt népek vannak.\nÉn válaszolok.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6742,7 +6742,7 @@ window.grammarData = [
     {
       "id": "G496",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több kezek van.\nÉn számolok.",
+      "example": "Itt kezek vannak.\nÉn számolok.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6755,7 +6755,7 @@ window.grammarData = [
     {
       "id": "G497",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több helyek van.\nÉn pakolok.",
+      "example": "Itt helyek vannak.\nÉn pakolok.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6768,7 +6768,7 @@ window.grammarData = [
     {
       "id": "G498",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több hegyek van.\nÉn tapsolok.",
+      "example": "Itt hegyek vannak.\nÉn tapsolok.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6781,7 +6781,7 @@ window.grammarData = [
     {
       "id": "G499",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több jegyek van.\nÉn gyakorlok.",
+      "example": "Itt jegyek vannak.\nÉn gyakorlok.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
@@ -6794,7 +6794,7 @@ window.grammarData = [
     {
       "id": "G500",
       "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Több levelek van.\nÉn hallgatok.",
+      "example": "Itt levelek vannak.\nÉn hallgatok.",
       "options": [
         "Előbb többesjel, aztán igei személyrag",
         "Mindkettő többesjel",
