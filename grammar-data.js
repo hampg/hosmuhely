@@ -2,1025 +2,1171 @@ window.grammarData = [
   [
     {
       "id": "G001",
-      "text": "Milyen toldalék a(z) -ban?",
-      "example": "házban → ház + ban",
+      "text": "Tedd múlt időbe!",
+      "example": "Ő most olvas. → Ő tegnap ___.",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "olvasott",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ban rag: helyet: hol? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "házban"
+      "answer": 0,
+      "why": "olvas → olvasott: a múlt időt a -t/-tt jel fejezi ki. A mondat alanya egyes szám harmadik személyű.",
+      "kind": "jel",
+      "word": "házban",
+      "expected": "olvasott",
+      "ui": "input",
+      "family": "olvas"
     },
     {
       "id": "G002",
-      "text": "Milyen toldalék a(z) -ból?",
-      "example": "házból → ház + ból",
+      "text": "Tedd múlt időbe!",
+      "example": "Ő most rajzol. → Ő tegnap ___.",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "rajzolt",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ból rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "házból"
+      "answer": 0,
+      "why": "rajzol → rajzolt: a múlt időt a -t/-tt jel fejezi ki. A mondat alanya egyes szám harmadik személyű.",
+      "kind": "jel",
+      "word": "házból",
+      "expected": "rajzolt",
+      "ui": "input",
+      "family": "rajzol"
     },
     {
       "id": "G003",
-      "text": "Milyen toldalék a(z) -hoz?",
-      "example": "házhoz → ház + hoz",
+      "text": "Tedd múlt időbe!",
+      "example": "Ő most tanul. → Ő tegnap ___.",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "tanult",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -hoz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "házhoz"
+      "answer": 0,
+      "why": "tanul → tanult: a múlt időt a -t/-tt jel fejezi ki. A mondat alanya egyes szám harmadik személyű.",
+      "kind": "jel",
+      "word": "házhoz",
+      "expected": "tanult",
+      "ui": "input",
+      "family": "tanul"
     },
     {
       "id": "G004",
-      "text": "Milyen toldalék a(z) -nál?",
-      "example": "háznál → ház + nál",
+      "text": "Tedd múlt időbe!",
+      "example": "Ő most sétál. → Ő tegnap ___.",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "sétált",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nál rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "háznál"
+      "answer": 0,
+      "why": "sétál → sétált: a múlt időt a -t/-tt jel fejezi ki. A mondat alanya egyes szám harmadik személyű.",
+      "kind": "jel",
+      "word": "háznál",
+      "expected": "sétált",
+      "ui": "input",
+      "family": "sétál"
     },
     {
       "id": "G005",
-      "text": "Milyen toldalék a(z) -nak?",
-      "example": "háznak → ház + nak",
+      "text": "Tedd múlt időbe!",
+      "example": "Ő most ugrál. → Ő tegnap ___.",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "ugrált",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nak rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "háznak"
+      "answer": 0,
+      "why": "ugrál → ugrált: a múlt időt a -t/-tt jel fejezi ki. A mondat alanya egyes szám harmadik személyű.",
+      "kind": "jel",
+      "word": "háznak",
+      "expected": "ugrált",
+      "ui": "input",
+      "family": "ugrál"
     },
     {
       "id": "G006",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy ház → házak",
+      "text": "Javítsd ki a hibás mondatot!",
+      "example": "Hibás: Három házak van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Három ház van.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A házak alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "Számnév után a főnév egyes számban áll: három ház.",
       "kind": "jel",
-      "word": "házak"
+      "word": "házak",
+      "family": "ház",
+      "expected": "Három ház van.",
+      "ui": "repair"
     },
     {
       "id": "G007",
-      "text": "Milyen toldalék a(z) -ban?",
-      "example": "várban → vár + ban",
+      "text": "Tedd múlt időbe!",
+      "example": "Ő most fut. → Ő tegnap ___.",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "futott",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ban rag: helyet: hol? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "várban"
+      "answer": 0,
+      "why": "fut → futott: a múlt időt a -t/-tt jel fejezi ki. A mondat alanya egyes szám harmadik személyű.",
+      "kind": "jel",
+      "word": "várban",
+      "expected": "futott",
+      "ui": "input",
+      "family": "fut"
     },
     {
       "id": "G008",
-      "text": "Milyen toldalék a(z) -ból?",
-      "example": "várból → vár + ból",
+      "text": "Tedd múlt időbe!",
+      "example": "Ő most úszik. → Ő tegnap ___.",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "úszott",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ból rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "várból"
+      "answer": 0,
+      "why": "úszik → úszott: a múlt időt a -t/-tt jel fejezi ki. A mondat alanya egyes szám harmadik személyű.",
+      "kind": "jel",
+      "word": "várból",
+      "expected": "úszott",
+      "ui": "input",
+      "family": "úszik"
     },
     {
       "id": "G009",
-      "text": "Milyen toldalék a(z) -hoz?",
-      "example": "várhoz → vár + hoz",
+      "text": "Tedd múlt időbe!",
+      "example": "Ő most játszik. → Ő tegnap ___.",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "játszott",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -hoz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "várhoz"
+      "answer": 0,
+      "why": "játszik → játszott: a múlt időt a -t/-tt jel fejezi ki. A mondat alanya egyes szám harmadik személyű.",
+      "kind": "jel",
+      "word": "várhoz",
+      "expected": "játszott",
+      "ui": "input",
+      "family": "játszik"
     },
     {
       "id": "G010",
-      "text": "Milyen toldalék a(z) -nál?",
-      "example": "várnál → vár + nál",
+      "text": "Tedd múlt időbe!",
+      "example": "Ő most vár. → Ő tegnap ___.",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "várt",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nál rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "várnál"
+      "answer": 0,
+      "why": "vár → várt: a múlt időt a -t/-tt jel fejezi ki. A mondat alanya egyes szám harmadik személyű.",
+      "kind": "jel",
+      "word": "várnál",
+      "expected": "várt",
+      "ui": "input",
+      "family": "vár"
     },
     {
       "id": "G011",
-      "text": "Milyen toldalék a(z) -nak?",
-      "example": "várnak → vár + nak",
+      "text": "Tedd múlt időbe!",
+      "example": "Ő most kér. → Ő tegnap ___.",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "kért",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nak rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "várnak"
+      "answer": 0,
+      "why": "kér → kért: a múlt időt a -t/-tt jel fejezi ki. A mondat alanya egyes szám harmadik személyű.",
+      "kind": "jel",
+      "word": "várnak",
+      "expected": "kért",
+      "ui": "input",
+      "family": "kér"
     },
     {
       "id": "G012",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy vár → várak",
+      "text": "Javítsd ki az egyeztetést!",
+      "example": "Hibás: Ezek várak van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Ezek várak vannak.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A várak alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "A többes számú alanyhoz többes számú állítmány tartozik: vannak.",
       "kind": "jel",
-      "word": "várak"
+      "word": "várak",
+      "family": "vár",
+      "expected": "Ezek várak vannak.",
+      "ui": "repair"
     },
     {
       "id": "G013",
-      "text": "Milyen toldalék a(z) -ban?",
-      "example": "falban → fal + ban",
+      "text": "Tedd múlt időbe!",
+      "example": "Ő most néz. → Ő tegnap ___.",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "nézett",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ban rag: helyet: hol? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "falban"
+      "answer": 0,
+      "why": "néz → nézett: a múlt időt a -t/-tt jel fejezi ki. A mondat alanya egyes szám harmadik személyű.",
+      "kind": "jel",
+      "word": "falban",
+      "expected": "nézett",
+      "ui": "input",
+      "family": "néz"
     },
     {
       "id": "G014",
-      "text": "Milyen toldalék a(z) -ból?",
-      "example": "falból → fal + ból",
+      "text": "Tedd múlt időbe!",
+      "example": "Ő most beszél. → Ő tegnap ___.",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "beszélt",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ból rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "falból"
+      "answer": 0,
+      "why": "beszél → beszélt: a múlt időt a -t/-tt jel fejezi ki. A mondat alanya egyes szám harmadik személyű.",
+      "kind": "jel",
+      "word": "falból",
+      "expected": "beszélt",
+      "ui": "input",
+      "family": "beszél"
     },
     {
       "id": "G015",
-      "text": "Milyen toldalék a(z) -hoz?",
-      "example": "falhoz → fal + hoz",
+      "text": "Tedd múlt időbe!",
+      "example": "Ő most mesél. → Ő tegnap ___.",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "mesélt",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -hoz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "falhoz"
+      "answer": 0,
+      "why": "mesél → mesélt: a múlt időt a -t/-tt jel fejezi ki. A mondat alanya egyes szám harmadik személyű.",
+      "kind": "jel",
+      "word": "falhoz",
+      "expected": "mesélt",
+      "ui": "input",
+      "family": "mesél"
     },
     {
       "id": "G016",
-      "text": "Milyen toldalék a(z) -nál?",
-      "example": "falnál → fal + nál",
+      "text": "Tedd múlt időbe!",
+      "example": "Ő most énekel. → Ő tegnap ___.",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "énekelt",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nál rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "falnál"
+      "answer": 0,
+      "why": "énekel → énekelt: a múlt időt a -t/-tt jel fejezi ki. A mondat alanya egyes szám harmadik személyű.",
+      "kind": "jel",
+      "word": "falnál",
+      "expected": "énekelt",
+      "ui": "input",
+      "family": "énekel"
     },
     {
       "id": "G017",
-      "text": "Milyen toldalék a(z) -nak?",
-      "example": "falnak → fal + nak",
+      "text": "Tedd múlt időbe!",
+      "example": "Ő most nevet. → Ő tegnap ___.",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "nevetett",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nak rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "falnak"
+      "answer": 0,
+      "why": "nevet → nevetett: a múlt időt a -t/-tt jel fejezi ki. A mondat alanya egyes szám harmadik személyű.",
+      "kind": "jel",
+      "word": "falnak",
+      "expected": "nevetett",
+      "ui": "input",
+      "family": "nevet"
     },
     {
       "id": "G018",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy fal → falak",
+      "text": "Javítsd ki a hibás mondatot!",
+      "example": "Hibás: Három falak van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Három fal van.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A falak alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "Számnév után a főnév egyes számban áll: három fal.",
       "kind": "jel",
-      "word": "falak"
+      "word": "falak",
+      "family": "fal",
+      "expected": "Három fal van.",
+      "ui": "repair"
     },
     {
       "id": "G019",
-      "text": "Milyen toldalék a(z) -ban?",
-      "example": "padban → pad + ban",
+      "text": "Tedd múlt időbe!",
+      "example": "Ő most segít. → Ő tegnap ___.",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "segített",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ban rag: helyet: hol? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "padban"
+      "answer": 0,
+      "why": "segít → segített: a múlt időt a -t/-tt jel fejezi ki. A mondat alanya egyes szám harmadik személyű.",
+      "kind": "jel",
+      "word": "padban",
+      "expected": "segített",
+      "ui": "input",
+      "family": "segít"
     },
     {
       "id": "G020",
-      "text": "Milyen toldalék a(z) -ból?",
-      "example": "padból → pad + ból",
+      "text": "Tedd múlt időbe!",
+      "example": "Ő most épít. → Ő tegnap ___.",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "épített",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ból rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "padból"
+      "answer": 0,
+      "why": "épít → épített: a múlt időt a -t/-tt jel fejezi ki. A mondat alanya egyes szám harmadik személyű.",
+      "kind": "jel",
+      "word": "padból",
+      "expected": "épített",
+      "ui": "input",
+      "family": "épít"
     },
     {
       "id": "G021",
-      "text": "Milyen toldalék a(z) -hoz?",
-      "example": "padhoz → pad + hoz",
+      "text": "Tedd múlt időbe!",
+      "example": "Ő most fest. → Ő tegnap ___.",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "festett",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -hoz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "padhoz"
+      "answer": 0,
+      "why": "fest → festett: a múlt időt a -t/-tt jel fejezi ki. A mondat alanya egyes szám harmadik személyű.",
+      "kind": "jel",
+      "word": "padhoz",
+      "expected": "festett",
+      "ui": "input",
+      "family": "fest"
     },
     {
       "id": "G022",
-      "text": "Milyen toldalék a(z) -nál?",
-      "example": "padnál → pad + nál",
+      "text": "Tedd múlt időbe!",
+      "example": "Ő most keres. → Ő tegnap ___.",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "keresett",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nál rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "padnál"
+      "answer": 0,
+      "why": "keres → keresett: a múlt időt a -t/-tt jel fejezi ki. A mondat alanya egyes szám harmadik személyű.",
+      "kind": "jel",
+      "word": "padnál",
+      "expected": "keresett",
+      "ui": "input",
+      "family": "keres"
     },
     {
       "id": "G023",
-      "text": "Milyen toldalék a(z) -nak?",
-      "example": "padnak → pad + nak",
+      "text": "Tedd múlt időbe!",
+      "example": "Ő most válaszol. → Ő tegnap ___.",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "válaszolt",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nak rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "padnak"
+      "answer": 0,
+      "why": "válaszol → válaszolt: a múlt időt a -t/-tt jel fejezi ki. A mondat alanya egyes szám harmadik személyű.",
+      "kind": "jel",
+      "word": "padnak",
+      "expected": "válaszolt",
+      "ui": "input",
+      "family": "válaszol"
     },
     {
       "id": "G024",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy pad → padok",
+      "text": "Javítsd ki az egyeztetést!",
+      "example": "Hibás: Ezek padok van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Ezek padok vannak.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A padok alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "A többes számú alanyhoz többes számú állítmány tartozik: vannak.",
       "kind": "jel",
-      "word": "padok"
+      "word": "padok",
+      "family": "pad",
+      "expected": "Ezek padok vannak.",
+      "ui": "repair"
     },
     {
       "id": "G025",
-      "text": "Milyen toldalék a(z) -ban?",
-      "example": "asztalban → asztal + ban",
+      "text": "Egy fokkal több!",
+      "example": "Írd be a melléknév középfokát: erős → ___",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "erősebb",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ban rag: helyet: hol? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "asztalban"
+      "answer": 0,
+      "why": "erős → erősebb: a középfok jele -bb. A tő alakja is változhat.",
+      "kind": "jel",
+      "word": "asztalban",
+      "expected": "erősebb",
+      "ui": "input",
+      "family": "erős"
     },
     {
       "id": "G026",
-      "text": "Milyen toldalék a(z) -ból?",
-      "example": "asztalból → asztal + ból",
+      "text": "Egy fokkal több!",
+      "example": "Írd be a melléknév középfokát: gyenge → ___",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "gyengébb",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ból rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "asztalból"
+      "answer": 0,
+      "why": "gyenge → gyengébb: a középfok jele -bb. A tő alakja is változhat.",
+      "kind": "jel",
+      "word": "asztalból",
+      "expected": "gyengébb",
+      "ui": "input",
+      "family": "gyenge"
     },
     {
       "id": "G027",
-      "text": "Milyen toldalék a(z) -hoz?",
-      "example": "asztalhoz → asztal + hoz",
+      "text": "Egy fokkal több!",
+      "example": "Írd be a melléknév középfokát: szép → ___",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "szebb",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -hoz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "asztalhoz"
+      "answer": 0,
+      "why": "szép → szebb: a középfok jele -bb. A tő alakja is változhat.",
+      "kind": "jel",
+      "word": "asztalhoz",
+      "expected": "szebb",
+      "ui": "input",
+      "family": "szép"
     },
     {
       "id": "G028",
-      "text": "Milyen toldalék a(z) -nál?",
-      "example": "asztalnál → asztal + nál",
+      "text": "Egy fokkal több!",
+      "example": "Írd be a melléknév középfokát: jó → ___",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "jobb",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nál rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "asztalnál"
+      "answer": 0,
+      "why": "jó → jobb: a középfok jele -bb. A tő alakja is változhat.",
+      "kind": "jel",
+      "word": "asztalnál",
+      "expected": "jobb",
+      "ui": "input",
+      "family": "jó"
     },
     {
       "id": "G029",
-      "text": "Milyen toldalék a(z) -nak?",
-      "example": "asztalnak → asztal + nak",
+      "text": "Egy fokkal több!",
+      "example": "Írd be a melléknév középfokát: rossz → ___",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "rosszabb",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nak rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "asztalnak"
+      "answer": 0,
+      "why": "rossz → rosszabb: a középfok jele -bb. A tő alakja is változhat.",
+      "kind": "jel",
+      "word": "asztalnak",
+      "expected": "rosszabb",
+      "ui": "input",
+      "family": "rossz"
     },
     {
       "id": "G030",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy asztal → asztalok",
+      "text": "Javítsd ki a hibás mondatot!",
+      "example": "Hibás: Három asztalok van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Három asztal van.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A asztalok alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "Számnév után a főnév egyes számban áll: három asztal.",
       "kind": "jel",
-      "word": "asztalok"
+      "word": "asztalok",
+      "family": "asztal",
+      "expected": "Három asztal van.",
+      "ui": "repair"
     },
     {
       "id": "G031",
-      "text": "Milyen toldalék a(z) -ban?",
-      "example": "ablakban → ablak + ban",
+      "text": "Egy fokkal több!",
+      "example": "Írd be a melléknév középfokát: nagy → ___",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "nagyobb",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ban rag: helyet: hol? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "ablakban"
+      "answer": 0,
+      "why": "nagy → nagyobb: a középfok jele -bb. A tő alakja is változhat.",
+      "kind": "jel",
+      "word": "ablakban",
+      "expected": "nagyobb",
+      "ui": "input",
+      "family": "nagy"
     },
     {
       "id": "G032",
-      "text": "Milyen toldalék a(z) -ból?",
-      "example": "ablakból → ablak + ból",
+      "text": "Egy fokkal több!",
+      "example": "Írd be a melléknév középfokát: kicsi → ___",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "kisebb",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ból rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "ablakból"
+      "answer": 0,
+      "why": "kicsi → kisebb: a középfok jele -bb. A tő alakja is változhat.",
+      "kind": "jel",
+      "word": "ablakból",
+      "expected": "kisebb",
+      "ui": "input",
+      "family": "kicsi"
     },
     {
       "id": "G033",
-      "text": "Milyen toldalék a(z) -hoz?",
-      "example": "ablakhoz → ablak + hoz",
+      "text": "Egy fokkal több!",
+      "example": "Írd be a melléknév középfokát: magas → ___",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "magasabb",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -hoz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "ablakhoz"
+      "answer": 0,
+      "why": "magas → magasabb: a középfok jele -bb. A tő alakja is változhat.",
+      "kind": "jel",
+      "word": "ablakhoz",
+      "expected": "magasabb",
+      "ui": "input",
+      "family": "magas"
     },
     {
       "id": "G034",
-      "text": "Milyen toldalék a(z) -nál?",
-      "example": "ablaknál → ablak + nál",
+      "text": "Egy fokkal több!",
+      "example": "Írd be a melléknév középfokát: alacsony → ___",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "alacsonyabb",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nál rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "ablaknál"
+      "answer": 0,
+      "why": "alacsony → alacsonyabb: a középfok jele -bb. A tő alakja is változhat.",
+      "kind": "jel",
+      "word": "ablaknál",
+      "expected": "alacsonyabb",
+      "ui": "input",
+      "family": "alacsony"
     },
     {
       "id": "G035",
-      "text": "Milyen toldalék a(z) -nak?",
-      "example": "ablaknak → ablak + nak",
+      "text": "Egy fokkal több!",
+      "example": "Írd be a melléknév középfokát: gyors → ___",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "gyorsabb",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nak rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "ablaknak"
+      "answer": 0,
+      "why": "gyors → gyorsabb: a középfok jele -bb. A tő alakja is változhat.",
+      "kind": "jel",
+      "word": "ablaknak",
+      "expected": "gyorsabb",
+      "ui": "input",
+      "family": "gyors"
     },
     {
       "id": "G036",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy ablak → ablakok",
+      "text": "Javítsd ki az egyeztetést!",
+      "example": "Hibás: Ezek ablakok van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Ezek ablakok vannak.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A ablakok alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "A többes számú alanyhoz többes számú állítmány tartozik: vannak.",
       "kind": "jel",
-      "word": "ablakok"
+      "word": "ablakok",
+      "family": "ablak",
+      "expected": "Ezek ablakok vannak.",
+      "ui": "repair"
     },
     {
       "id": "G037",
-      "text": "Milyen toldalék a(z) -ban?",
-      "example": "udvarban → udvar + ban",
+      "text": "Egy fokkal több!",
+      "example": "Írd be a melléknév középfokát: lassú → ___",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "lassabb",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ban rag: helyet: hol? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "udvarban"
+      "answer": 0,
+      "why": "lassú → lassabb: a középfok jele -bb. A tő alakja is változhat.",
+      "kind": "jel",
+      "word": "udvarban",
+      "expected": "lassabb",
+      "ui": "input",
+      "family": "lassú"
     },
     {
       "id": "G038",
-      "text": "Milyen toldalék a(z) -ból?",
-      "example": "udvarból → udvar + ból",
+      "text": "Egy fokkal több!",
+      "example": "Írd be a melléknév középfokát: okos → ___",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "okosabb",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ból rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "udvarból"
+      "answer": 0,
+      "why": "okos → okosabb: a középfok jele -bb. A tő alakja is változhat.",
+      "kind": "jel",
+      "word": "udvarból",
+      "expected": "okosabb",
+      "ui": "input",
+      "family": "okos"
     },
     {
       "id": "G039",
-      "text": "Milyen toldalék a(z) -hoz?",
-      "example": "udvarhoz → udvar + hoz",
+      "text": "Egy fokkal több!",
+      "example": "Írd be a melléknév középfokát: kedves → ___",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "kedvesebb",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -hoz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "udvarhoz"
+      "answer": 0,
+      "why": "kedves → kedvesebb: a középfok jele -bb. A tő alakja is változhat.",
+      "kind": "jel",
+      "word": "udvarhoz",
+      "expected": "kedvesebb",
+      "ui": "input",
+      "family": "kedves"
     },
     {
       "id": "G040",
-      "text": "Milyen toldalék a(z) -nál?",
-      "example": "udvarnál → udvar + nál",
+      "text": "Egy fokkal több!",
+      "example": "Írd be a melléknév középfokát: ügyes → ___",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "ügyesebb",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nál rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "udvarnál"
+      "answer": 0,
+      "why": "ügyes → ügyesebb: a középfok jele -bb. A tő alakja is változhat.",
+      "kind": "jel",
+      "word": "udvarnál",
+      "expected": "ügyesebb",
+      "ui": "input",
+      "family": "ügyes"
     },
     {
       "id": "G041",
-      "text": "Milyen toldalék a(z) -nak?",
-      "example": "udvarnak → udvar + nak",
+      "text": "Egy fokkal több!",
+      "example": "Írd be a melléknév középfokát: bátor → ___",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "bátrabb",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nak rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "udvarnak"
+      "answer": 0,
+      "why": "bátor → bátrabb: a középfok jele -bb. A tő alakja is változhat.",
+      "kind": "jel",
+      "word": "udvarnak",
+      "expected": "bátrabb",
+      "ui": "input",
+      "family": "bátor"
     },
     {
       "id": "G042",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy udvar → udvarok",
+      "text": "Javítsd ki a hibás mondatot!",
+      "example": "Hibás: Három udvarok van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Három udvar van.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A udvarok alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "Számnév után a főnév egyes számban áll: három udvar.",
       "kind": "jel",
-      "word": "udvarok"
+      "word": "udvarok",
+      "family": "udvar",
+      "expected": "Három udvar van.",
+      "ui": "repair"
     },
     {
       "id": "G043",
-      "text": "Milyen toldalék a(z) -ban?",
-      "example": "vonatban → vonat + ban",
+      "text": "Egy fokkal több!",
+      "example": "Írd be a melléknév középfokát: vidám → ___",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "vidámabb",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ban rag: helyet: hol? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "vonatban"
+      "answer": 0,
+      "why": "vidám → vidámabb: a középfok jele -bb. A tő alakja is változhat.",
+      "kind": "jel",
+      "word": "vonatban",
+      "expected": "vidámabb",
+      "ui": "input",
+      "family": "vidám"
     },
     {
       "id": "G044",
-      "text": "Milyen toldalék a(z) -ból?",
-      "example": "vonatból → vonat + ból",
+      "text": "Egy fokkal több!",
+      "example": "Írd be a melléknév középfokát: szomorú → ___",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "szomorúbb",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ból rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "vonatból"
+      "answer": 0,
+      "why": "szomorú → szomorúbb: a középfok jele -bb. A tő alakja is változhat.",
+      "kind": "jel",
+      "word": "vonatból",
+      "expected": "szomorúbb",
+      "ui": "input",
+      "family": "szomorú"
     },
     {
       "id": "G045",
-      "text": "Milyen toldalék a(z) -hoz?",
-      "example": "vonathoz → vonat + hoz",
+      "text": "Egy fokkal több!",
+      "example": "Írd be a melléknév középfokát: öreg → ___",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "öregebb",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -hoz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "vonathoz"
+      "answer": 0,
+      "why": "öreg → öregebb: a középfok jele -bb. A tő alakja is változhat.",
+      "kind": "jel",
+      "word": "vonathoz",
+      "expected": "öregebb",
+      "ui": "input",
+      "family": "öreg"
     },
     {
       "id": "G046",
-      "text": "Milyen toldalék a(z) -nál?",
-      "example": "vonatnál → vonat + nál",
+      "text": "Egy fokkal több!",
+      "example": "Írd be a melléknév középfokát: fiatal → ___",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "fiatalabb",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nál rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "vonatnál"
+      "answer": 0,
+      "why": "fiatal → fiatalabb: a középfok jele -bb. A tő alakja is változhat.",
+      "kind": "jel",
+      "word": "vonatnál",
+      "expected": "fiatalabb",
+      "ui": "input",
+      "family": "fiatal"
     },
     {
       "id": "G047",
-      "text": "Milyen toldalék a(z) -nak?",
-      "example": "vonatnak → vonat + nak",
+      "text": "Egy fokkal több!",
+      "example": "Írd be a melléknév középfokát: édes → ___",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "édesebb",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nak rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "vonatnak"
+      "answer": 0,
+      "why": "édes → édesebb: a középfok jele -bb. A tő alakja is változhat.",
+      "kind": "jel",
+      "word": "vonatnak",
+      "expected": "édesebb",
+      "ui": "input",
+      "family": "édes"
     },
     {
       "id": "G048",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy vonat → vonatok",
+      "text": "Javítsd ki az egyeztetést!",
+      "example": "Hibás: Ezek vonatok van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Ezek vonatok vannak.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A vonatok alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "A többes számú alanyhoz többes számú állítmány tartozik: vannak.",
       "kind": "jel",
-      "word": "vonatok"
+      "word": "vonatok",
+      "family": "vonat",
+      "expected": "Ezek vonatok vannak.",
+      "ui": "repair"
     },
     {
       "id": "G049",
-      "text": "Milyen toldalék a(z) -ban?",
-      "example": "hajóban → hajó + ban",
+      "text": "Legyen az enyém!",
+      "example": "Egy ház → az én ___ (csak a szóalakot írd)",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "házam",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ban rag: helyet: hol? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "hajóban"
+      "answer": 0,
+      "why": "ház → házam: a birtokos személyjel azt fejezi ki, hogy a birtok egyes szám első személyű birtokoshoz tartozik.",
+      "kind": "jel",
+      "word": "hajóban",
+      "expected": "házam",
+      "ui": "input",
+      "family": "ház"
     },
     {
       "id": "G050",
-      "text": "Milyen toldalék a(z) -ból?",
-      "example": "hajóból → hajó + ból",
+      "text": "Legyen az enyém!",
+      "example": "Egy vár → az én ___ (csak a szóalakot írd)",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "váram",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ból rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "hajóból"
+      "answer": 0,
+      "why": "vár → váram: a birtokos személyjel azt fejezi ki, hogy a birtok egyes szám első személyű birtokoshoz tartozik.",
+      "kind": "jel",
+      "word": "hajóból",
+      "expected": "váram",
+      "ui": "input",
+      "family": "vár"
     },
     {
       "id": "G051",
-      "text": "Milyen toldalék a(z) -hoz?",
-      "example": "hajóhoz → hajó + hoz",
+      "text": "Legyen az enyém!",
+      "example": "Egy pad → az én ___ (csak a szóalakot írd)",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "padom",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -hoz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "hajóhoz"
+      "answer": 0,
+      "why": "pad → padom: a birtokos személyjel azt fejezi ki, hogy a birtok egyes szám első személyű birtokoshoz tartozik.",
+      "kind": "jel",
+      "word": "hajóhoz",
+      "expected": "padom",
+      "ui": "input",
+      "family": "pad"
     },
     {
       "id": "G052",
-      "text": "Milyen toldalék a(z) -nál?",
-      "example": "hajónál → hajó + nál",
+      "text": "Legyen az enyém!",
+      "example": "Egy asztal → az én ___ (csak a szóalakot írd)",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "asztalom",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nál rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "hajónál"
+      "answer": 0,
+      "why": "asztal → asztalom: a birtokos személyjel azt fejezi ki, hogy a birtok egyes szám első személyű birtokoshoz tartozik.",
+      "kind": "jel",
+      "word": "hajónál",
+      "expected": "asztalom",
+      "ui": "input",
+      "family": "asztal"
     },
     {
       "id": "G053",
-      "text": "Milyen toldalék a(z) -nak?",
-      "example": "hajónak → hajó + nak",
+      "text": "Legyen az enyém!",
+      "example": "Egy ablak → az én ___ (csak a szóalakot írd)",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "ablakom",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nak rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "hajónak"
+      "answer": 0,
+      "why": "ablak → ablakom: a birtokos személyjel azt fejezi ki, hogy a birtok egyes szám első személyű birtokoshoz tartozik.",
+      "kind": "jel",
+      "word": "hajónak",
+      "expected": "ablakom",
+      "ui": "input",
+      "family": "ablak"
     },
     {
       "id": "G054",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy hajó → hajók",
+      "text": "Javítsd ki a hibás mondatot!",
+      "example": "Hibás: Három hajók van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Három hajó van.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A hajók alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "Számnév után a főnév egyes számban áll: három hajó.",
       "kind": "jel",
-      "word": "hajók"
+      "word": "hajók",
+      "family": "hajó",
+      "expected": "Három hajó van.",
+      "ui": "repair"
     },
     {
       "id": "G055",
-      "text": "Milyen toldalék a(z) -ban?",
-      "example": "autóban → autó + ban",
+      "text": "Legyen az enyém!",
+      "example": "Egy udvar → az én ___ (csak a szóalakot írd)",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "udvarom",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ban rag: helyet: hol? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "autóban"
+      "answer": 0,
+      "why": "udvar → udvarom: a birtokos személyjel azt fejezi ki, hogy a birtok egyes szám első személyű birtokoshoz tartozik.",
+      "kind": "jel",
+      "word": "autóban",
+      "expected": "udvarom",
+      "ui": "input",
+      "family": "udvar"
     },
     {
       "id": "G056",
-      "text": "Milyen toldalék a(z) -ból?",
-      "example": "autóból → autó + ból",
+      "text": "Legyen az enyém!",
+      "example": "Egy vonat → az én ___ (csak a szóalakot írd)",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "vonatom",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ból rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "autóból"
+      "answer": 0,
+      "why": "vonat → vonatom: a birtokos személyjel azt fejezi ki, hogy a birtok egyes szám első személyű birtokoshoz tartozik.",
+      "kind": "jel",
+      "word": "autóból",
+      "expected": "vonatom",
+      "ui": "input",
+      "family": "vonat"
     },
     {
       "id": "G057",
-      "text": "Milyen toldalék a(z) -hoz?",
-      "example": "autóhoz → autó + hoz",
+      "text": "Legyen az enyém!",
+      "example": "Egy hajó → az én ___ (csak a szóalakot írd)",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "hajóm",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -hoz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "autóhoz"
+      "answer": 0,
+      "why": "hajó → hajóm: a birtokos személyjel azt fejezi ki, hogy a birtok egyes szám első személyű birtokoshoz tartozik.",
+      "kind": "jel",
+      "word": "autóhoz",
+      "expected": "hajóm",
+      "ui": "input",
+      "family": "hajó"
     },
     {
       "id": "G058",
-      "text": "Milyen toldalék a(z) -nál?",
-      "example": "autónál → autó + nál",
+      "text": "Legyen az enyém!",
+      "example": "Egy autó → az én ___ (csak a szóalakot írd)",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "autóm",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nál rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "autónál"
+      "answer": 0,
+      "why": "autó → autóm: a birtokos személyjel azt fejezi ki, hogy a birtok egyes szám első személyű birtokoshoz tartozik.",
+      "kind": "jel",
+      "word": "autónál",
+      "expected": "autóm",
+      "ui": "input",
+      "family": "autó"
     },
     {
       "id": "G059",
-      "text": "Milyen toldalék a(z) -nak?",
-      "example": "autónak → autó + nak",
+      "text": "Legyen az enyém!",
+      "example": "Egy labda → az én ___ (csak a szóalakot írd)",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "labdám",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nak rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "autónak"
+      "answer": 0,
+      "why": "labda → labdám: a birtokos személyjel azt fejezi ki, hogy a birtok egyes szám első személyű birtokoshoz tartozik.",
+      "kind": "jel",
+      "word": "autónak",
+      "expected": "labdám",
+      "ui": "input",
+      "family": "labda"
     },
     {
       "id": "G060",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy autó → autók",
+      "text": "Javítsd ki az egyeztetést!",
+      "example": "Hibás: Ezek autók van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Ezek autók vannak.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A autók alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "A többes számú alanyhoz többes számú állítmány tartozik: vannak.",
       "kind": "jel",
-      "word": "autók"
+      "word": "autók",
+      "family": "autó",
+      "expected": "Ezek autók vannak.",
+      "ui": "repair"
     },
     {
       "id": "G061",
-      "text": "Milyen toldalék a(z) -ban?",
-      "example": "labdában → labdá + ban",
+      "text": "Legyen az enyém!",
+      "example": "Egy alma → az én ___ (csak a szóalakot írd)",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "almám",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ban rag: helyet: hol? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "labdában"
+      "answer": 0,
+      "why": "alma → almám: a birtokos személyjel azt fejezi ki, hogy a birtok egyes szám első személyű birtokoshoz tartozik.",
+      "kind": "jel",
+      "word": "labdában",
+      "expected": "almám",
+      "ui": "input",
+      "family": "alma"
     },
     {
       "id": "G062",
-      "text": "Milyen toldalék a(z) -ból?",
-      "example": "labdából → labdá + ból",
+      "text": "Legyen az enyém!",
+      "example": "Egy iskola → az én ___ (csak a szóalakot írd)",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "iskolám",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ból rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "labdából"
+      "answer": 0,
+      "why": "iskola → iskolám: a birtokos személyjel azt fejezi ki, hogy a birtok egyes szám első személyű birtokoshoz tartozik.",
+      "kind": "jel",
+      "word": "labdából",
+      "expected": "iskolám",
+      "ui": "input",
+      "family": "iskola"
     },
     {
       "id": "G063",
-      "text": "Milyen toldalék a(z) -hoz?",
-      "example": "labdához → labdá + hoz",
+      "text": "Legyen az enyém!",
+      "example": "Egy szoba → az én ___ (csak a szóalakot írd)",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "szobám",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -hoz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "labdához"
+      "answer": 0,
+      "why": "szoba → szobám: a birtokos személyjel azt fejezi ki, hogy a birtok egyes szám első személyű birtokoshoz tartozik.",
+      "kind": "jel",
+      "word": "labdához",
+      "expected": "szobám",
+      "ui": "input",
+      "family": "szoba"
     },
     {
       "id": "G064",
-      "text": "Milyen toldalék a(z) -nál?",
-      "example": "labdánál → labdá + nál",
+      "text": "Legyen az enyém!",
+      "example": "Egy táska → az én ___ (csak a szóalakot írd)",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "táskám",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nál rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "labdánál"
+      "answer": 0,
+      "why": "táska → táskám: a birtokos személyjel azt fejezi ki, hogy a birtok egyes szám első személyű birtokoshoz tartozik.",
+      "kind": "jel",
+      "word": "labdánál",
+      "expected": "táskám",
+      "ui": "input",
+      "family": "táska"
     },
     {
       "id": "G065",
-      "text": "Milyen toldalék a(z) -nak?",
-      "example": "labdának → labdá + nak",
+      "text": "Legyen az enyém!",
+      "example": "Egy kert → az én ___ (csak a szóalakot írd)",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "kertem",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nak rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "labdának"
+      "answer": 0,
+      "why": "kert → kertem: a birtokos személyjel azt fejezi ki, hogy a birtok egyes szám első személyű birtokoshoz tartozik.",
+      "kind": "jel",
+      "word": "labdának",
+      "expected": "kertem",
+      "ui": "input",
+      "family": "kert"
     },
     {
       "id": "G066",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy labda → labdák",
+      "text": "Javítsd ki a hibás mondatot!",
+      "example": "Hibás: Három labdák van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Három labda van.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A labdák alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "Számnév után a főnév egyes számban áll: három labda.",
       "kind": "jel",
-      "word": "labdák"
+      "word": "labdák",
+      "family": "labda",
+      "expected": "Három labda van.",
+      "ui": "repair"
     },
     {
       "id": "G067",
-      "text": "Milyen toldalék a(z) -ban?",
-      "example": "almában → almá + ban",
+      "text": "Legyen az enyém!",
+      "example": "Egy kép → az én ___ (csak a szóalakot írd)",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "képem",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ban rag: helyet: hol? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "almában"
+      "answer": 0,
+      "why": "kép → képem: a birtokos személyjel azt fejezi ki, hogy a birtok egyes szám első személyű birtokoshoz tartozik.",
+      "kind": "jel",
+      "word": "almában",
+      "expected": "képem",
+      "ui": "input",
+      "family": "kép"
     },
     {
       "id": "G068",
-      "text": "Milyen toldalék a(z) -ból?",
-      "example": "almából → almá + ból",
+      "text": "Legyen az enyém!",
+      "example": "Egy gép → az én ___ (csak a szóalakot írd)",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "gépem",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -ból rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "almából"
+      "answer": 0,
+      "why": "gép → gépem: a birtokos személyjel azt fejezi ki, hogy a birtok egyes szám első személyű birtokoshoz tartozik.",
+      "kind": "jel",
+      "word": "almából",
+      "expected": "gépem",
+      "ui": "input",
+      "family": "gép"
     },
     {
       "id": "G069",
-      "text": "Milyen toldalék a(z) -hoz?",
-      "example": "almához → almá + hoz",
+      "text": "Legyen az enyém!",
+      "example": "Egy szék → az én ___ (csak a szóalakot írd)",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "székem",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -hoz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "almához"
+      "answer": 0,
+      "why": "szék → székem: a birtokos személyjel azt fejezi ki, hogy a birtok egyes szám első személyű birtokoshoz tartozik.",
+      "kind": "jel",
+      "word": "almához",
+      "expected": "székem",
+      "ui": "input",
+      "family": "szék"
     },
     {
       "id": "G070",
-      "text": "Milyen toldalék a(z) -nál?",
-      "example": "almánál → almá + nál",
+      "text": "Legyen az enyém!",
+      "example": "Egy könyv → az én ___ (csak a szóalakot írd)",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "könyvem",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nál rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "almánál"
+      "answer": 0,
+      "why": "könyv → könyvem: a birtokos személyjel azt fejezi ki, hogy a birtok egyes szám első személyű birtokoshoz tartozik.",
+      "kind": "jel",
+      "word": "almánál",
+      "expected": "könyvem",
+      "ui": "input",
+      "family": "könyv"
     },
     {
       "id": "G071",
-      "text": "Milyen toldalék a(z) -nak?",
-      "example": "almának → almá + nak",
+      "text": "Legyen az enyém!",
+      "example": "Egy füzet → az én ___ (csak a szóalakot írd)",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "füzetem",
+        "Más válasz"
       ],
-      "answer": 2,
-      "why": "A -nak rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
-      "kind": "rag",
-      "word": "almának"
+      "answer": 0,
+      "why": "füzet → füzetem: a birtokos személyjel azt fejezi ki, hogy a birtok egyes szám első személyű birtokoshoz tartozik.",
+      "kind": "jel",
+      "word": "almának",
+      "expected": "füzetem",
+      "ui": "input",
+      "family": "füzet"
     },
     {
       "id": "G072",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy alma → almák",
+      "text": "Javítsd ki az egyeztetést!",
+      "example": "Hibás: Ezek almák van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Ezek almák vannak.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A almák alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "A többes számú alanyhoz többes számú állítmány tartozik: vannak.",
       "kind": "jel",
-      "word": "almák"
+      "word": "almák",
+      "family": "alma",
+      "expected": "Ezek almák vannak.",
+      "ui": "repair"
     },
     {
       "id": "G073",
-      "text": "Milyen toldalék a(z) -ban?",
-      "example": "iskolában → iskolá + ban",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: iskolá\nJelentés: valaminek a belsejében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "iskolában",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ban rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "iskolában"
+      "word": "iskolában",
+      "family": "iskolá",
+      "expected": "iskolában",
+      "ui": "input"
     },
     {
       "id": "G074",
@@ -1034,21 +1180,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ból rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "iskolából"
+      "word": "iskolából",
+      "family": "iskolá",
+      "ui": "choice"
     },
     {
       "id": "G075",
-      "text": "Milyen toldalék a(z) -hoz?",
-      "example": "iskolához → iskolá + hoz",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: iskolá\nJelentés: irány a megnevezett helyhez vagy dologhoz: hová?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "iskolához",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -hoz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "iskolához"
+      "word": "iskolához",
+      "family": "iskolá",
+      "expected": "iskolához",
+      "ui": "input"
     },
     {
       "id": "G076",
@@ -1062,35 +1212,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nál rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "iskolánál"
+      "word": "iskolánál",
+      "family": "iskolá",
+      "ui": "choice"
     },
     {
       "id": "G077",
-      "text": "Milyen toldalék a(z) -nak?",
-      "example": "iskolának → iskolá + nak",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: iskolá\nJelentés: neki szánjuk: kinek?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "iskolának",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nak rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "iskolának"
+      "word": "iskolának",
+      "family": "iskolá",
+      "expected": "iskolának",
+      "ui": "input"
     },
     {
       "id": "G078",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy iskola → iskolák",
+      "text": "Javítsd ki a hibás mondatot!",
+      "example": "Hibás: Három iskolák van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Három iskola van.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A iskolák alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "Számnév után a főnév egyes számban áll: három iskola.",
       "kind": "jel",
-      "word": "iskolák"
+      "word": "iskolák",
+      "family": "iskola",
+      "expected": "Három iskola van.",
+      "ui": "repair"
     },
     {
       "id": "G079",
@@ -1104,21 +1260,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ban rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "szobában"
+      "word": "szobában",
+      "family": "szobá",
+      "ui": "choice"
     },
     {
       "id": "G080",
-      "text": "Milyen toldalék a(z) -ból?",
-      "example": "szobából → szobá + ból",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: szobá\nJelentés: valaminek a belsejéből: honnan?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "szobából",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ból rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "szobából"
+      "word": "szobából",
+      "family": "szobá",
+      "expected": "szobából",
+      "ui": "input"
     },
     {
       "id": "G081",
@@ -1132,21 +1292,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -hoz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "szobához"
+      "word": "szobához",
+      "family": "szobá",
+      "ui": "choice"
     },
     {
       "id": "G082",
-      "text": "Milyen toldalék a(z) -nál?",
-      "example": "szobánál → szobá + nál",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: szobá\nJelentés: mellette, a közelében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "szobánál",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nál rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "szobánál"
+      "word": "szobánál",
+      "family": "szobá",
+      "expected": "szobánál",
+      "ui": "input"
     },
     {
       "id": "G083",
@@ -1160,35 +1324,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nak rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "szobának"
+      "word": "szobának",
+      "family": "szobá",
+      "ui": "choice"
     },
     {
       "id": "G084",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy szoba → szobák",
+      "text": "Javítsd ki az egyeztetést!",
+      "example": "Hibás: Ezek szobák van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Ezek szobák vannak.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A szobák alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "A többes számú alanyhoz többes számú állítmány tartozik: vannak.",
       "kind": "jel",
-      "word": "szobák"
+      "word": "szobák",
+      "family": "szoba",
+      "expected": "Ezek szobák vannak.",
+      "ui": "repair"
     },
     {
       "id": "G085",
-      "text": "Milyen toldalék a(z) -ban?",
-      "example": "táskában → táská + ban",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: táská\nJelentés: valaminek a belsejében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "táskában",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ban rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "táskában"
+      "word": "táskában",
+      "family": "táská",
+      "expected": "táskában",
+      "ui": "input"
     },
     {
       "id": "G086",
@@ -1202,21 +1372,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ból rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "táskából"
+      "word": "táskából",
+      "family": "táská",
+      "ui": "choice"
     },
     {
       "id": "G087",
-      "text": "Milyen toldalék a(z) -hoz?",
-      "example": "táskához → táská + hoz",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: táská\nJelentés: irány a megnevezett helyhez vagy dologhoz: hová?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "táskához",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -hoz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "táskához"
+      "word": "táskához",
+      "family": "táská",
+      "expected": "táskához",
+      "ui": "input"
     },
     {
       "id": "G088",
@@ -1230,35 +1404,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nál rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "táskánál"
+      "word": "táskánál",
+      "family": "táská",
+      "ui": "choice"
     },
     {
       "id": "G089",
-      "text": "Milyen toldalék a(z) -nak?",
-      "example": "táskának → táská + nak",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: táská\nJelentés: neki szánjuk: kinek?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "táskának",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nak rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "táskának"
+      "word": "táskának",
+      "family": "táská",
+      "expected": "táskának",
+      "ui": "input"
     },
     {
       "id": "G090",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy táska → táskák",
+      "text": "Javítsd ki a hibás mondatot!",
+      "example": "Hibás: Három táskák van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Három táska van.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A táskák alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "Számnév után a főnév egyes számban áll: három táska.",
       "kind": "jel",
-      "word": "táskák"
+      "word": "táskák",
+      "family": "táska",
+      "expected": "Három táska van.",
+      "ui": "repair"
     },
     {
       "id": "G091",
@@ -1272,21 +1452,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ben rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "kertben"
+      "word": "kertben",
+      "family": "kert",
+      "ui": "choice"
     },
     {
       "id": "G092",
-      "text": "Milyen toldalék a(z) -ből?",
-      "example": "kertből → kert + ből",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: kert\nJelentés: valaminek a belsejéből: honnan?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "kertből",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ből rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "kertből"
+      "word": "kertből",
+      "family": "kert",
+      "expected": "kertből",
+      "ui": "input"
     },
     {
       "id": "G093",
@@ -1300,21 +1484,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -hez rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "kerthez"
+      "word": "kerthez",
+      "family": "kert",
+      "ui": "choice"
     },
     {
       "id": "G094",
-      "text": "Milyen toldalék a(z) -nél?",
-      "example": "kertnél → kert + nél",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: kert\nJelentés: mellette, a közelében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "kertnél",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nél rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "kertnél"
+      "word": "kertnél",
+      "family": "kert",
+      "expected": "kertnél",
+      "ui": "input"
     },
     {
       "id": "G095",
@@ -1328,35 +1516,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nek rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "kertnek"
+      "word": "kertnek",
+      "family": "kert",
+      "ui": "choice"
     },
     {
       "id": "G096",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy kert → kertek",
+      "text": "Javítsd ki az egyeztetést!",
+      "example": "Hibás: Ezek kertek van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Ezek kertek vannak.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A kertek alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "A többes számú alanyhoz többes számú állítmány tartozik: vannak.",
       "kind": "jel",
-      "word": "kertek"
+      "word": "kertek",
+      "family": "kert",
+      "expected": "Ezek kertek vannak.",
+      "ui": "repair"
     },
     {
       "id": "G097",
-      "text": "Milyen toldalék a(z) -ben?",
-      "example": "képben → kép + ben",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: kép\nJelentés: valaminek a belsejében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "képben",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ben rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "képben"
+      "word": "képben",
+      "family": "kép",
+      "expected": "képben",
+      "ui": "input"
     },
     {
       "id": "G098",
@@ -1370,21 +1564,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ből rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "képből"
+      "word": "képből",
+      "family": "kép",
+      "ui": "choice"
     },
     {
       "id": "G099",
-      "text": "Milyen toldalék a(z) -hez?",
-      "example": "képhez → kép + hez",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: kép\nJelentés: irány a megnevezett helyhez vagy dologhoz: hová?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "képhez",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -hez rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "képhez"
+      "word": "képhez",
+      "family": "kép",
+      "expected": "képhez",
+      "ui": "input"
     },
     {
       "id": "G100",
@@ -1398,35 +1596,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nél rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "képnél"
+      "word": "képnél",
+      "family": "kép",
+      "ui": "choice"
     },
     {
       "id": "G101",
-      "text": "Milyen toldalék a(z) -nek?",
-      "example": "képnek → kép + nek",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: kép\nJelentés: neki szánjuk: kinek?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "képnek",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nek rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "képnek"
+      "word": "képnek",
+      "family": "kép",
+      "expected": "képnek",
+      "ui": "input"
     },
     {
       "id": "G102",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy kép → képek",
+      "text": "Javítsd ki a hibás mondatot!",
+      "example": "Hibás: Három képek van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Három kép van.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A képek alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "Számnév után a főnév egyes számban áll: három kép.",
       "kind": "jel",
-      "word": "képek"
+      "word": "képek",
+      "family": "kép",
+      "expected": "Három kép van.",
+      "ui": "repair"
     },
     {
       "id": "G103",
@@ -1440,21 +1644,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ben rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "gépben"
+      "word": "gépben",
+      "family": "gép",
+      "ui": "choice"
     },
     {
       "id": "G104",
-      "text": "Milyen toldalék a(z) -ből?",
-      "example": "gépből → gép + ből",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: gép\nJelentés: valaminek a belsejéből: honnan?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "gépből",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ből rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "gépből"
+      "word": "gépből",
+      "family": "gép",
+      "expected": "gépből",
+      "ui": "input"
     },
     {
       "id": "G105",
@@ -1468,21 +1676,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -hez rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "géphez"
+      "word": "géphez",
+      "family": "gép",
+      "ui": "choice"
     },
     {
       "id": "G106",
-      "text": "Milyen toldalék a(z) -nél?",
-      "example": "gépnél → gép + nél",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: gép\nJelentés: mellette, a közelében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "gépnél",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nél rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "gépnél"
+      "word": "gépnél",
+      "family": "gép",
+      "expected": "gépnél",
+      "ui": "input"
     },
     {
       "id": "G107",
@@ -1496,35 +1708,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nek rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "gépnek"
+      "word": "gépnek",
+      "family": "gép",
+      "ui": "choice"
     },
     {
       "id": "G108",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy gép → gépek",
+      "text": "Javítsd ki az egyeztetést!",
+      "example": "Hibás: Ezek gépek van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Ezek gépek vannak.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A gépek alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "A többes számú alanyhoz többes számú állítmány tartozik: vannak.",
       "kind": "jel",
-      "word": "gépek"
+      "word": "gépek",
+      "family": "gép",
+      "expected": "Ezek gépek vannak.",
+      "ui": "repair"
     },
     {
       "id": "G109",
-      "text": "Milyen toldalék a(z) -ben?",
-      "example": "székben → szék + ben",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: szék\nJelentés: valaminek a belsejében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "székben",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ben rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "székben"
+      "word": "székben",
+      "family": "szék",
+      "expected": "székben",
+      "ui": "input"
     },
     {
       "id": "G110",
@@ -1538,21 +1756,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ből rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "székből"
+      "word": "székből",
+      "family": "szék",
+      "ui": "choice"
     },
     {
       "id": "G111",
-      "text": "Milyen toldalék a(z) -hez?",
-      "example": "székhez → szék + hez",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: szék\nJelentés: irány a megnevezett helyhez vagy dologhoz: hová?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "székhez",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -hez rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "székhez"
+      "word": "székhez",
+      "family": "szék",
+      "expected": "székhez",
+      "ui": "input"
     },
     {
       "id": "G112",
@@ -1566,35 +1788,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nél rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "széknél"
+      "word": "széknél",
+      "family": "szék",
+      "ui": "choice"
     },
     {
       "id": "G113",
-      "text": "Milyen toldalék a(z) -nek?",
-      "example": "széknek → szék + nek",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: szék\nJelentés: neki szánjuk: kinek?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "széknek",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nek rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "széknek"
+      "word": "széknek",
+      "family": "szék",
+      "expected": "széknek",
+      "ui": "input"
     },
     {
       "id": "G114",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy szék → székek",
+      "text": "Javítsd ki a hibás mondatot!",
+      "example": "Hibás: Három székek van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Három szék van.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A székek alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "Számnév után a főnév egyes számban áll: három szék.",
       "kind": "jel",
-      "word": "székek"
+      "word": "székek",
+      "family": "szék",
+      "expected": "Három szék van.",
+      "ui": "repair"
     },
     {
       "id": "G115",
@@ -1608,21 +1836,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ben rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "népben"
+      "word": "népben",
+      "family": "nép",
+      "ui": "choice"
     },
     {
       "id": "G116",
-      "text": "Milyen toldalék a(z) -ből?",
-      "example": "népből → nép + ből",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: nép\nJelentés: valaminek a belsejéből: honnan?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "népből",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ből rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "népből"
+      "word": "népből",
+      "family": "nép",
+      "expected": "népből",
+      "ui": "input"
     },
     {
       "id": "G117",
@@ -1636,21 +1868,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -hez rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "néphez"
+      "word": "néphez",
+      "family": "nép",
+      "ui": "choice"
     },
     {
       "id": "G118",
-      "text": "Milyen toldalék a(z) -nél?",
-      "example": "népnél → nép + nél",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: nép\nJelentés: mellette, a közelében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "népnél",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nél rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "népnél"
+      "word": "népnél",
+      "family": "nép",
+      "expected": "népnél",
+      "ui": "input"
     },
     {
       "id": "G119",
@@ -1664,35 +1900,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nek rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "népnek"
+      "word": "népnek",
+      "family": "nép",
+      "ui": "choice"
     },
     {
       "id": "G120",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy nép → népek",
+      "text": "Javítsd ki az egyeztetést!",
+      "example": "Hibás: Ezek népek van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Ezek népek vannak.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A népek alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "A többes számú alanyhoz többes számú állítmány tartozik: vannak.",
       "kind": "jel",
-      "word": "népek"
+      "word": "népek",
+      "family": "nép",
+      "expected": "Ezek népek vannak.",
+      "ui": "repair"
     },
     {
       "id": "G121",
-      "text": "Milyen toldalék a(z) -ben?",
-      "example": "kézben → kéz + ben",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: kéz\nJelentés: valaminek a belsejében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "kézben",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ben rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "kézben"
+      "word": "kézben",
+      "family": "kéz",
+      "expected": "kézben",
+      "ui": "input"
     },
     {
       "id": "G122",
@@ -1706,21 +1948,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ből rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "kézből"
+      "word": "kézből",
+      "family": "kéz",
+      "ui": "choice"
     },
     {
       "id": "G123",
-      "text": "Milyen toldalék a(z) -hez?",
-      "example": "kézhez → kéz + hez",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: kéz\nJelentés: irány a megnevezett helyhez vagy dologhoz: hová?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "kézhez",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -hez rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "kézhez"
+      "word": "kézhez",
+      "family": "kéz",
+      "expected": "kézhez",
+      "ui": "input"
     },
     {
       "id": "G124",
@@ -1734,35 +1980,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nél rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "kéznél"
+      "word": "kéznél",
+      "family": "kéz",
+      "ui": "choice"
     },
     {
       "id": "G125",
-      "text": "Milyen toldalék a(z) -nek?",
-      "example": "kéznek → kéz + nek",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: kéz\nJelentés: neki szánjuk: kinek?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "kéznek",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nek rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "kéznek"
+      "word": "kéznek",
+      "family": "kéz",
+      "expected": "kéznek",
+      "ui": "input"
     },
     {
       "id": "G126",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy kéz → kezek",
+      "text": "Javítsd ki a hibás mondatot!",
+      "example": "Hibás: Három kezek van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Három kéz van.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A kezek alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "Számnév után a főnév egyes számban áll: három kéz.",
       "kind": "jel",
-      "word": "kezek"
+      "word": "kezek",
+      "family": "kéz",
+      "expected": "Három kéz van.",
+      "ui": "repair"
     },
     {
       "id": "G127",
@@ -1776,21 +2028,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ben rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "helyben"
+      "word": "helyben",
+      "family": "hely",
+      "ui": "choice"
     },
     {
       "id": "G128",
-      "text": "Milyen toldalék a(z) -ből?",
-      "example": "helyből → hely + ből",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: hely\nJelentés: valaminek a belsejéből: honnan?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "helyből",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ből rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "helyből"
+      "word": "helyből",
+      "family": "hely",
+      "expected": "helyből",
+      "ui": "input"
     },
     {
       "id": "G129",
@@ -1804,21 +2060,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -hez rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "helyhez"
+      "word": "helyhez",
+      "family": "hely",
+      "ui": "choice"
     },
     {
       "id": "G130",
-      "text": "Milyen toldalék a(z) -nél?",
-      "example": "helynél → hely + nél",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: hely\nJelentés: mellette, a közelében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "helynél",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nél rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "helynél"
+      "word": "helynél",
+      "family": "hely",
+      "expected": "helynél",
+      "ui": "input"
     },
     {
       "id": "G131",
@@ -1832,35 +2092,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nek rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "helynek"
+      "word": "helynek",
+      "family": "hely",
+      "ui": "choice"
     },
     {
       "id": "G132",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy hely → helyek",
+      "text": "Javítsd ki az egyeztetést!",
+      "example": "Hibás: Ezek helyek van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Ezek helyek vannak.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A helyek alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "A többes számú alanyhoz többes számú állítmány tartozik: vannak.",
       "kind": "jel",
-      "word": "helyek"
+      "word": "helyek",
+      "family": "hely",
+      "expected": "Ezek helyek vannak.",
+      "ui": "repair"
     },
     {
       "id": "G133",
-      "text": "Milyen toldalék a(z) -ben?",
-      "example": "hegyben → hegy + ben",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: hegy\nJelentés: valaminek a belsejében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "hegyben",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ben rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "hegyben"
+      "word": "hegyben",
+      "family": "hegy",
+      "expected": "hegyben",
+      "ui": "input"
     },
     {
       "id": "G134",
@@ -1874,21 +2140,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ből rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "hegyből"
+      "word": "hegyből",
+      "family": "hegy",
+      "ui": "choice"
     },
     {
       "id": "G135",
-      "text": "Milyen toldalék a(z) -hez?",
-      "example": "hegyhez → hegy + hez",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: hegy\nJelentés: irány a megnevezett helyhez vagy dologhoz: hová?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "hegyhez",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -hez rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "hegyhez"
+      "word": "hegyhez",
+      "family": "hegy",
+      "expected": "hegyhez",
+      "ui": "input"
     },
     {
       "id": "G136",
@@ -1902,35 +2172,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nél rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "hegynél"
+      "word": "hegynél",
+      "family": "hegy",
+      "ui": "choice"
     },
     {
       "id": "G137",
-      "text": "Milyen toldalék a(z) -nek?",
-      "example": "hegynek → hegy + nek",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: hegy\nJelentés: neki szánjuk: kinek?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "hegynek",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nek rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "hegynek"
+      "word": "hegynek",
+      "family": "hegy",
+      "expected": "hegynek",
+      "ui": "input"
     },
     {
       "id": "G138",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy hegy → hegyek",
+      "text": "Javítsd ki a hibás mondatot!",
+      "example": "Hibás: Három hegyek van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Három hegy van.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A hegyek alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "Számnév után a főnév egyes számban áll: három hegy.",
       "kind": "jel",
-      "word": "hegyek"
+      "word": "hegyek",
+      "family": "hegy",
+      "expected": "Három hegy van.",
+      "ui": "repair"
     },
     {
       "id": "G139",
@@ -1944,21 +2220,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ben rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "jegyben"
+      "word": "jegyben",
+      "family": "jegy",
+      "ui": "choice"
     },
     {
       "id": "G140",
-      "text": "Milyen toldalék a(z) -ből?",
-      "example": "jegyből → jegy + ből",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: jegy\nJelentés: valaminek a belsejéből: honnan?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "jegyből",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ből rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "jegyből"
+      "word": "jegyből",
+      "family": "jegy",
+      "expected": "jegyből",
+      "ui": "input"
     },
     {
       "id": "G141",
@@ -1972,21 +2252,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -hez rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "jegyhez"
+      "word": "jegyhez",
+      "family": "jegy",
+      "ui": "choice"
     },
     {
       "id": "G142",
-      "text": "Milyen toldalék a(z) -nél?",
-      "example": "jegynél → jegy + nél",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: jegy\nJelentés: mellette, a közelében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "jegynél",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nél rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "jegynél"
+      "word": "jegynél",
+      "family": "jegy",
+      "expected": "jegynél",
+      "ui": "input"
     },
     {
       "id": "G143",
@@ -2000,35 +2284,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nek rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "jegynek"
+      "word": "jegynek",
+      "family": "jegy",
+      "ui": "choice"
     },
     {
       "id": "G144",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy jegy → jegyek",
+      "text": "Javítsd ki az egyeztetést!",
+      "example": "Hibás: Ezek jegyek van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Ezek jegyek vannak.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A jegyek alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "A többes számú alanyhoz többes számú állítmány tartozik: vannak.",
       "kind": "jel",
-      "word": "jegyek"
+      "word": "jegyek",
+      "family": "jegy",
+      "expected": "Ezek jegyek vannak.",
+      "ui": "repair"
     },
     {
       "id": "G145",
-      "text": "Milyen toldalék a(z) -ben?",
-      "example": "levélben → levél + ben",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: levél\nJelentés: valaminek a belsejében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "levélben",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ben rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "levélben"
+      "word": "levélben",
+      "family": "levél",
+      "expected": "levélben",
+      "ui": "input"
     },
     {
       "id": "G146",
@@ -2042,21 +2332,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ből rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "levélből"
+      "word": "levélből",
+      "family": "levél",
+      "ui": "choice"
     },
     {
       "id": "G147",
-      "text": "Milyen toldalék a(z) -hez?",
-      "example": "levélhez → levél + hez",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: levél\nJelentés: irány a megnevezett helyhez vagy dologhoz: hová?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "levélhez",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -hez rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "levélhez"
+      "word": "levélhez",
+      "family": "levél",
+      "expected": "levélhez",
+      "ui": "input"
     },
     {
       "id": "G148",
@@ -2070,35 +2364,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nél rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "levélnél"
+      "word": "levélnél",
+      "family": "levél",
+      "ui": "choice"
     },
     {
       "id": "G149",
-      "text": "Milyen toldalék a(z) -nek?",
-      "example": "levélnek → levél + nek",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: levél\nJelentés: neki szánjuk: kinek?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "levélnek",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nek rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "levélnek"
+      "word": "levélnek",
+      "family": "levél",
+      "expected": "levélnek",
+      "ui": "input"
     },
     {
       "id": "G150",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy levél → levelek",
+      "text": "Javítsd ki a hibás mondatot!",
+      "example": "Hibás: Három levelek van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Három levél van.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A levelek alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "Számnév után a főnév egyes számban áll: három levél.",
       "kind": "jel",
-      "word": "levelek"
+      "word": "levelek",
+      "family": "levél",
+      "expected": "Három levél van.",
+      "ui": "repair"
     },
     {
       "id": "G151",
@@ -2112,21 +2412,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ben rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "könyvben"
+      "word": "könyvben",
+      "family": "könyv",
+      "ui": "choice"
     },
     {
       "id": "G152",
-      "text": "Milyen toldalék a(z) -ből?",
-      "example": "könyvből → könyv + ből",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: könyv\nJelentés: valaminek a belsejéből: honnan?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "könyvből",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ből rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "könyvből"
+      "word": "könyvből",
+      "family": "könyv",
+      "expected": "könyvből",
+      "ui": "input"
     },
     {
       "id": "G153",
@@ -2140,21 +2444,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -höz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "könyvhöz"
+      "word": "könyvhöz",
+      "family": "könyv",
+      "ui": "choice"
     },
     {
       "id": "G154",
-      "text": "Milyen toldalék a(z) -nél?",
-      "example": "könyvnél → könyv + nél",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: könyv\nJelentés: mellette, a közelében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "könyvnél",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nél rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "könyvnél"
+      "word": "könyvnél",
+      "family": "könyv",
+      "expected": "könyvnél",
+      "ui": "input"
     },
     {
       "id": "G155",
@@ -2168,35 +2476,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nek rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "könyvnek"
+      "word": "könyvnek",
+      "family": "könyv",
+      "ui": "choice"
     },
     {
       "id": "G156",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy könyv → könyvek",
+      "text": "Javítsd ki az egyeztetést!",
+      "example": "Hibás: Ezek könyvek van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Ezek könyvek vannak.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A könyvek alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "A többes számú alanyhoz többes számú állítmány tartozik: vannak.",
       "kind": "jel",
-      "word": "könyvek"
+      "word": "könyvek",
+      "family": "könyv",
+      "expected": "Ezek könyvek vannak.",
+      "ui": "repair"
     },
     {
       "id": "G157",
-      "text": "Milyen toldalék a(z) -ben?",
-      "example": "füzetben → füzet + ben",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: füzet\nJelentés: valaminek a belsejében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "füzetben",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ben rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "füzetben"
+      "word": "füzetben",
+      "family": "füzet",
+      "expected": "füzetben",
+      "ui": "input"
     },
     {
       "id": "G158",
@@ -2210,21 +2524,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ből rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "füzetből"
+      "word": "füzetből",
+      "family": "füzet",
+      "ui": "choice"
     },
     {
       "id": "G159",
-      "text": "Milyen toldalék a(z) -hez?",
-      "example": "füzethez → füzet + hez",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: füzet\nJelentés: irány a megnevezett helyhez vagy dologhoz: hová?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "füzethez",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -hez rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "füzethez"
+      "word": "füzethez",
+      "family": "füzet",
+      "expected": "füzethez",
+      "ui": "input"
     },
     {
       "id": "G160",
@@ -2238,35 +2556,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nél rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "füzetnél"
+      "word": "füzetnél",
+      "family": "füzet",
+      "ui": "choice"
     },
     {
       "id": "G161",
-      "text": "Milyen toldalék a(z) -nek?",
-      "example": "füzetnek → füzet + nek",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: füzet\nJelentés: neki szánjuk: kinek?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "füzetnek",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nek rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "füzetnek"
+      "word": "füzetnek",
+      "family": "füzet",
+      "expected": "füzetnek",
+      "ui": "input"
     },
     {
       "id": "G162",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy füzet → füzetek",
+      "text": "Javítsd ki a hibás mondatot!",
+      "example": "Hibás: Három füzetek van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Három füzet van.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A füzetek alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "Számnév után a főnév egyes számban áll: három füzet.",
       "kind": "jel",
-      "word": "füzetek"
+      "word": "füzetek",
+      "family": "füzet",
+      "expected": "Három füzet van.",
+      "ui": "repair"
     },
     {
       "id": "G163",
@@ -2280,21 +2604,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ben rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "erdőben"
+      "word": "erdőben",
+      "family": "erdő",
+      "ui": "choice"
     },
     {
       "id": "G164",
-      "text": "Milyen toldalék a(z) -ből?",
-      "example": "erdőből → erdő + ből",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: erdő\nJelentés: valaminek a belsejéből: honnan?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "erdőből",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ből rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "erdőből"
+      "word": "erdőből",
+      "family": "erdő",
+      "expected": "erdőből",
+      "ui": "input"
     },
     {
       "id": "G165",
@@ -2308,21 +2636,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -höz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "erdőhöz"
+      "word": "erdőhöz",
+      "family": "erdő",
+      "ui": "choice"
     },
     {
       "id": "G166",
-      "text": "Milyen toldalék a(z) -nél?",
-      "example": "erdőnél → erdő + nél",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: erdő\nJelentés: mellette, a közelében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "erdőnél",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nél rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "erdőnél"
+      "word": "erdőnél",
+      "family": "erdő",
+      "expected": "erdőnél",
+      "ui": "input"
     },
     {
       "id": "G167",
@@ -2336,35 +2668,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nek rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "erdőnek"
+      "word": "erdőnek",
+      "family": "erdő",
+      "ui": "choice"
     },
     {
       "id": "G168",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy erdő → erdők",
+      "text": "Javítsd ki az egyeztetést!",
+      "example": "Hibás: Ezek erdők van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Ezek erdők vannak.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A erdők alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "A többes számú alanyhoz többes számú állítmány tartozik: vannak.",
       "kind": "jel",
-      "word": "erdők"
+      "word": "erdők",
+      "family": "erdő",
+      "expected": "Ezek erdők vannak.",
+      "ui": "repair"
     },
     {
       "id": "G169",
-      "text": "Milyen toldalék a(z) -ben?",
-      "example": "mezőben → mező + ben",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: mező\nJelentés: valaminek a belsejében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "mezőben",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ben rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "mezőben"
+      "word": "mezőben",
+      "family": "mező",
+      "expected": "mezőben",
+      "ui": "input"
     },
     {
       "id": "G170",
@@ -2378,21 +2716,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ből rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "mezőből"
+      "word": "mezőből",
+      "family": "mező",
+      "ui": "choice"
     },
     {
       "id": "G171",
-      "text": "Milyen toldalék a(z) -höz?",
-      "example": "mezőhöz → mező + höz",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: mező\nJelentés: irány a megnevezett helyhez vagy dologhoz: hová?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "mezőhöz",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -höz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "mezőhöz"
+      "word": "mezőhöz",
+      "family": "mező",
+      "expected": "mezőhöz",
+      "ui": "input"
     },
     {
       "id": "G172",
@@ -2406,35 +2748,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nél rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "mezőnél"
+      "word": "mezőnél",
+      "family": "mező",
+      "ui": "choice"
     },
     {
       "id": "G173",
-      "text": "Milyen toldalék a(z) -nek?",
-      "example": "mezőnek → mező + nek",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: mező\nJelentés: neki szánjuk: kinek?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "mezőnek",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nek rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "mezőnek"
+      "word": "mezőnek",
+      "family": "mező",
+      "expected": "mezőnek",
+      "ui": "input"
     },
     {
       "id": "G174",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy mező → mezők",
+      "text": "Javítsd ki a hibás mondatot!",
+      "example": "Hibás: Három mezők van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Három mező van.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A mezők alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "Számnév után a főnév egyes számban áll: három mező.",
       "kind": "jel",
-      "word": "mezők"
+      "word": "mezők",
+      "family": "mező",
+      "expected": "Három mező van.",
+      "ui": "repair"
     },
     {
       "id": "G175",
@@ -2448,21 +2796,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ben rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "felhőben"
+      "word": "felhőben",
+      "family": "felhő",
+      "ui": "choice"
     },
     {
       "id": "G176",
-      "text": "Milyen toldalék a(z) -ből?",
-      "example": "felhőből → felhő + ből",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: felhő\nJelentés: valaminek a belsejéből: honnan?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "felhőből",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ből rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "felhőből"
+      "word": "felhőből",
+      "family": "felhő",
+      "expected": "felhőből",
+      "ui": "input"
     },
     {
       "id": "G177",
@@ -2476,21 +2828,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -höz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "felhőhöz"
+      "word": "felhőhöz",
+      "family": "felhő",
+      "ui": "choice"
     },
     {
       "id": "G178",
-      "text": "Milyen toldalék a(z) -nél?",
-      "example": "felhőnél → felhő + nél",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: felhő\nJelentés: mellette, a közelében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "felhőnél",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nél rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "felhőnél"
+      "word": "felhőnél",
+      "family": "felhő",
+      "expected": "felhőnél",
+      "ui": "input"
     },
     {
       "id": "G179",
@@ -2504,35 +2860,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nek rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "felhőnek"
+      "word": "felhőnek",
+      "family": "felhő",
+      "ui": "choice"
     },
     {
       "id": "G180",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy felhő → felhők",
+      "text": "Javítsd ki az egyeztetést!",
+      "example": "Hibás: Ezek felhők van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Ezek felhők vannak.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A felhők alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "A többes számú alanyhoz többes számú állítmány tartozik: vannak.",
       "kind": "jel",
-      "word": "felhők"
+      "word": "felhők",
+      "family": "felhő",
+      "expected": "Ezek felhők vannak.",
+      "ui": "repair"
     },
     {
       "id": "G181",
-      "text": "Milyen toldalék a(z) -ben?",
-      "example": "hősben → hős + ben",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: hős\nJelentés: valaminek a belsejében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "hősben",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ben rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "hősben"
+      "word": "hősben",
+      "family": "hős",
+      "expected": "hősben",
+      "ui": "input"
     },
     {
       "id": "G182",
@@ -2546,21 +2908,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ből rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "hősből"
+      "word": "hősből",
+      "family": "hős",
+      "ui": "choice"
     },
     {
       "id": "G183",
-      "text": "Milyen toldalék a(z) -höz?",
-      "example": "hőshöz → hős + höz",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: hős\nJelentés: irány a megnevezett helyhez vagy dologhoz: hová?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "hőshöz",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -höz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "hőshöz"
+      "word": "hőshöz",
+      "family": "hős",
+      "expected": "hőshöz",
+      "ui": "input"
     },
     {
       "id": "G184",
@@ -2574,35 +2940,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nél rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "hősnél"
+      "word": "hősnél",
+      "family": "hős",
+      "ui": "choice"
     },
     {
       "id": "G185",
-      "text": "Milyen toldalék a(z) -nek?",
-      "example": "hősnek → hős + nek",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: hős\nJelentés: neki szánjuk: kinek?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "hősnek",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nek rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "hősnek"
+      "word": "hősnek",
+      "family": "hős",
+      "expected": "hősnek",
+      "ui": "input"
     },
     {
       "id": "G186",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy hős → hősök",
+      "text": "Javítsd ki a hibás mondatot!",
+      "example": "Hibás: Három hősök van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Három hős van.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A hősök alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "Számnév után a főnév egyes számban áll: három hős.",
       "kind": "jel",
-      "word": "hősök"
+      "word": "hősök",
+      "family": "hős",
+      "expected": "Három hős van.",
+      "ui": "repair"
     },
     {
       "id": "G187",
@@ -2616,21 +2988,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ben rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "bőrben"
+      "word": "bőrben",
+      "family": "bőr",
+      "ui": "choice"
     },
     {
       "id": "G188",
-      "text": "Milyen toldalék a(z) -ből?",
-      "example": "bőrből → bőr + ből",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: bőr\nJelentés: valaminek a belsejéből: honnan?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "bőrből",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ből rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "bőrből"
+      "word": "bőrből",
+      "family": "bőr",
+      "expected": "bőrből",
+      "ui": "input"
     },
     {
       "id": "G189",
@@ -2644,21 +3020,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -höz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "bőrhöz"
+      "word": "bőrhöz",
+      "family": "bőr",
+      "ui": "choice"
     },
     {
       "id": "G190",
-      "text": "Milyen toldalék a(z) -nél?",
-      "example": "bőrnél → bőr + nél",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: bőr\nJelentés: mellette, a közelében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "bőrnél",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nél rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "bőrnél"
+      "word": "bőrnél",
+      "family": "bőr",
+      "expected": "bőrnél",
+      "ui": "input"
     },
     {
       "id": "G191",
@@ -2672,35 +3052,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nek rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "bőrnek"
+      "word": "bőrnek",
+      "family": "bőr",
+      "ui": "choice"
     },
     {
       "id": "G192",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy bőr → bőrök",
+      "text": "Javítsd ki az egyeztetést!",
+      "example": "Hibás: Ezek bőrök van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Ezek bőrök vannak.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A bőrök alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "A többes számú alanyhoz többes számú állítmány tartozik: vannak.",
       "kind": "jel",
-      "word": "bőrök"
+      "word": "bőrök",
+      "family": "bőr",
+      "expected": "Ezek bőrök vannak.",
+      "ui": "repair"
     },
     {
       "id": "G193",
-      "text": "Milyen toldalék a(z) -ben?",
-      "example": "őrben → őr + ben",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: őr\nJelentés: valaminek a belsejében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "őrben",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ben rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "őrben"
+      "word": "őrben",
+      "family": "őr",
+      "expected": "őrben",
+      "ui": "input"
     },
     {
       "id": "G194",
@@ -2714,21 +3100,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ből rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "őrből"
+      "word": "őrből",
+      "family": "őr",
+      "ui": "choice"
     },
     {
       "id": "G195",
-      "text": "Milyen toldalék a(z) -höz?",
-      "example": "őrhöz → őr + höz",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: őr\nJelentés: irány a megnevezett helyhez vagy dologhoz: hová?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "őrhöz",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -höz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "őrhöz"
+      "word": "őrhöz",
+      "family": "őr",
+      "expected": "őrhöz",
+      "ui": "input"
     },
     {
       "id": "G196",
@@ -2742,35 +3132,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nél rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "őrnél"
+      "word": "őrnél",
+      "family": "őr",
+      "ui": "choice"
     },
     {
       "id": "G197",
-      "text": "Milyen toldalék a(z) -nek?",
-      "example": "őrnek → őr + nek",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: őr\nJelentés: neki szánjuk: kinek?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "őrnek",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nek rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "őrnek"
+      "word": "őrnek",
+      "family": "őr",
+      "expected": "őrnek",
+      "ui": "input"
     },
     {
       "id": "G198",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy őr → őrök",
+      "text": "Javítsd ki a hibás mondatot!",
+      "example": "Hibás: Három őrök van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Három őr van.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A őrök alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "Számnév után a főnév egyes számban áll: három őr.",
       "kind": "jel",
-      "word": "őrök"
+      "word": "őrök",
+      "family": "őr",
+      "expected": "Három őr van.",
+      "ui": "repair"
     },
     {
       "id": "G199",
@@ -2784,21 +3180,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ben rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "körben"
+      "word": "körben",
+      "family": "kör",
+      "ui": "choice"
     },
     {
       "id": "G200",
-      "text": "Milyen toldalék a(z) -ből?",
-      "example": "körből → kör + ből",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: kör\nJelentés: valaminek a belsejéből: honnan?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "körből",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ből rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "körből"
+      "word": "körből",
+      "family": "kör",
+      "expected": "körből",
+      "ui": "input"
     },
     {
       "id": "G201",
@@ -2812,21 +3212,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -höz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "körhöz"
+      "word": "körhöz",
+      "family": "kör",
+      "ui": "choice"
     },
     {
       "id": "G202",
-      "text": "Milyen toldalék a(z) -nél?",
-      "example": "körnél → kör + nél",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: kör\nJelentés: mellette, a közelében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "körnél",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nél rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "körnél"
+      "word": "körnél",
+      "family": "kör",
+      "expected": "körnél",
+      "ui": "input"
     },
     {
       "id": "G203",
@@ -2840,35 +3244,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nek rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "körnek"
+      "word": "körnek",
+      "family": "kör",
+      "ui": "choice"
     },
     {
       "id": "G204",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy kör → körök",
+      "text": "Javítsd ki az egyeztetést!",
+      "example": "Hibás: Ezek körök van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Ezek körök vannak.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A körök alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "A többes számú alanyhoz többes számú állítmány tartozik: vannak.",
       "kind": "jel",
-      "word": "körök"
+      "word": "körök",
+      "family": "kör",
+      "expected": "Ezek körök vannak.",
+      "ui": "repair"
     },
     {
       "id": "G205",
-      "text": "Milyen toldalék a(z) -ben?",
-      "example": "kürtben → kürt + ben",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: kürt\nJelentés: valaminek a belsejében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "kürtben",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ben rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "kürtben"
+      "word": "kürtben",
+      "family": "kürt",
+      "expected": "kürtben",
+      "ui": "input"
     },
     {
       "id": "G206",
@@ -2882,21 +3292,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ből rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "kürtből"
+      "word": "kürtből",
+      "family": "kürt",
+      "ui": "choice"
     },
     {
       "id": "G207",
-      "text": "Milyen toldalék a(z) -höz?",
-      "example": "kürthöz → kürt + höz",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: kürt\nJelentés: irány a megnevezett helyhez vagy dologhoz: hová?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "kürthöz",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -höz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "kürthöz"
+      "word": "kürthöz",
+      "family": "kürt",
+      "expected": "kürthöz",
+      "ui": "input"
     },
     {
       "id": "G208",
@@ -2910,35 +3324,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nél rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "kürtnél"
+      "word": "kürtnél",
+      "family": "kürt",
+      "ui": "choice"
     },
     {
       "id": "G209",
-      "text": "Milyen toldalék a(z) -nek?",
-      "example": "kürtnek → kürt + nek",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: kürt\nJelentés: neki szánjuk: kinek?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "kürtnek",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nek rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "kürtnek"
+      "word": "kürtnek",
+      "family": "kürt",
+      "expected": "kürtnek",
+      "ui": "input"
     },
     {
       "id": "G210",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy kürt → kürtök",
+      "text": "Javítsd ki a hibás mondatot!",
+      "example": "Hibás: Három kürtök van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Három kürt van.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A kürtök alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "Számnév után a főnév egyes számban áll: három kürt.",
       "kind": "jel",
-      "word": "kürtök"
+      "word": "kürtök",
+      "family": "kürt",
+      "expected": "Három kürt van.",
+      "ui": "repair"
     },
     {
       "id": "G211",
@@ -2952,21 +3372,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ban rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "ceruzában"
+      "word": "ceruzában",
+      "family": "ceruzá",
+      "ui": "choice"
     },
     {
       "id": "G212",
-      "text": "Milyen toldalék a(z) -ból?",
-      "example": "ceruzából → ceruzá + ból",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: ceruzá\nJelentés: valaminek a belsejéből: honnan?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "ceruzából",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ból rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "ceruzából"
+      "word": "ceruzából",
+      "family": "ceruzá",
+      "expected": "ceruzából",
+      "ui": "input"
     },
     {
       "id": "G213",
@@ -2980,21 +3404,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -hoz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "ceruzához"
+      "word": "ceruzához",
+      "family": "ceruzá",
+      "ui": "choice"
     },
     {
       "id": "G214",
-      "text": "Milyen toldalék a(z) -nál?",
-      "example": "ceruzánál → ceruzá + nál",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: ceruzá\nJelentés: mellette, a közelében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "ceruzánál",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nál rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "ceruzánál"
+      "word": "ceruzánál",
+      "family": "ceruzá",
+      "expected": "ceruzánál",
+      "ui": "input"
     },
     {
       "id": "G215",
@@ -3008,35 +3436,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nak rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "ceruzának"
+      "word": "ceruzának",
+      "family": "ceruzá",
+      "ui": "choice"
     },
     {
       "id": "G216",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy ceruza → ceruzák",
+      "text": "Javítsd ki az egyeztetést!",
+      "example": "Hibás: Ezek ceruzák van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Ezek ceruzák vannak.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A ceruzák alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "A többes számú alanyhoz többes számú állítmány tartozik: vannak.",
       "kind": "jel",
-      "word": "ceruzák"
+      "word": "ceruzák",
+      "family": "ceruza",
+      "expected": "Ezek ceruzák vannak.",
+      "ui": "repair"
     },
     {
       "id": "G217",
-      "text": "Milyen toldalék a(z) -ban?",
-      "example": "diákban → diák + ban",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: diák\nJelentés: valaminek a belsejében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "diákban",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ban rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "diákban"
+      "word": "diákban",
+      "family": "diák",
+      "expected": "diákban",
+      "ui": "input"
     },
     {
       "id": "G218",
@@ -3050,21 +3484,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ból rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "diákból"
+      "word": "diákból",
+      "family": "diák",
+      "ui": "choice"
     },
     {
       "id": "G219",
-      "text": "Milyen toldalék a(z) -hoz?",
-      "example": "diákhoz → diák + hoz",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: diák\nJelentés: irány a megnevezett helyhez vagy dologhoz: hová?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "diákhoz",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -hoz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "diákhoz"
+      "word": "diákhoz",
+      "family": "diák",
+      "expected": "diákhoz",
+      "ui": "input"
     },
     {
       "id": "G220",
@@ -3078,35 +3516,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nál rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "diáknál"
+      "word": "diáknál",
+      "family": "diák",
+      "ui": "choice"
     },
     {
       "id": "G221",
-      "text": "Milyen toldalék a(z) -nak?",
-      "example": "diáknak → diák + nak",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: diák\nJelentés: neki szánjuk: kinek?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "diáknak",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nak rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "diáknak"
+      "word": "diáknak",
+      "family": "diák",
+      "expected": "diáknak",
+      "ui": "input"
     },
     {
       "id": "G222",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy diák → diákok",
+      "text": "Javítsd ki a hibás mondatot!",
+      "example": "Hibás: Három diákok van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Három diák van.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A diákok alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "Számnév után a főnév egyes számban áll: három diák.",
       "kind": "jel",
-      "word": "diákok"
+      "word": "diákok",
+      "family": "diák",
+      "expected": "Három diák van.",
+      "ui": "repair"
     },
     {
       "id": "G223",
@@ -3120,21 +3564,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ban rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "tanárban"
+      "word": "tanárban",
+      "family": "tanár",
+      "ui": "choice"
     },
     {
       "id": "G224",
-      "text": "Milyen toldalék a(z) -ból?",
-      "example": "tanárból → tanár + ból",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: tanár\nJelentés: valaminek a belsejéből: honnan?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "tanárból",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ból rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "tanárból"
+      "word": "tanárból",
+      "family": "tanár",
+      "expected": "tanárból",
+      "ui": "input"
     },
     {
       "id": "G225",
@@ -3148,21 +3596,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -hoz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "tanárhoz"
+      "word": "tanárhoz",
+      "family": "tanár",
+      "ui": "choice"
     },
     {
       "id": "G226",
-      "text": "Milyen toldalék a(z) -nál?",
-      "example": "tanárnál → tanár + nál",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: tanár\nJelentés: mellette, a közelében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "tanárnál",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nál rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "tanárnál"
+      "word": "tanárnál",
+      "family": "tanár",
+      "expected": "tanárnál",
+      "ui": "input"
     },
     {
       "id": "G227",
@@ -3176,35 +3628,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nak rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "tanárnak"
+      "word": "tanárnak",
+      "family": "tanár",
+      "ui": "choice"
     },
     {
       "id": "G228",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy tanár → tanárok",
+      "text": "Javítsd ki az egyeztetést!",
+      "example": "Hibás: Ezek tanárok van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Ezek tanárok vannak.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A tanárok alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "A többes számú alanyhoz többes számú állítmány tartozik: vannak.",
       "kind": "jel",
-      "word": "tanárok"
+      "word": "tanárok",
+      "family": "tanár",
+      "expected": "Ezek tanárok vannak.",
+      "ui": "repair"
     },
     {
       "id": "G229",
-      "text": "Milyen toldalék a(z) -ban?",
-      "example": "barátban → barát + ban",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: barát\nJelentés: valaminek a belsejében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "barátban",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ban rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "barátban"
+      "word": "barátban",
+      "family": "barát",
+      "expected": "barátban",
+      "ui": "input"
     },
     {
       "id": "G230",
@@ -3218,21 +3676,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ból rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "barátból"
+      "word": "barátból",
+      "family": "barát",
+      "ui": "choice"
     },
     {
       "id": "G231",
-      "text": "Milyen toldalék a(z) -hoz?",
-      "example": "baráthoz → barát + hoz",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: barát\nJelentés: irány a megnevezett helyhez vagy dologhoz: hová?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "baráthoz",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -hoz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "baráthoz"
+      "word": "baráthoz",
+      "family": "barát",
+      "expected": "baráthoz",
+      "ui": "input"
     },
     {
       "id": "G232",
@@ -3246,35 +3708,41 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nál rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "barátnál"
+      "word": "barátnál",
+      "family": "barát",
+      "ui": "choice"
     },
     {
       "id": "G233",
-      "text": "Milyen toldalék a(z) -nak?",
-      "example": "barátnak → barát + nak",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: barát\nJelentés: neki szánjuk: kinek?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "barátnak",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nak rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "barátnak"
+      "word": "barátnak",
+      "family": "barát",
+      "expected": "barátnak",
+      "ui": "input"
     },
     {
       "id": "G234",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy barát → barátok",
+      "text": "Javítsd ki a hibás mondatot!",
+      "example": "Hibás: Három barátok van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Három barát van.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A barátok alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "Számnév után a főnév egyes számban áll: három barát.",
       "kind": "jel",
-      "word": "barátok"
+      "word": "barátok",
+      "family": "barát",
+      "expected": "Három barát van.",
+      "ui": "repair"
     },
     {
       "id": "G235",
@@ -3288,21 +3756,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -ban rag: helyet: hol? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "virágban"
+      "word": "virágban",
+      "family": "virág",
+      "ui": "choice"
     },
     {
       "id": "G236",
-      "text": "Milyen toldalék a(z) -ból?",
-      "example": "virágból → virág + ból",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: virág\nJelentés: valaminek a belsejéből: honnan?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "virágból",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -ból rag: kiindulópontot: honnan? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "virágból"
+      "word": "virágból",
+      "family": "virág",
+      "expected": "virágból",
+      "ui": "input"
     },
     {
       "id": "G237",
@@ -3316,21 +3788,25 @@ window.grammarData = [
       "answer": 2,
       "why": "A -hoz rag: irányt: hová, kihez? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "virághoz"
+      "word": "virághoz",
+      "family": "virág",
+      "ui": "choice"
     },
     {
       "id": "G238",
-      "text": "Milyen toldalék a(z) -nál?",
-      "example": "virágnál → virág + nál",
+      "text": "Toldalékolj a jelentés szerint!",
+      "example": "Szótő a szóalakban: virág\nJelentés: mellette, a közelében: hol?\nÍrd be a teljes toldalékos szót!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "virágnál",
+        "Más válasz"
       ],
-      "answer": 2,
+      "answer": 0,
       "why": "A -nál rag: helyet: hol, kinél? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "virágnál"
+      "word": "virágnál",
+      "family": "virág",
+      "expected": "virágnál",
+      "ui": "input"
     },
     {
       "id": "G239",
@@ -3344,35 +3820,49 @@ window.grammarData = [
       "answer": 2,
       "why": "A -nak rag: címzettet: kinek? jelöl. Nem hoz létre új szót.",
       "kind": "rag",
-      "word": "virágnak"
+      "word": "virágnak",
+      "family": "virág",
+      "ui": "choice"
     },
     {
       "id": "G240",
-      "text": "Mit jelöl a többes szám toldaléka?",
-      "example": "Egy virág → virágok",
+      "text": "Javítsd ki az egyeztetést!",
+      "example": "Hibás: Ezek virágok van.\nÍrd le helyesen az egész mondatot!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "Ezek virágok vannak.",
+        "Más válasz"
       ],
-      "answer": 1,
-      "why": "A virágok alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.",
+      "answer": 0,
+      "why": "A többes számú alanyhoz többes számú állítmány tartozik: vannak.",
       "kind": "jel",
-      "word": "virágok"
+      "word": "virágok",
+      "family": "virág",
+      "expected": "Ezek virágok vannak.",
+      "ui": "repair"
     },
     {
       "id": "G241",
-      "text": "Milyen toldalék alkotta ezt az új szót: -ás?",
-      "example": "olvas → olvasás",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: olvas\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "olvasás",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: olvas → olvasás. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "olvasás"
+      "word": "olvasás",
+      "family": "olvas",
+      "expected": "olvasás",
+      "ui": "build",
+      "parts": [
+        "olvas",
+        "ás"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G242",
@@ -3386,21 +3876,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: ír → írás. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "írás"
+      "word": "írás",
+      "family": "ír",
+      "ui": "choice"
     },
     {
       "id": "G243",
-      "text": "Milyen toldalék alkotta ezt az új szót: -ás?",
-      "example": "tanul → tanulás",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: tanul\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "tanulás",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: tanul → tanulás. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "tanulás"
+      "word": "tanulás",
+      "family": "tanul",
+      "expected": "tanulás",
+      "ui": "build",
+      "parts": [
+        "tanul",
+        "ás"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G244",
@@ -3414,21 +3916,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: rajzol → rajzolás. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "rajzolás"
+      "word": "rajzolás",
+      "family": "rajzol",
+      "ui": "choice"
     },
     {
       "id": "G245",
-      "text": "Milyen toldalék alkotta ezt az új szót: -ás?",
-      "example": "sétál → sétálás",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: sétál\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "sétálás",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: sétál → sétálás. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "sétálás"
+      "word": "sétálás",
+      "family": "sétál",
+      "expected": "sétálás",
+      "ui": "build",
+      "parts": [
+        "sétál",
+        "ás"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G246",
@@ -3442,21 +3956,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: úsz → úszás. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "úszás"
+      "word": "úszás",
+      "family": "úsz",
+      "ui": "choice"
     },
     {
       "id": "G247",
-      "text": "Milyen toldalék alkotta ezt az új szót: -ás?",
-      "example": "fut → futás",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: fut\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "futás",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: fut → futás. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "futás"
+      "word": "futás",
+      "family": "fut",
+      "expected": "futás",
+      "ui": "build",
+      "parts": [
+        "fut",
+        "ás"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G248",
@@ -3470,21 +3996,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: ugrál → ugrálás. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "ugrálás"
+      "word": "ugrálás",
+      "family": "ugrál",
+      "ui": "choice"
     },
     {
       "id": "G249",
-      "text": "Milyen toldalék alkotta ezt az új szót: -ás?",
-      "example": "játsz → játszás",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: játsz\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "játszás",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: játsz → játszás. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "játszás"
+      "word": "játszás",
+      "family": "játsz",
+      "expected": "játszás",
+      "ui": "build",
+      "parts": [
+        "játsz",
+        "ás"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G250",
@@ -3498,21 +4036,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: vár → várás. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "várás"
+      "word": "várás",
+      "family": "vár",
+      "ui": "choice"
     },
     {
       "id": "G251",
-      "text": "Milyen toldalék alkotta ezt az új szót: -és?",
-      "example": "kér → kérés",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: kér\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "kérés",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: kér → kérés. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "kérés"
+      "word": "kérés",
+      "family": "kér",
+      "expected": "kérés",
+      "ui": "build",
+      "parts": [
+        "kér",
+        "és"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G252",
@@ -3526,21 +4076,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: néz → nézés. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "nézés"
+      "word": "nézés",
+      "family": "néz",
+      "ui": "choice"
     },
     {
       "id": "G253",
-      "text": "Milyen toldalék alkotta ezt az új szót: -és?",
-      "example": "beszél → beszélés",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: beszél\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "beszélés",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: beszél → beszélés. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "beszélés"
+      "word": "beszélés",
+      "family": "beszél",
+      "expected": "beszélés",
+      "ui": "build",
+      "parts": [
+        "beszél",
+        "és"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G254",
@@ -3554,21 +4116,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: mesél → mesélés. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "mesélés"
+      "word": "mesélés",
+      "family": "mesél",
+      "ui": "choice"
     },
     {
       "id": "G255",
-      "text": "Milyen toldalék alkotta ezt az új szót: -és?",
-      "example": "énekel → énekelés",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: énekel\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "énekelés",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: énekel → énekelés. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "énekelés"
+      "word": "énekelés",
+      "family": "énekel",
+      "expected": "énekelés",
+      "ui": "build",
+      "parts": [
+        "énekel",
+        "és"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G256",
@@ -3582,21 +4156,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: nevet → nevetés. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "nevetés"
+      "word": "nevetés",
+      "family": "nevet",
+      "ui": "choice"
     },
     {
       "id": "G257",
-      "text": "Milyen toldalék alkotta ezt az új szót: -és?",
-      "example": "segít → segítés",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: segít\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "segítés",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: segít → segítés. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "segítés"
+      "word": "segítés",
+      "family": "segít",
+      "expected": "segítés",
+      "ui": "build",
+      "parts": [
+        "segít",
+        "és"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G258",
@@ -3610,21 +4196,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: épít → építés. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "építés"
+      "word": "építés",
+      "family": "épít",
+      "ui": "choice"
     },
     {
       "id": "G259",
-      "text": "Milyen toldalék alkotta ezt az új szót: -és?",
-      "example": "fest → festés",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: fest\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "festés",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: fest → festés. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "festés"
+      "word": "festés",
+      "family": "fest",
+      "expected": "festés",
+      "ui": "build",
+      "parts": [
+        "fest",
+        "és"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G260",
@@ -3638,21 +4236,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: keres → keresés. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "keresés"
+      "word": "keresés",
+      "family": "keres",
+      "ui": "choice"
     },
     {
       "id": "G261",
-      "text": "Milyen toldalék alkotta ezt az új szót: -ség?",
-      "example": "szép → szépség",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: szép\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "szépség",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: szép → szépség. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "szépség"
+      "word": "szépség",
+      "family": "szép",
+      "expected": "szépség",
+      "ui": "build",
+      "parts": [
+        "szép",
+        "ség"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G262",
@@ -3666,21 +4276,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: jó → jóság. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "jóság"
+      "word": "jóság",
+      "family": "jó",
+      "ui": "choice"
     },
     {
       "id": "G263",
-      "text": "Milyen toldalék alkotta ezt az új szót: -ság?",
-      "example": "bátor → bátorság",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: bátor\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "bátorság",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: bátor → bátorság. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "bátorság"
+      "word": "bátorság",
+      "family": "bátor",
+      "expected": "bátorság",
+      "ui": "build",
+      "parts": [
+        "bátor",
+        "ság"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G264",
@@ -3694,21 +4316,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: okos → okosság. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "okosság"
+      "word": "okosság",
+      "family": "okos",
+      "ui": "choice"
     },
     {
       "id": "G265",
-      "text": "Milyen toldalék alkotta ezt az új szót: -ség?",
-      "example": "kedves → kedvesség",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: kedves\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "kedvesség",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: kedves → kedvesség. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "kedvesség"
+      "word": "kedvesség",
+      "family": "kedves",
+      "expected": "kedvesség",
+      "ui": "build",
+      "parts": [
+        "kedves",
+        "ség"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G266",
@@ -3722,21 +4356,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: ügyes → ügyesség. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "ügyesség"
+      "word": "ügyesség",
+      "family": "ügyes",
+      "ui": "choice"
     },
     {
       "id": "G267",
-      "text": "Milyen toldalék alkotta ezt az új szót: -ság?",
-      "example": "boldog → boldogság",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: boldog\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "boldogság",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: boldog → boldogság. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "boldogság"
+      "word": "boldogság",
+      "family": "boldog",
+      "expected": "boldogság",
+      "ui": "build",
+      "parts": [
+        "boldog",
+        "ság"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G268",
@@ -3750,21 +4396,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: szabad → szabadság. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "szabadság"
+      "word": "szabadság",
+      "family": "szabad",
+      "ui": "choice"
     },
     {
       "id": "G269",
-      "text": "Milyen toldalék alkotta ezt az új szót: -ság?",
-      "example": "gazdag → gazdagság",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: gazdag\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "gazdagság",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: gazdag → gazdagság. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "gazdagság"
+      "word": "gazdagság",
+      "family": "gazdag",
+      "expected": "gazdagság",
+      "ui": "build",
+      "parts": [
+        "gazdag",
+        "ság"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G270",
@@ -3778,21 +4436,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: szegény → szegénység. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "szegénység"
+      "word": "szegénység",
+      "family": "szegény",
+      "ui": "choice"
     },
     {
       "id": "G271",
-      "text": "Milyen toldalék alkotta ezt az új szót: -ség?",
-      "example": "gyenge → gyengeség",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: gyenge\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "gyengeség",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: gyenge → gyengeség. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "gyengeség"
+      "word": "gyengeség",
+      "family": "gyenge",
+      "expected": "gyengeség",
+      "ui": "build",
+      "parts": [
+        "gyenge",
+        "ség"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G272",
@@ -3806,21 +4476,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: erős → erősség. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "erősség"
+      "word": "erősség",
+      "family": "erős",
+      "ui": "choice"
     },
     {
       "id": "G273",
-      "text": "Milyen toldalék alkotta ezt az új szót: -ség?",
-      "example": "csendes → csendesség",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: csendes\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "csendesség",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: csendes → csendesség. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "csendesség"
+      "word": "csendesség",
+      "family": "csendes",
+      "expected": "csendesség",
+      "ui": "build",
+      "parts": [
+        "csendes",
+        "ség"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G274",
@@ -3834,21 +4516,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: vidám → vidámság. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "vidámság"
+      "word": "vidámság",
+      "family": "vidám",
+      "ui": "choice"
     },
     {
       "id": "G275",
-      "text": "Milyen toldalék alkotta ezt az új szót: -ság?",
-      "example": "komoly → komolyság",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: komoly\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "komolyság",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: komoly → komolyság. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "komolyság"
+      "word": "komolyság",
+      "family": "komoly",
+      "expected": "komolyság",
+      "ui": "build",
+      "parts": [
+        "komoly",
+        "ság"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G276",
@@ -3862,21 +4556,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: igaz → igazság. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "igazság"
+      "word": "igazság",
+      "family": "igaz",
+      "ui": "choice"
     },
     {
       "id": "G277",
-      "text": "Milyen toldalék alkotta ezt az új szót: -ság?",
-      "example": "gonosz → gonoszság",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: gonosz\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "gonoszság",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: gonosz → gonoszság. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "gonoszság"
+      "word": "gonoszság",
+      "family": "gonosz",
+      "expected": "gonoszság",
+      "ui": "build",
+      "parts": [
+        "gonosz",
+        "ság"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G278",
@@ -3890,21 +4596,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: őszinte → őszinteség. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "őszinteség"
+      "word": "őszinteség",
+      "family": "őszinte",
+      "ui": "choice"
     },
     {
       "id": "G279",
-      "text": "Milyen toldalék alkotta ezt az új szót: -ség?",
-      "example": "hű → hűség",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: hű\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "hűség",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: hű → hűség. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "hűség"
+      "word": "hűség",
+      "family": "hű",
+      "expected": "hűség",
+      "ui": "build",
+      "parts": [
+        "hű",
+        "ség"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G280",
@@ -3918,21 +4636,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: éber → éberség. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "éberség"
+      "word": "éberség",
+      "family": "éber",
+      "ui": "choice"
     },
     {
       "id": "G281",
-      "text": "Milyen toldalék alkotta ezt az új szót: -os?",
-      "example": "hab → habos",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: hab\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "habos",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: hab → habos. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "habos"
+      "word": "habos",
+      "family": "hab",
+      "expected": "habos",
+      "ui": "build",
+      "parts": [
+        "hab",
+        "os"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G282",
@@ -3946,21 +4676,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: por → poros. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "poros"
+      "word": "poros",
+      "family": "por",
+      "ui": "choice"
     },
     {
       "id": "G283",
-      "text": "Milyen toldalék alkotta ezt az új szót: -os?",
-      "example": "sár → sáros",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: sár\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "sáros",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: sár → sáros. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "sáros"
+      "word": "sáros",
+      "family": "sár",
+      "expected": "sáros",
+      "ui": "build",
+      "parts": [
+        "sár",
+        "os"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G284",
@@ -3974,21 +4716,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: szín → színes. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "színes"
+      "word": "színes",
+      "family": "szín",
+      "ui": "choice"
     },
     {
       "id": "G285",
-      "text": "Milyen toldalék alkotta ezt az új szót: -es?",
-      "example": "kert → kertes",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: kert\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "kertes",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: kert → kertes. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "kertes"
+      "word": "kertes",
+      "family": "kert",
+      "expected": "kertes",
+      "ui": "build",
+      "parts": [
+        "kert",
+        "es"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G286",
@@ -4002,21 +4756,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: kedv → kedves. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "kedves"
+      "word": "kedves",
+      "family": "kedv",
+      "ui": "choice"
     },
     {
       "id": "G287",
-      "text": "Milyen toldalék alkotta ezt az új szót: -es?",
-      "example": "csend → csendes",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: csend\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "csendes",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: csend → csendes. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "csendes"
+      "word": "csendes",
+      "family": "csend",
+      "expected": "csendes",
+      "ui": "build",
+      "parts": [
+        "csend",
+        "es"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G288",
@@ -4030,21 +4796,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: rend → rendes. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "rendes"
+      "word": "rendes",
+      "family": "rend",
+      "ui": "choice"
     },
     {
       "id": "G289",
-      "text": "Milyen toldalék alkotta ezt az új szót: -es?",
-      "example": "tej → tejes",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: tej\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "tejes",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: tej → tejes. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "tejes"
+      "word": "tejes",
+      "family": "tej",
+      "expected": "tejes",
+      "ui": "build",
+      "parts": [
+        "tej",
+        "es"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G290",
@@ -4058,21 +4836,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: méz → mézes. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "mézes"
+      "word": "mézes",
+      "family": "méz",
+      "ui": "choice"
     },
     {
       "id": "G291",
-      "text": "Milyen toldalék alkotta ezt az új szót: -as?",
-      "example": "vaj → vajas",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: vaj\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "vajas",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: vaj → vajas. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "vajas"
+      "word": "vajas",
+      "family": "vaj",
+      "expected": "vajas",
+      "ui": "build",
+      "parts": [
+        "vaj",
+        "as"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G292",
@@ -4086,21 +4876,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: haj → hajas. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "hajas"
+      "word": "hajas",
+      "family": "haj",
+      "ui": "choice"
     },
     {
       "id": "G293",
-      "text": "Milyen toldalék alkotta ezt az új szót: -os?",
-      "example": "izom → izmos",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: izom\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "izmos",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: izom → izmos. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "izmos"
+      "word": "izmos",
+      "family": "izom",
+      "expected": "izmos",
+      "ui": "build",
+      "parts": [
+        "izm",
+        "os"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G294",
@@ -4114,21 +4916,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: szomj → szomjas. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "szomjas"
+      "word": "szomjas",
+      "family": "szomj",
+      "ui": "choice"
     },
     {
       "id": "G295",
-      "text": "Milyen toldalék alkotta ezt az új szót: -ös?",
-      "example": "köröm → körmös",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: köröm\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "körmös",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: köröm → körmös. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "körmös"
+      "word": "körmös",
+      "family": "köröm",
+      "expected": "körmös",
+      "ui": "build",
+      "parts": [
+        "körm",
+        "ös"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G296",
@@ -4142,21 +4956,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: köd → ködös. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "ködös"
+      "word": "ködös",
+      "family": "köd",
+      "ui": "choice"
     },
     {
       "id": "G297",
-      "text": "Milyen toldalék alkotta ezt az új szót: -ös?",
-      "example": "füst → füstös",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: füst\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "füstös",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: füst → füstös. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "füstös"
+      "word": "füstös",
+      "family": "füst",
+      "expected": "füstös",
+      "ui": "build",
+      "parts": [
+        "füst",
+        "ös"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G298",
@@ -4170,21 +4996,33 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: hír → híres. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "híres"
+      "word": "híres",
+      "family": "hír",
+      "ui": "choice"
     },
     {
       "id": "G299",
-      "text": "Milyen toldalék alkotta ezt az új szót: -es?",
-      "example": "pénz → pénzes",
+      "text": "Építs új szót a cédulákból!",
+      "example": "Kiinduló szó: pénz\nVálaszd ki a két megfelelő cédulát, és rakd őket sorrendbe!",
       "options": [
-        "Képző",
-        "Jel",
-        "Rag"
+        "pénzes",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A képző új szót hoz létre: pénz → pénzes. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "pénzes"
+      "word": "pénzes",
+      "family": "pénz",
+      "expected": "pénzes",
+      "ui": "build",
+      "parts": [
+        "pénz",
+        "es"
+      ],
+      "decoys": [
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G300",
@@ -4198,2611 +5036,5163 @@ window.grammarData = [
       "answer": 0,
       "why": "A képző új szót hoz létre: íz → ízes. A kötőhangzót itt a képzővel együtt mutatjuk.",
       "kind": "képző",
-      "word": "ízes"
+      "word": "ízes",
+      "family": "íz",
+      "ui": "choice"
     }
   ],
   [
     {
       "id": "G301",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "házakban → ház + ak + ban",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "házakban\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "ház + ak + ban",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ban rag áll: helyet: hol? jelöl.",
-      "word": "házakban"
+      "word": "házakban",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "ház",
+      "kind": "elemzés",
+      "expected": "ház + ak + ban",
+      "ui": "segment",
+      "parts": [
+        "ház",
+        "ak",
+        "ban"
+      ]
     },
     {
       "id": "G302",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "házakból → ház + ak + ból",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: házakból",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "házakból",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ból rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "házakból"
+      "word": "házakból",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "ház",
+      "kind": "elemzés",
+      "expected": "házakból",
+      "ui": "build",
+      "parts": [
+        "ház",
+        "ak",
+        "ból"
+      ],
+      "decoys": []
     },
     {
       "id": "G303",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "házakhoz → ház + ak + hoz",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "házakhoz",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -hoz rag áll: irányt: hová, kihez? jelöl.",
-      "word": "házakhoz"
+      "word": "házakhoz",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "ház",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "ház",
+        "ak",
+        "hoz"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G304",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "házaknál → ház + ak + nál",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "házaknál\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "ház + ak + nál",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nál rag áll: helyet: hol, kinél? jelöl.",
-      "word": "házaknál"
+      "word": "házaknál",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "ház",
+      "kind": "elemzés",
+      "expected": "ház + ak + nál",
+      "ui": "segment",
+      "parts": [
+        "ház",
+        "ak",
+        "nál"
+      ]
     },
     {
       "id": "G305",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "házaknak → ház + ak + nak",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: házaknak",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "házaknak",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nak rag áll: címzettet: kinek? jelöl.",
-      "word": "házaknak"
+      "word": "házaknak",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "ház",
+      "kind": "elemzés",
+      "expected": "házaknak",
+      "ui": "build",
+      "parts": [
+        "ház",
+        "ak",
+        "nak"
+      ],
+      "decoys": []
     },
     {
       "id": "G306",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "várakban → vár + ak + ban",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "várakban",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ban rag áll: helyet: hol? jelöl.",
-      "word": "várakban"
+      "word": "várakban",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "vár",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "vár",
+        "ak",
+        "ban"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G307",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "várakból → vár + ak + ból",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "várakból\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "vár + ak + ból",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ból rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "várakból"
+      "word": "várakból",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "vár",
+      "kind": "elemzés",
+      "expected": "vár + ak + ból",
+      "ui": "segment",
+      "parts": [
+        "vár",
+        "ak",
+        "ból"
+      ]
     },
     {
       "id": "G308",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "várakhoz → vár + ak + hoz",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: várakhoz",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "várakhoz",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -hoz rag áll: irányt: hová, kihez? jelöl.",
-      "word": "várakhoz"
+      "word": "várakhoz",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "vár",
+      "kind": "elemzés",
+      "expected": "várakhoz",
+      "ui": "build",
+      "parts": [
+        "vár",
+        "ak",
+        "hoz"
+      ],
+      "decoys": []
     },
     {
       "id": "G309",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "váraknál → vár + ak + nál",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "váraknál",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nál rag áll: helyet: hol, kinél? jelöl.",
-      "word": "váraknál"
+      "word": "váraknál",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "vár",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "vár",
+        "ak",
+        "nál"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G310",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "váraknak → vár + ak + nak",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "váraknak\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "vár + ak + nak",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nak rag áll: címzettet: kinek? jelöl.",
-      "word": "váraknak"
+      "word": "váraknak",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "vár",
+      "kind": "elemzés",
+      "expected": "vár + ak + nak",
+      "ui": "segment",
+      "parts": [
+        "vár",
+        "ak",
+        "nak"
+      ]
     },
     {
       "id": "G311",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "falakban → fal + ak + ban",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: falakban",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "falakban",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ban rag áll: helyet: hol? jelöl.",
-      "word": "falakban"
+      "word": "falakban",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "fal",
+      "kind": "elemzés",
+      "expected": "falakban",
+      "ui": "build",
+      "parts": [
+        "fal",
+        "ak",
+        "ban"
+      ],
+      "decoys": []
     },
     {
       "id": "G312",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "falakból → fal + ak + ból",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "falakból",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ból rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "falakból"
+      "word": "falakból",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "fal",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "fal",
+        "ak",
+        "ból"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G313",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "falakhoz → fal + ak + hoz",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "falakhoz\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "fal + ak + hoz",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -hoz rag áll: irányt: hová, kihez? jelöl.",
-      "word": "falakhoz"
+      "word": "falakhoz",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "fal",
+      "kind": "elemzés",
+      "expected": "fal + ak + hoz",
+      "ui": "segment",
+      "parts": [
+        "fal",
+        "ak",
+        "hoz"
+      ]
     },
     {
       "id": "G314",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "falaknál → fal + ak + nál",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: falaknál",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "falaknál",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nál rag áll: helyet: hol, kinél? jelöl.",
-      "word": "falaknál"
+      "word": "falaknál",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "fal",
+      "kind": "elemzés",
+      "expected": "falaknál",
+      "ui": "build",
+      "parts": [
+        "fal",
+        "ak",
+        "nál"
+      ],
+      "decoys": []
     },
     {
       "id": "G315",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "falaknak → fal + ak + nak",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "falaknak",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nak rag áll: címzettet: kinek? jelöl.",
-      "word": "falaknak"
+      "word": "falaknak",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "fal",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "fal",
+        "ak",
+        "nak"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G316",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "padokban → pad + ok + ban",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "padokban\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "pad + ok + ban",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ban rag áll: helyet: hol? jelöl.",
-      "word": "padokban"
+      "word": "padokban",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "pad",
+      "kind": "elemzés",
+      "expected": "pad + ok + ban",
+      "ui": "segment",
+      "parts": [
+        "pad",
+        "ok",
+        "ban"
+      ]
     },
     {
       "id": "G317",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "padokból → pad + ok + ból",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: padokból",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "padokból",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ból rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "padokból"
+      "word": "padokból",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "pad",
+      "kind": "elemzés",
+      "expected": "padokból",
+      "ui": "build",
+      "parts": [
+        "pad",
+        "ok",
+        "ból"
+      ],
+      "decoys": []
     },
     {
       "id": "G318",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "padokhoz → pad + ok + hoz",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "padokhoz",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -hoz rag áll: irányt: hová, kihez? jelöl.",
-      "word": "padokhoz"
+      "word": "padokhoz",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "pad",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "pad",
+        "ok",
+        "hoz"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G319",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "padoknál → pad + ok + nál",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "padoknál\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "pad + ok + nál",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nál rag áll: helyet: hol, kinél? jelöl.",
-      "word": "padoknál"
+      "word": "padoknál",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "pad",
+      "kind": "elemzés",
+      "expected": "pad + ok + nál",
+      "ui": "segment",
+      "parts": [
+        "pad",
+        "ok",
+        "nál"
+      ]
     },
     {
       "id": "G320",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "padoknak → pad + ok + nak",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: padoknak",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "padoknak",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nak rag áll: címzettet: kinek? jelöl.",
-      "word": "padoknak"
+      "word": "padoknak",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "pad",
+      "kind": "elemzés",
+      "expected": "padoknak",
+      "ui": "build",
+      "parts": [
+        "pad",
+        "ok",
+        "nak"
+      ],
+      "decoys": []
     },
     {
       "id": "G321",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "asztalokban → asztal + ok + ban",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "asztalokban",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ban rag áll: helyet: hol? jelöl.",
-      "word": "asztalokban"
+      "word": "asztalokban",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "asztal",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "asztal",
+        "ok",
+        "ban"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G322",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "asztalokból → asztal + ok + ból",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "asztalokból\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "asztal + ok + ból",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ból rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "asztalokból"
+      "word": "asztalokból",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "asztal",
+      "kind": "elemzés",
+      "expected": "asztal + ok + ból",
+      "ui": "segment",
+      "parts": [
+        "asztal",
+        "ok",
+        "ból"
+      ]
     },
     {
       "id": "G323",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "asztalokhoz → asztal + ok + hoz",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: asztalokhoz",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "asztalokhoz",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -hoz rag áll: irányt: hová, kihez? jelöl.",
-      "word": "asztalokhoz"
+      "word": "asztalokhoz",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "asztal",
+      "kind": "elemzés",
+      "expected": "asztalokhoz",
+      "ui": "build",
+      "parts": [
+        "asztal",
+        "ok",
+        "hoz"
+      ],
+      "decoys": []
     },
     {
       "id": "G324",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "asztaloknál → asztal + ok + nál",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "asztaloknál",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nál rag áll: helyet: hol, kinél? jelöl.",
-      "word": "asztaloknál"
+      "word": "asztaloknál",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "asztal",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "asztal",
+        "ok",
+        "nál"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G325",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "asztaloknak → asztal + ok + nak",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "asztaloknak\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "asztal + ok + nak",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nak rag áll: címzettet: kinek? jelöl.",
-      "word": "asztaloknak"
+      "word": "asztaloknak",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "asztal",
+      "kind": "elemzés",
+      "expected": "asztal + ok + nak",
+      "ui": "segment",
+      "parts": [
+        "asztal",
+        "ok",
+        "nak"
+      ]
     },
     {
       "id": "G326",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "ablakokban → ablak + ok + ban",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: ablakokban",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "ablakokban",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ban rag áll: helyet: hol? jelöl.",
-      "word": "ablakokban"
+      "word": "ablakokban",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "ablak",
+      "kind": "elemzés",
+      "expected": "ablakokban",
+      "ui": "build",
+      "parts": [
+        "ablak",
+        "ok",
+        "ban"
+      ],
+      "decoys": []
     },
     {
       "id": "G327",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "ablakokból → ablak + ok + ból",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "ablakokból",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ból rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "ablakokból"
+      "word": "ablakokból",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "ablak",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "ablak",
+        "ok",
+        "ból"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G328",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "ablakokhoz → ablak + ok + hoz",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "ablakokhoz\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "ablak + ok + hoz",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -hoz rag áll: irányt: hová, kihez? jelöl.",
-      "word": "ablakokhoz"
+      "word": "ablakokhoz",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "ablak",
+      "kind": "elemzés",
+      "expected": "ablak + ok + hoz",
+      "ui": "segment",
+      "parts": [
+        "ablak",
+        "ok",
+        "hoz"
+      ]
     },
     {
       "id": "G329",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "ablakoknál → ablak + ok + nál",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: ablakoknál",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "ablakoknál",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nál rag áll: helyet: hol, kinél? jelöl.",
-      "word": "ablakoknál"
+      "word": "ablakoknál",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "ablak",
+      "kind": "elemzés",
+      "expected": "ablakoknál",
+      "ui": "build",
+      "parts": [
+        "ablak",
+        "ok",
+        "nál"
+      ],
+      "decoys": []
     },
     {
       "id": "G330",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "ablakoknak → ablak + ok + nak",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "ablakoknak",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nak rag áll: címzettet: kinek? jelöl.",
-      "word": "ablakoknak"
+      "word": "ablakoknak",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "ablak",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "ablak",
+        "ok",
+        "nak"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G331",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "udvarokban → udvar + ok + ban",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "udvarokban\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "udvar + ok + ban",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ban rag áll: helyet: hol? jelöl.",
-      "word": "udvarokban"
+      "word": "udvarokban",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "udvar",
+      "kind": "elemzés",
+      "expected": "udvar + ok + ban",
+      "ui": "segment",
+      "parts": [
+        "udvar",
+        "ok",
+        "ban"
+      ]
     },
     {
       "id": "G332",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "udvarokból → udvar + ok + ból",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: udvarokból",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "udvarokból",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ból rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "udvarokból"
+      "word": "udvarokból",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "udvar",
+      "kind": "elemzés",
+      "expected": "udvarokból",
+      "ui": "build",
+      "parts": [
+        "udvar",
+        "ok",
+        "ból"
+      ],
+      "decoys": []
     },
     {
       "id": "G333",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "udvarokhoz → udvar + ok + hoz",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "udvarokhoz",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -hoz rag áll: irányt: hová, kihez? jelöl.",
-      "word": "udvarokhoz"
+      "word": "udvarokhoz",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "udvar",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "udvar",
+        "ok",
+        "hoz"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G334",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "udvaroknál → udvar + ok + nál",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "udvaroknál\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "udvar + ok + nál",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nál rag áll: helyet: hol, kinél? jelöl.",
-      "word": "udvaroknál"
+      "word": "udvaroknál",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "udvar",
+      "kind": "elemzés",
+      "expected": "udvar + ok + nál",
+      "ui": "segment",
+      "parts": [
+        "udvar",
+        "ok",
+        "nál"
+      ]
     },
     {
       "id": "G335",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "udvaroknak → udvar + ok + nak",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: udvaroknak",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "udvaroknak",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nak rag áll: címzettet: kinek? jelöl.",
-      "word": "udvaroknak"
+      "word": "udvaroknak",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "udvar",
+      "kind": "elemzés",
+      "expected": "udvaroknak",
+      "ui": "build",
+      "parts": [
+        "udvar",
+        "ok",
+        "nak"
+      ],
+      "decoys": []
     },
     {
       "id": "G336",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "vonatokban → vonat + ok + ban",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "vonatokban",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ban rag áll: helyet: hol? jelöl.",
-      "word": "vonatokban"
+      "word": "vonatokban",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "vonat",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "vonat",
+        "ok",
+        "ban"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G337",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "vonatokból → vonat + ok + ból",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "vonatokból\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "vonat + ok + ból",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ból rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "vonatokból"
+      "word": "vonatokból",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "vonat",
+      "kind": "elemzés",
+      "expected": "vonat + ok + ból",
+      "ui": "segment",
+      "parts": [
+        "vonat",
+        "ok",
+        "ból"
+      ]
     },
     {
       "id": "G338",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "vonatokhoz → vonat + ok + hoz",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: vonatokhoz",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "vonatokhoz",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -hoz rag áll: irányt: hová, kihez? jelöl.",
-      "word": "vonatokhoz"
+      "word": "vonatokhoz",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "vonat",
+      "kind": "elemzés",
+      "expected": "vonatokhoz",
+      "ui": "build",
+      "parts": [
+        "vonat",
+        "ok",
+        "hoz"
+      ],
+      "decoys": []
     },
     {
       "id": "G339",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "vonatoknál → vonat + ok + nál",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "vonatoknál",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nál rag áll: helyet: hol, kinél? jelöl.",
-      "word": "vonatoknál"
+      "word": "vonatoknál",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "vonat",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "vonat",
+        "ok",
+        "nál"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G340",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "vonatoknak → vonat + ok + nak",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "vonatoknak\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "vonat + ok + nak",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nak rag áll: címzettet: kinek? jelöl.",
-      "word": "vonatoknak"
+      "word": "vonatoknak",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "vonat",
+      "kind": "elemzés",
+      "expected": "vonat + ok + nak",
+      "ui": "segment",
+      "parts": [
+        "vonat",
+        "ok",
+        "nak"
+      ]
     },
     {
       "id": "G341",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "hajókban → hajó + k + ban",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: hajókban",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "hajókban",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ban rag áll: helyet: hol? jelöl.",
-      "word": "hajókban"
+      "word": "hajókban",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "hajó",
+      "kind": "elemzés",
+      "expected": "hajókban",
+      "ui": "build",
+      "parts": [
+        "hajó",
+        "k",
+        "ban"
+      ],
+      "decoys": []
     },
     {
       "id": "G342",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "hajókból → hajó + k + ból",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "hajókból",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ból rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "hajókból"
+      "word": "hajókból",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "hajó",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "hajó",
+        "k",
+        "ból"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G343",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "hajókhoz → hajó + k + hoz",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "hajókhoz\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "hajó + k + hoz",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -hoz rag áll: irányt: hová, kihez? jelöl.",
-      "word": "hajókhoz"
+      "word": "hajókhoz",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "hajó",
+      "kind": "elemzés",
+      "expected": "hajó + k + hoz",
+      "ui": "segment",
+      "parts": [
+        "hajó",
+        "k",
+        "hoz"
+      ]
     },
     {
       "id": "G344",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "hajóknál → hajó + k + nál",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: hajóknál",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "hajóknál",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nál rag áll: helyet: hol, kinél? jelöl.",
-      "word": "hajóknál"
+      "word": "hajóknál",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "hajó",
+      "kind": "elemzés",
+      "expected": "hajóknál",
+      "ui": "build",
+      "parts": [
+        "hajó",
+        "k",
+        "nál"
+      ],
+      "decoys": []
     },
     {
       "id": "G345",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "hajóknak → hajó + k + nak",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "hajóknak",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nak rag áll: címzettet: kinek? jelöl.",
-      "word": "hajóknak"
+      "word": "hajóknak",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "hajó",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "hajó",
+        "k",
+        "nak"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G346",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "autókban → autó + k + ban",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "autókban\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "autó + k + ban",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ban rag áll: helyet: hol? jelöl.",
-      "word": "autókban"
+      "word": "autókban",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "autó",
+      "kind": "elemzés",
+      "expected": "autó + k + ban",
+      "ui": "segment",
+      "parts": [
+        "autó",
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G347",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "autókból → autó + k + ból",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: autókból",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "autókból",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ból rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "autókból"
+      "word": "autókból",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "autó",
+      "kind": "elemzés",
+      "expected": "autókból",
+      "ui": "build",
+      "parts": [
+        "autó",
+        "k",
+        "ból"
+      ],
+      "decoys": []
     },
     {
       "id": "G348",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "autókhoz → autó + k + hoz",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "autókhoz",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -hoz rag áll: irányt: hová, kihez? jelöl.",
-      "word": "autókhoz"
+      "word": "autókhoz",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "autó",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "autó",
+        "k",
+        "hoz"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G349",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "autóknál → autó + k + nál",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "autóknál\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "autó + k + nál",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nál rag áll: helyet: hol, kinél? jelöl.",
-      "word": "autóknál"
+      "word": "autóknál",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "autó",
+      "kind": "elemzés",
+      "expected": "autó + k + nál",
+      "ui": "segment",
+      "parts": [
+        "autó",
+        "k",
+        "nál"
+      ]
     },
     {
       "id": "G350",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "autóknak → autó + k + nak",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: autóknak",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "autóknak",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nak rag áll: címzettet: kinek? jelöl.",
-      "word": "autóknak"
+      "word": "autóknak",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "autó",
+      "kind": "elemzés",
+      "expected": "autóknak",
+      "ui": "build",
+      "parts": [
+        "autó",
+        "k",
+        "nak"
+      ],
+      "decoys": []
     },
     {
       "id": "G351",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "labdákban → labdá + k + ban",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "labdákban",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) labda szótő végén a → á változás történik. A -k többesjel után a -ban rag áll: helyet: hol? jelöl.",
-      "word": "labdákban"
+      "word": "labdákban",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "labdá",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "labdá",
+        "k",
+        "ban"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G352",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "labdákból → labdá + k + ból",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "labdákból\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "labdá + k + ból",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) labda szótő végén a → á változás történik. A -k többesjel után a -ból rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "labdákból"
+      "word": "labdákból",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "labdá",
+      "kind": "elemzés",
+      "expected": "labdá + k + ból",
+      "ui": "segment",
+      "parts": [
+        "labdá",
+        "k",
+        "ból"
+      ]
     },
     {
       "id": "G353",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "labdákhoz → labdá + k + hoz",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: labdákhoz",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "labdákhoz",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) labda szótő végén a → á változás történik. A -k többesjel után a -hoz rag áll: irányt: hová, kihez? jelöl.",
-      "word": "labdákhoz"
+      "word": "labdákhoz",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "labdá",
+      "kind": "elemzés",
+      "expected": "labdákhoz",
+      "ui": "build",
+      "parts": [
+        "labdá",
+        "k",
+        "hoz"
+      ],
+      "decoys": []
     },
     {
       "id": "G354",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "labdáknál → labdá + k + nál",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "labdáknál",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) labda szótő végén a → á változás történik. A -k többesjel után a -nál rag áll: helyet: hol, kinél? jelöl.",
-      "word": "labdáknál"
+      "word": "labdáknál",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "labdá",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "labdá",
+        "k",
+        "nál"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G355",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "labdáknak → labdá + k + nak",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "labdáknak\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "labdá + k + nak",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) labda szótő végén a → á változás történik. A -k többesjel után a -nak rag áll: címzettet: kinek? jelöl.",
-      "word": "labdáknak"
+      "word": "labdáknak",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "labdá",
+      "kind": "elemzés",
+      "expected": "labdá + k + nak",
+      "ui": "segment",
+      "parts": [
+        "labdá",
+        "k",
+        "nak"
+      ]
     },
     {
       "id": "G356",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "almákban → almá + k + ban",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: almákban",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "almákban",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) alma szótő végén a → á változás történik. A -k többesjel után a -ban rag áll: helyet: hol? jelöl.",
-      "word": "almákban"
+      "word": "almákban",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "almá",
+      "kind": "elemzés",
+      "expected": "almákban",
+      "ui": "build",
+      "parts": [
+        "almá",
+        "k",
+        "ban"
+      ],
+      "decoys": []
     },
     {
       "id": "G357",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "almákból → almá + k + ból",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "almákból",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) alma szótő végén a → á változás történik. A -k többesjel után a -ból rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "almákból"
+      "word": "almákból",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "almá",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "almá",
+        "k",
+        "ból"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G358",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "almákhoz → almá + k + hoz",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "almákhoz\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "almá + k + hoz",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) alma szótő végén a → á változás történik. A -k többesjel után a -hoz rag áll: irányt: hová, kihez? jelöl.",
-      "word": "almákhoz"
+      "word": "almákhoz",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "almá",
+      "kind": "elemzés",
+      "expected": "almá + k + hoz",
+      "ui": "segment",
+      "parts": [
+        "almá",
+        "k",
+        "hoz"
+      ]
     },
     {
       "id": "G359",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "almáknál → almá + k + nál",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: almáknál",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "almáknál",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) alma szótő végén a → á változás történik. A -k többesjel után a -nál rag áll: helyet: hol, kinél? jelöl.",
-      "word": "almáknál"
+      "word": "almáknál",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "almá",
+      "kind": "elemzés",
+      "expected": "almáknál",
+      "ui": "build",
+      "parts": [
+        "almá",
+        "k",
+        "nál"
+      ],
+      "decoys": []
     },
     {
       "id": "G360",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "almáknak → almá + k + nak",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "almáknak",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) alma szótő végén a → á változás történik. A -k többesjel után a -nak rag áll: címzettet: kinek? jelöl.",
-      "word": "almáknak"
+      "word": "almáknak",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "almá",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "almá",
+        "k",
+        "nak"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G361",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "iskolákban → iskolá + k + ban",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "iskolákban\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "iskolá + k + ban",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) iskola szótő végén a → á változás történik. A -k többesjel után a -ban rag áll: helyet: hol? jelöl.",
-      "word": "iskolákban"
+      "word": "iskolákban",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "iskolá",
+      "kind": "elemzés",
+      "expected": "iskolá + k + ban",
+      "ui": "segment",
+      "parts": [
+        "iskolá",
+        "k",
+        "ban"
+      ]
     },
     {
       "id": "G362",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "iskolákból → iskolá + k + ból",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: iskolákból",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "iskolákból",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) iskola szótő végén a → á változás történik. A -k többesjel után a -ból rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "iskolákból"
+      "word": "iskolákból",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "iskolá",
+      "kind": "elemzés",
+      "expected": "iskolákból",
+      "ui": "build",
+      "parts": [
+        "iskolá",
+        "k",
+        "ból"
+      ],
+      "decoys": []
     },
     {
       "id": "G363",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "iskolákhoz → iskolá + k + hoz",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "iskolákhoz",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) iskola szótő végén a → á változás történik. A -k többesjel után a -hoz rag áll: irányt: hová, kihez? jelöl.",
-      "word": "iskolákhoz"
+      "word": "iskolákhoz",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "iskolá",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "iskolá",
+        "k",
+        "hoz"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G364",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "iskoláknál → iskolá + k + nál",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "iskoláknál\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "iskolá + k + nál",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) iskola szótő végén a → á változás történik. A -k többesjel után a -nál rag áll: helyet: hol, kinél? jelöl.",
-      "word": "iskoláknál"
+      "word": "iskoláknál",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "iskolá",
+      "kind": "elemzés",
+      "expected": "iskolá + k + nál",
+      "ui": "segment",
+      "parts": [
+        "iskolá",
+        "k",
+        "nál"
+      ]
     },
     {
       "id": "G365",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "iskoláknak → iskolá + k + nak",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: iskoláknak",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "iskoláknak",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) iskola szótő végén a → á változás történik. A -k többesjel után a -nak rag áll: címzettet: kinek? jelöl.",
-      "word": "iskoláknak"
+      "word": "iskoláknak",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "iskolá",
+      "kind": "elemzés",
+      "expected": "iskoláknak",
+      "ui": "build",
+      "parts": [
+        "iskolá",
+        "k",
+        "nak"
+      ],
+      "decoys": []
     },
     {
       "id": "G366",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "szobákban → szobá + k + ban",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "szobákban",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) szoba szótő végén a → á változás történik. A -k többesjel után a -ban rag áll: helyet: hol? jelöl.",
-      "word": "szobákban"
+      "word": "szobákban",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "szobá",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "szobá",
+        "k",
+        "ban"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G367",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "szobákból → szobá + k + ból",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "szobákból\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "szobá + k + ból",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) szoba szótő végén a → á változás történik. A -k többesjel után a -ból rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "szobákból"
+      "word": "szobákból",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "szobá",
+      "kind": "elemzés",
+      "expected": "szobá + k + ból",
+      "ui": "segment",
+      "parts": [
+        "szobá",
+        "k",
+        "ból"
+      ]
     },
     {
       "id": "G368",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "szobákhoz → szobá + k + hoz",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: szobákhoz",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "szobákhoz",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) szoba szótő végén a → á változás történik. A -k többesjel után a -hoz rag áll: irányt: hová, kihez? jelöl.",
-      "word": "szobákhoz"
+      "word": "szobákhoz",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "szobá",
+      "kind": "elemzés",
+      "expected": "szobákhoz",
+      "ui": "build",
+      "parts": [
+        "szobá",
+        "k",
+        "hoz"
+      ],
+      "decoys": []
     },
     {
       "id": "G369",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "szobáknál → szobá + k + nál",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "szobáknál",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) szoba szótő végén a → á változás történik. A -k többesjel után a -nál rag áll: helyet: hol, kinél? jelöl.",
-      "word": "szobáknál"
+      "word": "szobáknál",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "szobá",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "szobá",
+        "k",
+        "nál"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G370",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "szobáknak → szobá + k + nak",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "szobáknak\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "szobá + k + nak",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) szoba szótő végén a → á változás történik. A -k többesjel után a -nak rag áll: címzettet: kinek? jelöl.",
-      "word": "szobáknak"
+      "word": "szobáknak",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "szobá",
+      "kind": "elemzés",
+      "expected": "szobá + k + nak",
+      "ui": "segment",
+      "parts": [
+        "szobá",
+        "k",
+        "nak"
+      ]
     },
     {
       "id": "G371",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "táskákban → táská + k + ban",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: táskákban",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "táskákban",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) táska szótő végén a → á változás történik. A -k többesjel után a -ban rag áll: helyet: hol? jelöl.",
-      "word": "táskákban"
+      "word": "táskákban",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "táská",
+      "kind": "elemzés",
+      "expected": "táskákban",
+      "ui": "build",
+      "parts": [
+        "táská",
+        "k",
+        "ban"
+      ],
+      "decoys": []
     },
     {
       "id": "G372",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "táskákból → táská + k + ból",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "táskákból",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) táska szótő végén a → á változás történik. A -k többesjel után a -ból rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "táskákból"
+      "word": "táskákból",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "táská",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "táská",
+        "k",
+        "ból"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G373",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "táskákhoz → táská + k + hoz",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "táskákhoz\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "táská + k + hoz",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) táska szótő végén a → á változás történik. A -k többesjel után a -hoz rag áll: irányt: hová, kihez? jelöl.",
-      "word": "táskákhoz"
+      "word": "táskákhoz",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "táská",
+      "kind": "elemzés",
+      "expected": "táská + k + hoz",
+      "ui": "segment",
+      "parts": [
+        "táská",
+        "k",
+        "hoz"
+      ]
     },
     {
       "id": "G374",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "táskáknál → táská + k + nál",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: táskáknál",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "táskáknál",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) táska szótő végén a → á változás történik. A -k többesjel után a -nál rag áll: helyet: hol, kinél? jelöl.",
-      "word": "táskáknál"
+      "word": "táskáknál",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "táská",
+      "kind": "elemzés",
+      "expected": "táskáknál",
+      "ui": "build",
+      "parts": [
+        "táská",
+        "k",
+        "nál"
+      ],
+      "decoys": []
     },
     {
       "id": "G375",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "táskáknak → táská + k + nak",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "táskáknak",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) táska szótő végén a → á változás történik. A -k többesjel után a -nak rag áll: címzettet: kinek? jelöl.",
-      "word": "táskáknak"
+      "word": "táskáknak",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "táská",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "táská",
+        "k",
+        "nak"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G376",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "kertekben → kert + ek + ben",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "kertekben\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "kert + ek + ben",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ben rag áll: helyet: hol? jelöl.",
-      "word": "kertekben"
+      "word": "kertekben",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "kert",
+      "kind": "elemzés",
+      "expected": "kert + ek + ben",
+      "ui": "segment",
+      "parts": [
+        "kert",
+        "ek",
+        "ben"
+      ]
     },
     {
       "id": "G377",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "kertekből → kert + ek + ből",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: kertekből",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "kertekből",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ből rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "kertekből"
+      "word": "kertekből",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "kert",
+      "kind": "elemzés",
+      "expected": "kertekből",
+      "ui": "build",
+      "parts": [
+        "kert",
+        "ek",
+        "ből"
+      ],
+      "decoys": []
     },
     {
       "id": "G378",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "kertekhez → kert + ek + hez",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "kertekhez",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -hez rag áll: irányt: hová, kihez? jelöl.",
-      "word": "kertekhez"
+      "word": "kertekhez",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "kert",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "kert",
+        "ek",
+        "hez"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G379",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "kerteknél → kert + ek + nél",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "kerteknél\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "kert + ek + nél",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nél rag áll: helyet: hol, kinél? jelöl.",
-      "word": "kerteknél"
+      "word": "kerteknél",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "kert",
+      "kind": "elemzés",
+      "expected": "kert + ek + nél",
+      "ui": "segment",
+      "parts": [
+        "kert",
+        "ek",
+        "nél"
+      ]
     },
     {
       "id": "G380",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "kerteknek → kert + ek + nek",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: kerteknek",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "kerteknek",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nek rag áll: címzettet: kinek? jelöl.",
-      "word": "kerteknek"
+      "word": "kerteknek",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "kert",
+      "kind": "elemzés",
+      "expected": "kerteknek",
+      "ui": "build",
+      "parts": [
+        "kert",
+        "ek",
+        "nek"
+      ],
+      "decoys": []
     },
     {
       "id": "G381",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "képekben → kép + ek + ben",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "képekben",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ben rag áll: helyet: hol? jelöl.",
-      "word": "képekben"
+      "word": "képekben",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "kép",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "kép",
+        "ek",
+        "ben"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G382",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "képekből → kép + ek + ből",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "képekből\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "kép + ek + ből",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ből rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "képekből"
+      "word": "képekből",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "kép",
+      "kind": "elemzés",
+      "expected": "kép + ek + ből",
+      "ui": "segment",
+      "parts": [
+        "kép",
+        "ek",
+        "ből"
+      ]
     },
     {
       "id": "G383",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "képekhez → kép + ek + hez",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: képekhez",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "képekhez",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -hez rag áll: irányt: hová, kihez? jelöl.",
-      "word": "képekhez"
+      "word": "képekhez",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "kép",
+      "kind": "elemzés",
+      "expected": "képekhez",
+      "ui": "build",
+      "parts": [
+        "kép",
+        "ek",
+        "hez"
+      ],
+      "decoys": []
     },
     {
       "id": "G384",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "képeknél → kép + ek + nél",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "képeknél",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nél rag áll: helyet: hol, kinél? jelöl.",
-      "word": "képeknél"
+      "word": "képeknél",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "kép",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "kép",
+        "ek",
+        "nél"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G385",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "képeknek → kép + ek + nek",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "képeknek\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "kép + ek + nek",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nek rag áll: címzettet: kinek? jelöl.",
-      "word": "képeknek"
+      "word": "képeknek",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "kép",
+      "kind": "elemzés",
+      "expected": "kép + ek + nek",
+      "ui": "segment",
+      "parts": [
+        "kép",
+        "ek",
+        "nek"
+      ]
     },
     {
       "id": "G386",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "gépekben → gép + ek + ben",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: gépekben",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "gépekben",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ben rag áll: helyet: hol? jelöl.",
-      "word": "gépekben"
+      "word": "gépekben",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "gép",
+      "kind": "elemzés",
+      "expected": "gépekben",
+      "ui": "build",
+      "parts": [
+        "gép",
+        "ek",
+        "ben"
+      ],
+      "decoys": []
     },
     {
       "id": "G387",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "gépekből → gép + ek + ből",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "gépekből",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ből rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "gépekből"
+      "word": "gépekből",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "gép",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "gép",
+        "ek",
+        "ből"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G388",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "gépekhez → gép + ek + hez",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "gépekhez\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "gép + ek + hez",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -hez rag áll: irányt: hová, kihez? jelöl.",
-      "word": "gépekhez"
+      "word": "gépekhez",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "gép",
+      "kind": "elemzés",
+      "expected": "gép + ek + hez",
+      "ui": "segment",
+      "parts": [
+        "gép",
+        "ek",
+        "hez"
+      ]
     },
     {
       "id": "G389",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "gépeknél → gép + ek + nél",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: gépeknél",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "gépeknél",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nél rag áll: helyet: hol, kinél? jelöl.",
-      "word": "gépeknél"
+      "word": "gépeknél",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "gép",
+      "kind": "elemzés",
+      "expected": "gépeknél",
+      "ui": "build",
+      "parts": [
+        "gép",
+        "ek",
+        "nél"
+      ],
+      "decoys": []
     },
     {
       "id": "G390",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "gépeknek → gép + ek + nek",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "gépeknek",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nek rag áll: címzettet: kinek? jelöl.",
-      "word": "gépeknek"
+      "word": "gépeknek",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "gép",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "gép",
+        "ek",
+        "nek"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G391",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "székekben → szék + ek + ben",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "székekben\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "szék + ek + ben",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ben rag áll: helyet: hol? jelöl.",
-      "word": "székekben"
+      "word": "székekben",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "szék",
+      "kind": "elemzés",
+      "expected": "szék + ek + ben",
+      "ui": "segment",
+      "parts": [
+        "szék",
+        "ek",
+        "ben"
+      ]
     },
     {
       "id": "G392",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "székekből → szék + ek + ből",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: székekből",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "székekből",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ből rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "székekből"
+      "word": "székekből",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "szék",
+      "kind": "elemzés",
+      "expected": "székekből",
+      "ui": "build",
+      "parts": [
+        "szék",
+        "ek",
+        "ből"
+      ],
+      "decoys": []
     },
     {
       "id": "G393",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "székekhez → szék + ek + hez",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "székekhez",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -hez rag áll: irányt: hová, kihez? jelöl.",
-      "word": "székekhez"
+      "word": "székekhez",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "szék",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "szék",
+        "ek",
+        "hez"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G394",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "székeknél → szék + ek + nél",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "székeknél\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "szék + ek + nél",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nél rag áll: helyet: hol, kinél? jelöl.",
-      "word": "székeknél"
+      "word": "székeknél",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "szék",
+      "kind": "elemzés",
+      "expected": "szék + ek + nél",
+      "ui": "segment",
+      "parts": [
+        "szék",
+        "ek",
+        "nél"
+      ]
     },
     {
       "id": "G395",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "székeknek → szék + ek + nek",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: székeknek",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "székeknek",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nek rag áll: címzettet: kinek? jelöl.",
-      "word": "székeknek"
+      "word": "székeknek",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "szék",
+      "kind": "elemzés",
+      "expected": "székeknek",
+      "ui": "build",
+      "parts": [
+        "szék",
+        "ek",
+        "nek"
+      ],
+      "decoys": []
     },
     {
       "id": "G396",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "népekben → nép + ek + ben",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "népekben",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ben rag áll: helyet: hol? jelöl.",
-      "word": "népekben"
+      "word": "népekben",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "nép",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "nép",
+        "ek",
+        "ben"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G397",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "népekből → nép + ek + ből",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "népekből\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "nép + ek + ből",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ből rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "népekből"
+      "word": "népekből",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "nép",
+      "kind": "elemzés",
+      "expected": "nép + ek + ből",
+      "ui": "segment",
+      "parts": [
+        "nép",
+        "ek",
+        "ből"
+      ]
     },
     {
       "id": "G398",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "népekhez → nép + ek + hez",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: népekhez",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "népekhez",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -hez rag áll: irányt: hová, kihez? jelöl.",
-      "word": "népekhez"
+      "word": "népekhez",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "nép",
+      "kind": "elemzés",
+      "expected": "népekhez",
+      "ui": "build",
+      "parts": [
+        "nép",
+        "ek",
+        "hez"
+      ],
+      "decoys": []
     },
     {
       "id": "G399",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "népeknél → nép + ek + nél",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "népeknél",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nél rag áll: helyet: hol, kinél? jelöl.",
-      "word": "népeknél"
+      "word": "népeknél",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "nép",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "nép",
+        "ek",
+        "nél"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G400",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "népeknek → nép + ek + nek",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "népeknek\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "nép + ek + nek",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nek rag áll: címzettet: kinek? jelöl.",
-      "word": "népeknek"
+      "word": "népeknek",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "nép",
+      "kind": "elemzés",
+      "expected": "nép + ek + nek",
+      "ui": "segment",
+      "parts": [
+        "nép",
+        "ek",
+        "nek"
+      ]
     },
     {
       "id": "G401",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "kezekben → kez + ek + ben",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: kezekben",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "kezekben",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) kéz töve rövidül. A -k többesjel után a -ben rag áll: helyet: hol? jelöl.",
-      "word": "kezekben"
+      "word": "kezekben",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "kez",
+      "kind": "elemzés",
+      "expected": "kezekben",
+      "ui": "build",
+      "parts": [
+        "kez",
+        "ek",
+        "ben"
+      ],
+      "decoys": []
     },
     {
       "id": "G402",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "kezekből → kez + ek + ből",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "kezekből",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) kéz töve rövidül. A -k többesjel után a -ből rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "kezekből"
+      "word": "kezekből",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "kez",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "kez",
+        "ek",
+        "ből"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G403",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "kezekhez → kez + ek + hez",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "kezekhez\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "kez + ek + hez",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) kéz töve rövidül. A -k többesjel után a -hez rag áll: irányt: hová, kihez? jelöl.",
-      "word": "kezekhez"
+      "word": "kezekhez",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "kez",
+      "kind": "elemzés",
+      "expected": "kez + ek + hez",
+      "ui": "segment",
+      "parts": [
+        "kez",
+        "ek",
+        "hez"
+      ]
     },
     {
       "id": "G404",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "kezeknél → kez + ek + nél",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: kezeknél",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "kezeknél",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) kéz töve rövidül. A -k többesjel után a -nél rag áll: helyet: hol, kinél? jelöl.",
-      "word": "kezeknél"
+      "word": "kezeknél",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "kez",
+      "kind": "elemzés",
+      "expected": "kezeknél",
+      "ui": "build",
+      "parts": [
+        "kez",
+        "ek",
+        "nél"
+      ],
+      "decoys": []
     },
     {
       "id": "G405",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "kezeknek → kez + ek + nek",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "kezeknek",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) kéz töve rövidül. A -k többesjel után a -nek rag áll: címzettet: kinek? jelöl.",
-      "word": "kezeknek"
+      "word": "kezeknek",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "kez",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "kez",
+        "ek",
+        "nek"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G406",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "helyekben → hely + ek + ben",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "helyekben\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "hely + ek + ben",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ben rag áll: helyet: hol? jelöl.",
-      "word": "helyekben"
+      "word": "helyekben",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "hely",
+      "kind": "elemzés",
+      "expected": "hely + ek + ben",
+      "ui": "segment",
+      "parts": [
+        "hely",
+        "ek",
+        "ben"
+      ]
     },
     {
       "id": "G407",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "helyekből → hely + ek + ből",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: helyekből",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "helyekből",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ből rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "helyekből"
+      "word": "helyekből",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "hely",
+      "kind": "elemzés",
+      "expected": "helyekből",
+      "ui": "build",
+      "parts": [
+        "hely",
+        "ek",
+        "ből"
+      ],
+      "decoys": []
     },
     {
       "id": "G408",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "helyekhez → hely + ek + hez",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "helyekhez",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -hez rag áll: irányt: hová, kihez? jelöl.",
-      "word": "helyekhez"
+      "word": "helyekhez",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "hely",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "hely",
+        "ek",
+        "hez"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G409",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "helyeknél → hely + ek + nél",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "helyeknél\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "hely + ek + nél",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nél rag áll: helyet: hol, kinél? jelöl.",
-      "word": "helyeknél"
+      "word": "helyeknél",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "hely",
+      "kind": "elemzés",
+      "expected": "hely + ek + nél",
+      "ui": "segment",
+      "parts": [
+        "hely",
+        "ek",
+        "nél"
+      ]
     },
     {
       "id": "G410",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "helyeknek → hely + ek + nek",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: helyeknek",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "helyeknek",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nek rag áll: címzettet: kinek? jelöl.",
-      "word": "helyeknek"
+      "word": "helyeknek",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "hely",
+      "kind": "elemzés",
+      "expected": "helyeknek",
+      "ui": "build",
+      "parts": [
+        "hely",
+        "ek",
+        "nek"
+      ],
+      "decoys": []
     },
     {
       "id": "G411",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "hegyekben → hegy + ek + ben",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "hegyekben",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ben rag áll: helyet: hol? jelöl.",
-      "word": "hegyekben"
+      "word": "hegyekben",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "hegy",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "hegy",
+        "ek",
+        "ben"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G412",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "hegyekből → hegy + ek + ből",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "hegyekből\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "hegy + ek + ből",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ből rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "hegyekből"
+      "word": "hegyekből",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "hegy",
+      "kind": "elemzés",
+      "expected": "hegy + ek + ből",
+      "ui": "segment",
+      "parts": [
+        "hegy",
+        "ek",
+        "ből"
+      ]
     },
     {
       "id": "G413",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "hegyekhez → hegy + ek + hez",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: hegyekhez",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "hegyekhez",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -hez rag áll: irányt: hová, kihez? jelöl.",
-      "word": "hegyekhez"
+      "word": "hegyekhez",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "hegy",
+      "kind": "elemzés",
+      "expected": "hegyekhez",
+      "ui": "build",
+      "parts": [
+        "hegy",
+        "ek",
+        "hez"
+      ],
+      "decoys": []
     },
     {
       "id": "G414",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "hegyeknél → hegy + ek + nél",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "hegyeknél",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nél rag áll: helyet: hol, kinél? jelöl.",
-      "word": "hegyeknél"
+      "word": "hegyeknél",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "hegy",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "hegy",
+        "ek",
+        "nél"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G415",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "hegyeknek → hegy + ek + nek",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "hegyeknek\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "hegy + ek + nek",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nek rag áll: címzettet: kinek? jelöl.",
-      "word": "hegyeknek"
+      "word": "hegyeknek",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "hegy",
+      "kind": "elemzés",
+      "expected": "hegy + ek + nek",
+      "ui": "segment",
+      "parts": [
+        "hegy",
+        "ek",
+        "nek"
+      ]
     },
     {
       "id": "G416",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "jegyekben → jegy + ek + ben",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: jegyekben",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "jegyekben",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ben rag áll: helyet: hol? jelöl.",
-      "word": "jegyekben"
+      "word": "jegyekben",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "jegy",
+      "kind": "elemzés",
+      "expected": "jegyekben",
+      "ui": "build",
+      "parts": [
+        "jegy",
+        "ek",
+        "ben"
+      ],
+      "decoys": []
     },
     {
       "id": "G417",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "jegyekből → jegy + ek + ből",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "jegyekből",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ből rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "jegyekből"
+      "word": "jegyekből",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "jegy",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "jegy",
+        "ek",
+        "ből"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G418",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "jegyekhez → jegy + ek + hez",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "jegyekhez\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "jegy + ek + hez",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -hez rag áll: irányt: hová, kihez? jelöl.",
-      "word": "jegyekhez"
+      "word": "jegyekhez",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "jegy",
+      "kind": "elemzés",
+      "expected": "jegy + ek + hez",
+      "ui": "segment",
+      "parts": [
+        "jegy",
+        "ek",
+        "hez"
+      ]
     },
     {
       "id": "G419",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "jegyeknél → jegy + ek + nél",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: jegyeknél",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "jegyeknél",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nél rag áll: helyet: hol, kinél? jelöl.",
-      "word": "jegyeknél"
+      "word": "jegyeknél",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "jegy",
+      "kind": "elemzés",
+      "expected": "jegyeknél",
+      "ui": "build",
+      "parts": [
+        "jegy",
+        "ek",
+        "nél"
+      ],
+      "decoys": []
     },
     {
       "id": "G420",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "jegyeknek → jegy + ek + nek",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "jegyeknek",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nek rag áll: címzettet: kinek? jelöl.",
-      "word": "jegyeknek"
+      "word": "jegyeknek",
+      "structure": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ],
+      "family": "jegy",
+      "kind": "elemzés",
+      "expected": "Szótő + Jel + Rag",
+      "ui": "label",
+      "parts": [
+        "jegy",
+        "ek",
+        "nek"
+      ],
+      "labels": [
+        "Szótő",
+        "Jel",
+        "Rag"
+      ]
     },
     {
       "id": "G421",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "levelekben → level + ek + ben",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "olvasásban\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "olvas + ás + ban",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A(z) levél töve rövidül. A -k többesjel után a -ben rag áll: helyet: hol? jelöl.",
-      "word": "levelekben"
+      "why": "olvas: szótő; -ás: képző; -ban: rag. Itt nincs többesjel.",
+      "word": "olvasásban",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "olvas",
+      "kind": "elemzés",
+      "expected": "olvas + ás + ban",
+      "ui": "segment",
+      "parts": [
+        "olvas",
+        "ás",
+        "ban"
+      ]
     },
     {
       "id": "G422",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "levelekből → level + ek + ből",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: írásban",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "írásban",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A(z) levél töve rövidül. A -k többesjel után a -ből rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "levelekből"
+      "why": "ír: szótő; -ás: képző; -ban: rag. Itt nincs többesjel.",
+      "word": "írásban",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "ír",
+      "kind": "elemzés",
+      "expected": "írásban",
+      "ui": "build",
+      "parts": [
+        "ír",
+        "ás",
+        "ban"
+      ],
+      "decoys": []
     },
     {
       "id": "G423",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "levelekhez → level + ek + hez",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "tanulásban",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Képző + Rag",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A(z) levél töve rövidül. A -k többesjel után a -hez rag áll: irányt: hová, kihez? jelöl.",
-      "word": "levelekhez"
+      "why": "tanul: szótő; -ás: képző; -ban: rag. Itt nincs többesjel.",
+      "word": "tanulásban",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "tanul",
+      "kind": "elemzés",
+      "expected": "Szótő + Képző + Rag",
+      "ui": "label",
+      "parts": [
+        "tanul",
+        "ás",
+        "ban"
+      ],
+      "labels": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ]
     },
     {
       "id": "G424",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "leveleknél → level + ek + nél",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "rajzolásban\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "rajzol + ás + ban",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A(z) levél töve rövidül. A -k többesjel után a -nél rag áll: helyet: hol, kinél? jelöl.",
-      "word": "leveleknél"
+      "why": "rajzol: szótő; -ás: képző; -ban: rag. Itt nincs többesjel.",
+      "word": "rajzolásban",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "rajzol",
+      "kind": "elemzés",
+      "expected": "rajzol + ás + ban",
+      "ui": "segment",
+      "parts": [
+        "rajzol",
+        "ás",
+        "ban"
+      ]
     },
     {
       "id": "G425",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "leveleknek → level + ek + nek",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: sétálásban",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "sétálásban",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A(z) levél töve rövidül. A -k többesjel után a -nek rag áll: címzettet: kinek? jelöl.",
-      "word": "leveleknek"
+      "why": "sétál: szótő; -ás: képző; -ban: rag. Itt nincs többesjel.",
+      "word": "sétálásban",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "sétál",
+      "kind": "elemzés",
+      "expected": "sétálásban",
+      "ui": "build",
+      "parts": [
+        "sétál",
+        "ás",
+        "ban"
+      ],
+      "decoys": []
     },
     {
       "id": "G426",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "könyvekben → könyv + ek + ben",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "úszásban",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Képző + Rag",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ben rag áll: helyet: hol? jelöl.",
-      "word": "könyvekben"
+      "why": "úsz: szótő; -ás: képző; -ban: rag. Itt nincs többesjel.",
+      "word": "úszásban",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "úsz",
+      "kind": "elemzés",
+      "expected": "Szótő + Képző + Rag",
+      "ui": "label",
+      "parts": [
+        "úsz",
+        "ás",
+        "ban"
+      ],
+      "labels": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ]
     },
     {
       "id": "G427",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "könyvekből → könyv + ek + ből",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "futásban\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "fut + ás + ban",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ből rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "könyvekből"
+      "why": "fut: szótő; -ás: képző; -ban: rag. Itt nincs többesjel.",
+      "word": "futásban",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "fut",
+      "kind": "elemzés",
+      "expected": "fut + ás + ban",
+      "ui": "segment",
+      "parts": [
+        "fut",
+        "ás",
+        "ban"
+      ]
     },
     {
       "id": "G428",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "könyvekhez → könyv + ek + hez",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: ugrálásban",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "ugrálásban",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -hez rag áll: irányt: hová, kihez? jelöl.",
-      "word": "könyvekhez"
+      "why": "ugrál: szótő; -ás: képző; -ban: rag. Itt nincs többesjel.",
+      "word": "ugrálásban",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "ugrál",
+      "kind": "elemzés",
+      "expected": "ugrálásban",
+      "ui": "build",
+      "parts": [
+        "ugrál",
+        "ás",
+        "ban"
+      ],
+      "decoys": []
     },
     {
       "id": "G429",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "könyveknél → könyv + ek + nél",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "játszásban",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Képző + Rag",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nél rag áll: helyet: hol, kinél? jelöl.",
-      "word": "könyveknél"
+      "why": "játsz: szótő; -ás: képző; -ban: rag. Itt nincs többesjel.",
+      "word": "játszásban",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "játsz",
+      "kind": "elemzés",
+      "expected": "Szótő + Képző + Rag",
+      "ui": "label",
+      "parts": [
+        "játsz",
+        "ás",
+        "ban"
+      ],
+      "labels": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ]
     },
     {
       "id": "G430",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "könyveknek → könyv + ek + nek",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "várásban\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "vár + ás + ban",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nek rag áll: címzettet: kinek? jelöl.",
-      "word": "könyveknek"
+      "why": "vár: szótő; -ás: képző; -ban: rag. Itt nincs többesjel.",
+      "word": "várásban",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "vár",
+      "kind": "elemzés",
+      "expected": "vár + ás + ban",
+      "ui": "segment",
+      "parts": [
+        "vár",
+        "ás",
+        "ban"
+      ]
     },
     {
       "id": "G431",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "füzetekben → füzet + ek + ben",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: kérésben",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "kérésben",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ben rag áll: helyet: hol? jelöl.",
-      "word": "füzetekben"
+      "why": "kér: szótő; -és: képző; -ben: rag. Itt nincs többesjel.",
+      "word": "kérésben",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "kér",
+      "kind": "elemzés",
+      "expected": "kérésben",
+      "ui": "build",
+      "parts": [
+        "kér",
+        "és",
+        "ben"
+      ],
+      "decoys": []
     },
     {
       "id": "G432",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "füzetekből → füzet + ek + ből",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "nézésben",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Képző + Rag",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ből rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "füzetekből"
+      "why": "néz: szótő; -és: képző; -ben: rag. Itt nincs többesjel.",
+      "word": "nézésben",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "néz",
+      "kind": "elemzés",
+      "expected": "Szótő + Képző + Rag",
+      "ui": "label",
+      "parts": [
+        "néz",
+        "és",
+        "ben"
+      ],
+      "labels": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ]
     },
     {
       "id": "G433",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "füzetekhez → füzet + ek + hez",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "beszélésben\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "beszél + és + ben",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -hez rag áll: irányt: hová, kihez? jelöl.",
-      "word": "füzetekhez"
+      "why": "beszél: szótő; -és: képző; -ben: rag. Itt nincs többesjel.",
+      "word": "beszélésben",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "beszél",
+      "kind": "elemzés",
+      "expected": "beszél + és + ben",
+      "ui": "segment",
+      "parts": [
+        "beszél",
+        "és",
+        "ben"
+      ]
     },
     {
       "id": "G434",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "füzeteknél → füzet + ek + nél",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: mesélésben",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "mesélésben",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nél rag áll: helyet: hol, kinél? jelöl.",
-      "word": "füzeteknél"
+      "why": "mesél: szótő; -és: képző; -ben: rag. Itt nincs többesjel.",
+      "word": "mesélésben",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "mesél",
+      "kind": "elemzés",
+      "expected": "mesélésben",
+      "ui": "build",
+      "parts": [
+        "mesél",
+        "és",
+        "ben"
+      ],
+      "decoys": []
     },
     {
       "id": "G435",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "füzeteknek → füzet + ek + nek",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "énekelésben",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Képző + Rag",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nek rag áll: címzettet: kinek? jelöl.",
-      "word": "füzeteknek"
+      "why": "énekel: szótő; -és: képző; -ben: rag. Itt nincs többesjel.",
+      "word": "énekelésben",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "énekel",
+      "kind": "elemzés",
+      "expected": "Szótő + Képző + Rag",
+      "ui": "label",
+      "parts": [
+        "énekel",
+        "és",
+        "ben"
+      ],
+      "labels": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ]
     },
     {
       "id": "G436",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "erdőkben → erdő + k + ben",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "nevetésben\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "nevet + és + ben",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ben rag áll: helyet: hol? jelöl.",
-      "word": "erdőkben"
+      "why": "nevet: szótő; -és: képző; -ben: rag. Itt nincs többesjel.",
+      "word": "nevetésben",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "nevet",
+      "kind": "elemzés",
+      "expected": "nevet + és + ben",
+      "ui": "segment",
+      "parts": [
+        "nevet",
+        "és",
+        "ben"
+      ]
     },
     {
       "id": "G437",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "erdőkből → erdő + k + ből",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: segítésben",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "segítésben",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ből rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "erdőkből"
+      "why": "segít: szótő; -és: képző; -ben: rag. Itt nincs többesjel.",
+      "word": "segítésben",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "segít",
+      "kind": "elemzés",
+      "expected": "segítésben",
+      "ui": "build",
+      "parts": [
+        "segít",
+        "és",
+        "ben"
+      ],
+      "decoys": []
     },
     {
       "id": "G438",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "erdőkhöz → erdő + k + höz",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "építésben",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Képző + Rag",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -höz rag áll: irányt: hová, kihez? jelöl.",
-      "word": "erdőkhöz"
+      "why": "épít: szótő; -és: képző; -ben: rag. Itt nincs többesjel.",
+      "word": "építésben",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "épít",
+      "kind": "elemzés",
+      "expected": "Szótő + Képző + Rag",
+      "ui": "label",
+      "parts": [
+        "épít",
+        "és",
+        "ben"
+      ],
+      "labels": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ]
     },
     {
       "id": "G439",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "erdőknél → erdő + k + nél",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "festésben\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "fest + és + ben",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nél rag áll: helyet: hol, kinél? jelöl.",
-      "word": "erdőknél"
+      "why": "fest: szótő; -és: képző; -ben: rag. Itt nincs többesjel.",
+      "word": "festésben",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "fest",
+      "kind": "elemzés",
+      "expected": "fest + és + ben",
+      "ui": "segment",
+      "parts": [
+        "fest",
+        "és",
+        "ben"
+      ]
     },
     {
       "id": "G440",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "erdőknek → erdő + k + nek",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: keresésben",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "keresésben",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nek rag áll: címzettet: kinek? jelöl.",
-      "word": "erdőknek"
+      "why": "keres: szótő; -és: képző; -ben: rag. Itt nincs többesjel.",
+      "word": "keresésben",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "keres",
+      "kind": "elemzés",
+      "expected": "keresésben",
+      "ui": "build",
+      "parts": [
+        "keres",
+        "és",
+        "ben"
+      ],
+      "decoys": []
     },
     {
       "id": "G441",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "mezőkben → mező + k + ben",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "szépségben",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Képző + Rag",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ben rag áll: helyet: hol? jelöl.",
-      "word": "mezőkben"
+      "why": "szép: szótő; -ség: képző; -ben: rag. Itt nincs többesjel.",
+      "word": "szépségben",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "szép",
+      "kind": "elemzés",
+      "expected": "Szótő + Képző + Rag",
+      "ui": "label",
+      "parts": [
+        "szép",
+        "ség",
+        "ben"
+      ],
+      "labels": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ]
     },
     {
       "id": "G442",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "mezőkből → mező + k + ből",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "jóságban\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "jó + ság + ban",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ből rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "mezőkből"
+      "why": "jó: szótő; -ság: képző; -ban: rag. Itt nincs többesjel.",
+      "word": "jóságban",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "jó",
+      "kind": "elemzés",
+      "expected": "jó + ság + ban",
+      "ui": "segment",
+      "parts": [
+        "jó",
+        "ság",
+        "ban"
+      ]
     },
     {
       "id": "G443",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "mezőkhöz → mező + k + höz",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: bátorságban",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "bátorságban",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -höz rag áll: irányt: hová, kihez? jelöl.",
-      "word": "mezőkhöz"
+      "why": "bátor: szótő; -ság: képző; -ban: rag. Itt nincs többesjel.",
+      "word": "bátorságban",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "bátor",
+      "kind": "elemzés",
+      "expected": "bátorságban",
+      "ui": "build",
+      "parts": [
+        "bátor",
+        "ság",
+        "ban"
+      ],
+      "decoys": []
     },
     {
       "id": "G444",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "mezőknél → mező + k + nél",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "okosságban",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Képző + Rag",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nél rag áll: helyet: hol, kinél? jelöl.",
-      "word": "mezőknél"
+      "why": "okos: szótő; -ság: képző; -ban: rag. Itt nincs többesjel.",
+      "word": "okosságban",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "okos",
+      "kind": "elemzés",
+      "expected": "Szótő + Képző + Rag",
+      "ui": "label",
+      "parts": [
+        "okos",
+        "ság",
+        "ban"
+      ],
+      "labels": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ]
     },
     {
       "id": "G445",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "mezőknek → mező + k + nek",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "kedvességben\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "kedves + ség + ben",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nek rag áll: címzettet: kinek? jelöl.",
-      "word": "mezőknek"
+      "why": "kedves: szótő; -ség: képző; -ben: rag. Itt nincs többesjel.",
+      "word": "kedvességben",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "kedves",
+      "kind": "elemzés",
+      "expected": "kedves + ség + ben",
+      "ui": "segment",
+      "parts": [
+        "kedves",
+        "ség",
+        "ben"
+      ]
     },
     {
       "id": "G446",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "felhőkben → felhő + k + ben",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: ügyességben",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "ügyességben",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ben rag áll: helyet: hol? jelöl.",
-      "word": "felhőkben"
+      "why": "ügyes: szótő; -ség: képző; -ben: rag. Itt nincs többesjel.",
+      "word": "ügyességben",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "ügyes",
+      "kind": "elemzés",
+      "expected": "ügyességben",
+      "ui": "build",
+      "parts": [
+        "ügyes",
+        "ség",
+        "ben"
+      ],
+      "decoys": []
     },
     {
       "id": "G447",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "felhőkből → felhő + k + ből",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "boldogságban",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Képző + Rag",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -ből rag áll: kiindulópontot: honnan? jelöl.",
-      "word": "felhőkből"
+      "why": "boldog: szótő; -ság: képző; -ban: rag. Itt nincs többesjel.",
+      "word": "boldogságban",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "boldog",
+      "kind": "elemzés",
+      "expected": "Szótő + Képző + Rag",
+      "ui": "label",
+      "parts": [
+        "boldog",
+        "ság",
+        "ban"
+      ],
+      "labels": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ]
     },
     {
       "id": "G448",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "felhőkhöz → felhő + k + höz",
+      "text": "Vágd szét a szót szóelemekre!",
+      "example": "szabadságban\nKattints a szóelemek közötti határokra! A kötőhangzót a toldalékkal együtt kezeld.",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "szabad + ság + ban",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -höz rag áll: irányt: hová, kihez? jelöl.",
-      "word": "felhőkhöz"
+      "why": "szabad: szótő; -ság: képző; -ban: rag. Itt nincs többesjel.",
+      "word": "szabadságban",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "szabad",
+      "kind": "elemzés",
+      "expected": "szabad + ság + ban",
+      "ui": "segment",
+      "parts": [
+        "szabad",
+        "ság",
+        "ban"
+      ]
     },
     {
       "id": "G449",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "felhőknél → felhő + k + nél",
+      "text": "Rakd össze a szóalakot!",
+      "example": "Tedd a cédulákat a helyes sorrendbe!\nCél: gazdagságban",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "gazdagságban",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nél rag áll: helyet: hol, kinél? jelöl.",
-      "word": "felhőknél"
+      "why": "gazdag: szótő; -ság: képző; -ban: rag. Itt nincs többesjel.",
+      "word": "gazdagságban",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "gazdag",
+      "kind": "elemzés",
+      "expected": "gazdagságban",
+      "ui": "build",
+      "parts": [
+        "gazdag",
+        "ság",
+        "ban"
+      ],
+      "decoys": []
     },
     {
       "id": "G450",
-      "text": "Milyen sorrendben állnak a szóelemek?",
-      "example": "felhőknek → felhő + k + nek",
+      "text": "Címkézd fel a szóelemeket!",
+      "example": "szegénységben",
       "options": [
-        "Szótő + jel + rag",
-        "Szótő + képző + rag",
-        "Szótő + rag + jel"
+        "Szótő + Képző + Rag",
+        "Más válasz"
       ],
       "answer": 0,
-      "why": "A kötőhangzót a többesjellel együtt kezeljük. A -k többesjel után a -nek rag áll: címzettet: kinek? jelöl.",
-      "word": "felhőknek"
+      "why": "szegény: szótő; -ség: képző; -ben: rag. Itt nincs többesjel.",
+      "word": "szegénységben",
+      "structure": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ],
+      "family": "szegény",
+      "kind": "elemzés",
+      "expected": "Szótő + Képző + Rag",
+      "ui": "label",
+      "parts": [
+        "szegény",
+        "ség",
+        "ben"
+      ],
+      "labels": [
+        "Szótő",
+        "Képző",
+        "Rag"
+      ]
     }
   ],
   [
     {
       "id": "G451",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
       "example": "A fiú tegnap olvasott.\nLátok egy könyvet.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) olvasott ige múlt idejű: a -t/-tt jel. A(z) könyvet főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "A fiú tegnap olvasott."
     },
     {
       "id": "G452",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
-      "example": "Anna tegnap rajzolt.\nLátok egy rajzot.",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
+      "example": "Látok egy rajzot.\nAnna tegnap rajzolt.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) rajzolt ige múlt idejű: a -t/-tt jel. A(z) rajzot főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Látok egy rajzot."
     },
     {
       "id": "G453",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
       "example": "Peti tegnap tanult.\nLátok egy verset.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) tanult ige múlt idejű: a -t/-tt jel. A(z) verset főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "Peti tegnap tanult."
     },
     {
       "id": "G454",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
-      "example": "A lány tegnap sétált.\nLátok egy képet.",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
+      "example": "Látok egy képet.\nA lány tegnap sétált.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) sétált ige múlt idejű: a -t/-tt jel. A(z) képet főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Látok egy képet."
     },
     {
       "id": "G455",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
       "example": "A kutya tegnap ugrált.\nLátok egy labdát.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) ugrált ige múlt idejű: a -t/-tt jel. A(z) labdát főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "A kutya tegnap ugrált."
     },
     {
       "id": "G456",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
-      "example": "A fiú tegnap futott.\nLátok egy házat.",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
+      "example": "Látok egy házat.\nA fiú tegnap futott.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) futott ige múlt idejű: a -t/-tt jel. A(z) házat főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Látok egy házat."
     },
     {
       "id": "G457",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
       "example": "Anna tegnap úszott.\nLátok egy almát.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) úszott ige múlt idejű: a -t/-tt jel. A(z) almát főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "Anna tegnap úszott."
     },
     {
       "id": "G458",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
-      "example": "Peti tegnap játszott.\nLátok egy játékot.",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
+      "example": "Látok egy játékot.\nPeti tegnap játszott.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) játszott ige múlt idejű: a -t/-tt jel. A(z) játékot főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Látok egy játékot."
     },
     {
       "id": "G459",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
       "example": "A fiú tegnap várt.\nLátok egy várat.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) várt ige múlt idejű: a -t/-tt jel. A(z) várat főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "A fiú tegnap várt."
     },
     {
       "id": "G460",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
-      "example": "Anna tegnap segítséget kért.\nLátok egy levelet.",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
+      "example": "Látok egy levelet.\nAnna tegnap segítséget kért.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) kért ige múlt idejű: a -t/-tt jel. A(z) levelet főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Látok egy levelet."
     },
     {
       "id": "G461",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
       "example": "Peti tegnap filmet nézett.\nLátok egy filmet.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) nézett ige múlt idejű: a -t/-tt jel. A(z) filmet főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "Peti tegnap filmet nézett."
     },
     {
       "id": "G462",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
-      "example": "A fiú tegnap beszélt.\nLátok egy széket.",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
+      "example": "Látok egy széket.\nA fiú tegnap beszélt.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) beszélt ige múlt idejű: a -t/-tt jel. A(z) széket főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Látok egy széket."
     },
     {
       "id": "G463",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
       "example": "Anna tegnap mesélt.\nLátok egy mesét.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) mesélt ige múlt idejű: a -t/-tt jel. A(z) mesét főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "Anna tegnap mesélt."
     },
     {
       "id": "G464",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
-      "example": "Peti tegnap énekelt.\nLátok egy éneket.",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
+      "example": "Látok egy éneket.\nPeti tegnap énekelt.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) énekelt ige múlt idejű: a -t/-tt jel. A(z) éneket főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Látok egy éneket."
     },
     {
       "id": "G465",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
       "example": "A lány tegnap nevetett.\nLátok egy füzetet.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) nevetett ige múlt idejű: a -t/-tt jel. A(z) füzetet főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "A lány tegnap nevetett."
     },
     {
       "id": "G466",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
-      "example": "A fiú tegnap segített.\nLátok egy ceruzát.",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
+      "example": "Látok egy ceruzát.\nA fiú tegnap segített.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) segített ige múlt idejű: a -t/-tt jel. A(z) ceruzát főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Látok egy ceruzát."
     },
     {
       "id": "G467",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
       "example": "Anna tegnap várat épített.\nLátok egy táskát.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) épített ige múlt idejű: a -t/-tt jel. A(z) táskát főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "Anna tegnap várat épített."
     },
     {
       "id": "G468",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
-      "example": "Peti tegnap festett.\nLátok egy asztalt.",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
+      "example": "Látok egy asztalt.\nPeti tegnap festett.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) festett ige múlt idejű: a -t/-tt jel. A(z) asztalt főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Látok egy asztalt."
     },
     {
       "id": "G469",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
       "example": "A lány tegnap kulcsot keresett.\nLátok egy kulcsot.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) keresett ige múlt idejű: a -t/-tt jel. A(z) kulcsot főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "A lány tegnap kulcsot keresett."
     },
     {
       "id": "G470",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
-      "example": "A fiú tegnap válaszolt.\nLátok egy választ.",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
+      "example": "Látok egy választ.\nA fiú tegnap válaszolt.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) válaszolt ige múlt idejű: a -t/-tt jel. A(z) választ főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Látok egy választ."
     },
     {
       "id": "G471",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
       "example": "Anna tegnap számolt.\nLátok egy számot.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) számolt ige múlt idejű: a -t/-tt jel. A(z) számot főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "Anna tegnap számolt."
     },
     {
       "id": "G472",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
-      "example": "Peti tegnap pakolt.\nLátok egy csomagot.",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
+      "example": "Látok egy csomagot.\nPeti tegnap pakolt.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) pakolt ige múlt idejű: a -t/-tt jel. A(z) csomagot főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Látok egy csomagot."
     },
     {
       "id": "G473",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
       "example": "A lány tegnap tapsolt.\nLátok egy dalt.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) tapsolt ige múlt idejű: a -t/-tt jel. A(z) dalt főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "A lány tegnap tapsolt."
     },
     {
       "id": "G474",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
-      "example": "A fiú tegnap gyakorolt.\nLátok egy gyakorlatot.",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
+      "example": "Látok egy gyakorlatot.\nA fiú tegnap gyakorolt.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) gyakorolt ige múlt idejű: a -t/-tt jel. A(z) gyakorlatot főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Látok egy gyakorlatot."
     },
     {
       "id": "G475",
-      "text": "Mi a -t/-tt szerepe ebben a két mondatban?",
+      "text": "Mi a(z) -t/-tt szerepe a két mondatban?",
       "example": "Anna tegnap zenét hallgatott.\nLátok egy virágot.",
       "options": [
-        "Előbb múlt idő jele, aztán tárgyrag",
-        "Mindkettő képző",
-        "Mindkettő tárgyrag"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) hallgatott ige múlt idejű: a -t/-tt jel. A(z) virágot főnév a mit? kérdésre felel: a -t tárgyrag.",
-      "kind": "t-pár"
+      "kind": "t-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "Anna tegnap zenét hallgatott."
     },
     {
       "id": "G476",
-      "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Itt házak vannak.\nÉn olvasok.",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
+      "example": "Én olvasok.\nItt házak vannak.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) házak főnévben a -k többes számot jelöl. A(z) olvasok igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Én olvasok."
     },
     {
       "id": "G477",
-      "text": "Mi a -k szerepe a két szóalakban?",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
       "example": "Itt várak vannak.\nÉn rajzolok.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) várak főnévben a -k többes számot jelöl. A(z) rajzolok igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "Itt várak vannak."
     },
     {
       "id": "G478",
-      "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Itt falak vannak.\nÉn tanulok.",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
+      "example": "Én tanulok.\nItt falak vannak.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) falak főnévben a -k többes számot jelöl. A(z) tanulok igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Én tanulok."
     },
     {
       "id": "G479",
-      "text": "Mi a -k szerepe a két szóalakban?",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
       "example": "Itt padok vannak.\nÉn sétálok.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) padok főnévben a -k többes számot jelöl. A(z) sétálok igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "Itt padok vannak."
     },
     {
       "id": "G480",
-      "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Itt asztalok vannak.\nÉn ugrálok.",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
+      "example": "Én ugrálok.\nItt asztalok vannak.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) asztalok főnévben a -k többes számot jelöl. A(z) ugrálok igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Én ugrálok."
     },
     {
       "id": "G481",
-      "text": "Mi a -k szerepe a két szóalakban?",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
       "example": "Itt ablakok vannak.\nÉn futok.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) ablakok főnévben a -k többes számot jelöl. A(z) futok igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "Itt ablakok vannak."
     },
     {
       "id": "G482",
-      "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Itt udvarok vannak.\nÉn indulok.",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
+      "example": "Én indulok.\nItt udvarok vannak.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) udvarok főnévben a -k többes számot jelöl. A(z) indulok igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Én indulok."
     },
     {
       "id": "G483",
-      "text": "Mi a -k szerepe a két szóalakban?",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
       "example": "Itt vonatok vannak.\nÉn sétáltatok.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) vonatok főnévben a -k többes számot jelöl. A(z) sétáltatok igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "Itt vonatok vannak."
     },
     {
       "id": "G484",
-      "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Itt hajók vannak.\nÉn várok.",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
+      "example": "Én várok.\nItt hajók vannak.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) hajók főnévben a -k többes számot jelöl. A(z) várok igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Én várok."
     },
     {
       "id": "G485",
-      "text": "Mi a -k szerepe a két szóalakban?",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
       "example": "Itt autók vannak.\nÉn kérek.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) autók főnévben a -k többes számot jelöl. A(z) kérek igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "Itt autók vannak."
     },
     {
       "id": "G486",
-      "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Itt labdák vannak.\nÉn nézek.",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
+      "example": "Én nézek.\nItt labdák vannak.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) labdák főnévben a -k többes számot jelöl. A(z) nézek igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Én nézek."
     },
     {
       "id": "G487",
-      "text": "Mi a -k szerepe a két szóalakban?",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
       "example": "Itt almák vannak.\nÉn beszélek.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) almák főnévben a -k többes számot jelöl. A(z) beszélek igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "Itt almák vannak."
     },
     {
       "id": "G488",
-      "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Itt iskolák vannak.\nÉn mesélek.",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
+      "example": "Én mesélek.\nItt iskolák vannak.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) iskolák főnévben a -k többes számot jelöl. A(z) mesélek igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Én mesélek."
     },
     {
       "id": "G489",
-      "text": "Mi a -k szerepe a két szóalakban?",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
       "example": "Itt szobák vannak.\nÉn énekelek.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) szobák főnévben a -k többes számot jelöl. A(z) énekelek igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "Itt szobák vannak."
     },
     {
       "id": "G490",
-      "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Itt táskák vannak.\nÉn nevetek.",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
+      "example": "Én nevetek.\nItt táskák vannak.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) táskák főnévben a -k többes számot jelöl. A(z) nevetek igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Én nevetek."
     },
     {
       "id": "G491",
-      "text": "Mi a -k szerepe a két szóalakban?",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
       "example": "Itt kertek vannak.\nÉn segítek.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) kertek főnévben a -k többes számot jelöl. A(z) segítek igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "Itt kertek vannak."
     },
     {
       "id": "G492",
-      "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Itt képek vannak.\nÉn építek.",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
+      "example": "Én építek.\nItt képek vannak.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) képek főnévben a -k többes számot jelöl. A(z) építek igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Én építek."
     },
     {
       "id": "G493",
-      "text": "Mi a -k szerepe a két szóalakban?",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
       "example": "Itt gépek vannak.\nÉn festek.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) gépek főnévben a -k többes számot jelöl. A(z) festek igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "Itt gépek vannak."
     },
     {
       "id": "G494",
-      "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Itt székek vannak.\nÉn keresek.",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
+      "example": "Én keresek.\nItt székek vannak.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) székek főnévben a -k többes számot jelöl. A(z) keresek igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Én keresek."
     },
     {
       "id": "G495",
-      "text": "Mi a -k szerepe a két szóalakban?",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
       "example": "Itt népek vannak.\nÉn válaszolok.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) népek főnévben a -k többes számot jelöl. A(z) válaszolok igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "Itt népek vannak."
     },
     {
       "id": "G496",
-      "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Itt kezek vannak.\nÉn számolok.",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
+      "example": "Én számolok.\nItt kezek vannak.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) kezek főnévben a -k többes számot jelöl. A(z) számolok igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Én számolok."
     },
     {
       "id": "G497",
-      "text": "Mi a -k szerepe a két szóalakban?",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
       "example": "Itt helyek vannak.\nÉn pakolok.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) helyek főnévben a -k többes számot jelöl. A(z) pakolok igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "Itt helyek vannak."
     },
     {
       "id": "G498",
-      "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Itt hegyek vannak.\nÉn tapsolok.",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
+      "example": "Én tapsolok.\nItt hegyek vannak.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) hegyek főnévben a -k többes számot jelöl. A(z) tapsolok igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Én tapsolok."
     },
     {
       "id": "G499",
-      "text": "Mi a -k szerepe a két szóalakban?",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
       "example": "Itt jegyek vannak.\nÉn gyakorlok.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Jel + Rag",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) jegyek főnévben a -k többes számot jelöl. A(z) gyakorlok igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Jel + Rag",
+      "ui": "pair",
+      "labels": [
+        "Jel",
+        "Rag"
+      ],
+      "family": "Itt jegyek vannak."
     },
     {
       "id": "G500",
-      "text": "Mi a -k szerepe a két szóalakban?",
-      "example": "Itt levelek vannak.\nÉn hallgatok.",
+      "text": "Mi a(z) -k szerepe a két mondatban?",
+      "example": "Én hallgatok.\nItt levelek vannak.",
       "options": [
-        "Előbb többesjel, aztán igei személyrag",
-        "Mindkettő többesjel",
-        "Mindkettő képző"
+        "Rag + Jel",
+        "Más válasz"
       ],
       "answer": 0,
       "why": "A(z) levelek főnévben a -k többes számot jelöl. A(z) hallgatok igében személyrag: én, egyes szám első személy.",
-      "kind": "k-pár"
+      "kind": "k-pár",
+      "expected": "Rag + Jel",
+      "ui": "pair",
+      "labels": [
+        "Rag",
+        "Jel"
+      ],
+      "family": "Én hallgatok."
     }
   ]
 ];
