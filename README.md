@@ -42,13 +42,19 @@ Kézzel összeállított fanzin: a felhasználó képei, tépett plakátrétegek
 
 Közvetlen cím: https://hampg.github.io/hosmuhely/#nyelvtan
 
-- Toldalékválogató: 300 feladat (60 képző, 40 jel, 200 rag).
-- Szószerelő: 150 toldalékos szóalak elemzése.
+- Toldalékműhely: 300 felismerő, szóalkotó, szóépítő és mondatjavító feladat.
+- Szószerelő: 150 interaktív szóépítő, szóvágó és címkéző feladat.
 - Csavaros toldalékok: 50 mondatos összehasonlítás.
-- Mind az 500: az előző három bank egyesítése, nem újabb 500 feladat.
+- Változatos műhelykör: az előző három bank egyesítése, nem újabb 500 feladat.
 
 A szám 500 különböző feladatot jelent, nem 500 külön szótövet. A tőváltozatok rögzített listából készülnek. Generátor: `python3 scripts/build-grammar.py`. Szerkesztési megjegyzések: `data/grammar-notes.md`.
 
 A kezdő kör 20 feladat vagy a kisebb bank teljes mérete. Egyedi szám és 20/50/100/Mind gyorsválasztók is vannak; a nyelvtan feladattípus szerint szűrhető. Az összes irodalmi játék is szabad feladatszámot használ. Kör közben az eddigi válaszokkal lezárható a gyakorlás vagy teszt; a részleges teszt nem írja felül a teljes kör rekordját. A hibaismétlés minden elrontott feladatot tartalmaz, nincs levágás nyolcra.
 
 A működési teszt végigpontozza a teljes 500-as kört, ellenőrzi az ismétlésmentességet, az önálló tantárgyi bankokat, a szűrést és a korai lezárást.
+
+## Hétféle interakció
+
+100 feleletválasztás, 130 beírt szóalak, 40 mondatjavítás, 80 kattintható cédulás szóépítés, 50 szóhatárjelölés, 50 szóelemcímkézés és 50 kétmondatos elemzés. Szűrhető téma és feladatforma szerint. A vegyes kör lehetőség szerint váltogatja az interakciót és kerüli az utolsó három szócsaládot; a legutóbbi 100 megoldott feladat helyi előzménye alapján előnyben részesíti az új példákat.
+
+`node tests/variety.test.cjs` ellenőrzi mind a 400 szabadabb válasz helyes és hibás pontozását, a normalizálást és az 500-as sorozat váltakozását. A böngészős próba a mondatjavítást, cédulákat, ollós határjelölést és címkézést is ellenőrizte.

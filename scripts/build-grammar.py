@@ -59,6 +59,8 @@ verbs[6]='indulok';verbs[7]='sétáltatok'
 for (stem,pl,*_),verb in zip(nouns[:25],verbs):
  word=plural(stem,pl)
  question(2,'Mi a -k szerepe a két szóalakban?',f'Itt {word} vannak.\nÉn {verb}.', ['Előbb többesjel, aztán igei személyrag','Mindkettő többesjel','Mindkettő képző'],0,f'A(z) {word} főnévben a -k többes számot jelöl. A(z) {verb} igében személyrag: én, egyes szám első személy.',kind='k-pár')
+from grammar_variety import enrich
+enrich(groups,deriv)
 assert list(map(len,groups))==[300,150,50]
 allq=sum(groups,[])
 assert len({q['text']+'|'+q['example'] for q in allq})==500
@@ -66,3 +68,8 @@ assert len({q['id'] for q in allq})==500
 (ROOT/'dist/grammar-data.js').write_text('window.grammarData = '+json.dumps(groups,ensure_ascii=False,indent=2)+';\n')
 (ROOT/'data/grammar-notes.md').write_text('''# Toldalékbank\n\n500 különböző feladat: 300 osztályozás (60 képző, 40 jel, 200 rag), 150 szószerkezeti elemzés, 50 mondatos szerep-összehasonlítás. A szám feladatokat jelent, nem 500 külön szótövet. A szavak különböző toldalékos alakokban és feladattípusokban is előfordulnak.\n\nA generátor rögzített tőlistát, külön kezelt tőváltozatokat és explicit képzett szóalakokat használ; nem általános magyar ragozó. Kötőhangzót az iskolai egyszerűsítésben a toldalékkal együtt mutatunk. A képzők jelölése is tartalmazhat kötőhangzót. Az -s képző előtti többalakú tő (például izom → izm-, köröm → körm-) a szóalakban szerepel; a toldalékválogató ezeken a képző szerepét, nem a teljes morfémahatárt kérdezi.\n\nNyelvtani háttér: az oldalon hivatkozott NKP Magyar nyelv 5–6. tanári kézikönyv szóelemekről szóló része. Saját feladatbank, nem átvett tankönyvi feladatsor. Automatikus szerkezeti ellenőrzés készült; független szaklektorálás nem történt.\n\nÚjraépítés: python3 scripts/build-grammar.py\n''')
 print('500 grammar questions built:',list(map(len,groups)))
+
+from collections import Counter
+counts=Counter(q['ui'] for q in allq)
+with (ROOT/'data/grammar-notes.md').open('a') as f:
+ f.write('\n## Változatos feladatformák\n\nA fenti eredeti csoportlétszámok (300 + 150 + 50) megmaradnak, de a tartalom már nem pusztán osztályozás. A scripts/grammar_variety.py átalakítja az adatokat: múlt idő, melléknévfokozás, birtokos személyjel, szándékosan hibás mondatok javítása, szóépítés, határok kijelölése, morfémák címkézése és két mondat önálló elemzése.\n\nAktuális feladatformák: '+str(dict(counts))+'.\n\nA mondatjavítóban a hibás mondatot mindig kifejezetten Hibás: címkével mutatjuk; a helyes alak a javításban olvasható. Szöveges válaszoknál kis/nagybetűt, végső írásjelet és felesleges szóközt elnézünk; ékezetet és nyelvtani hibát nem.\n')

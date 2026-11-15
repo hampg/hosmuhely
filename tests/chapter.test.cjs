@@ -1,9 +1,10 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
 const elements=new Map(),saved=new Map();
-function element(key){if(!elements.has(key))elements.set(key,{innerHTML:'',textContent:'',hidden:true,value:'',style:{},classList:{toggle(){}},focus(){},scrollIntoView(){},after(){}});return elements.get(key)}
+function element(key){if(!elements.has(key))elements.set(key,{innerHTML:'',textContent:'',hidden:true,value:'',style:{},classList:{toggle(){}},focus(){},scrollIntoView(){},after(){},querySelector(){return {disabled:false}}});return elements.get(key)}
 const context=vm.createContext({window:{addEventListener(){}},location:{hash:""},document:{querySelector:element,querySelectorAll:()=>[]},localStorage:{getItem:k=>saved.get(k)??null,setItem:(k,v)=>saved.set(k,v)},console,Blob,URL,setTimeout,confirm:()=>false});
-for(const f of ['chapter-data.js','grammar-data.js','app.js'])vm.runInContext(fs.readFileSync('dist/'+f,'utf8'),context);
+for(const f of ['chapter-data.js','grammar-data.js','grammar-ui.js','app.js'])vm.runInContext(fs.readFileSync('dist/'+f,'utf8'),context);
 const run=s=>vm.runInContext(s,context);
+run('window.grammarUI.bind=()=>{}');
 assert.equal(run('bank.length'),10);
 assert.equal(run("bank.filter(g=>g.subject==='literature').reduce((n,g)=>n+g.qs.length,0)"),90);
 assert.equal(run('grammar.flat().length'),500);
@@ -19,7 +20,7 @@ for(let id=0;id<10;id++){
  run(`start(${id},'test')`);
  const n=run('state.qs.length');assert.equal(n,Math.min(20,run(`bank[${id}].qs.length`)));assert.equal(run('new Set(state.qs.map(x=>x.text+x.example)).size'),n);
  for(let i=0;i<n;i++){run('answer(state.qs[state.index].answer)');run('answer(state.qs[state.index].answer)');assert.equal(run('state.answers.length'),i+1);assert.ok(!element('#feedback').innerHTML.includes('Helyes válasz:'));element('#next').onclick()}
- assert.ok(element('#play').innerHTML.includes('100%'));assert.equal(saved.get('hosmuhely:best-v4:'+id+':all'),'100');
+ assert.ok(element('#play').innerHTML.includes('100%'));assert.equal(saved.get('hosmuhely:best-v9:'+id+':all'),'100');
 }
 for(let lesson=1;lesson<=13;lesson++){
  run(`start(2,'practice',allChapterQuestions().filter(x=>x.lesson===${lesson}),'${lesson}')`);
@@ -48,6 +49,6 @@ for(const q of run('grammar.flat()')){
  assert.ok(!/^Itt .+ van\./u.test(q.example), 'Hibás többes számú egyeztetés: '+q.example);
 }
 const housePair=run("grammar[2].find(q=>q.example.includes('házak'))");
-assert.ok(housePair.example.startsWith('Itt házak vannak.'));
-assert.ok(run("grammar[0].find(q=>q.word==='házak').example==='Egy ház → házak'"));
+assert.ok(housePair.example.includes('Itt házak vannak.'));
+assert.ok(run("grammar[0].find(q=>q.word==='házak').expected==='Három ház van.'"));
 console.log('PASS: számnév és többes szám egyeztetési regresszió.');
