@@ -12,3 +12,6 @@ nav a.active{background:var(--lime);color:var(--ink);padding:4px 6px;margin:-4px
 
 /* User-selected handwritten font for short annotations. */
 .scribble{font:400 17px/1.65 'Gloria Hallelujah',cursive}.photo-layer figcaption{font:400 13px/1.5 'Gloria Hallelujah',cursive}.collage-note{font:400 16px/1.5 'Gloria Hallelujah',cursive}@media(max-width:480px){.scribble{font-size:15px}.photo-layer figcaption{font-size:11px}.collage-note{font-size:13px}}
+
+/* Anchor the arrow to its photo instead of the collage's text baseline. */
+.photo-arrow{position:absolute;width:68%;height:auto;left:-49%;bottom:5%;overflow:visible;pointer-events:none;transform:rotate(-9deg)}.photo-arrow path{fill:none;stroke:var(--blue);stroke-width:6;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}@media(max-width:480px){.photo-arrow path{stroke-width:4}}
