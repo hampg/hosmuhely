@@ -41,3 +41,13 @@ run("start(3,'practice',grammar[0].filter(q=>q.kind==='képző'),'képző','all'
 assert.ok(run("state.qs.every(q=>q.kind==='képző')"));
 run("start(9,'test',undefined,'all',1)");assert.equal(run('state.qs.length'),1);
 console.log('PASS: 500 különböző nyelvtani feladat; 90 irodalmi feladat; külön tárgyak; teljes 500-as teszt; szűrés, pontozás, lezárás és hibaismétlés.');
+
+// Regression: number words take singular nouns; plural subjects require plural agreement.
+for(const q of run('grammar.flat()')){
+ assert.ok(!/\btöbb\s+/iu.test(q.example), 'Hibás számnévi sablon: '+q.example);
+ assert.ok(!/^Itt .+ van\./u.test(q.example), 'Hibás többes számú egyeztetés: '+q.example);
+}
+const housePair=run("grammar[2].find(q=>q.example.includes('házak'))");
+assert.ok(housePair.example.startsWith('Itt házak vannak.'));
+assert.ok(run("grammar[0].find(q=>q.word==='házak').example==='Egy ház → házak'"));
+console.log('PASS: számnév és többes szám egyeztetési regresszió.');

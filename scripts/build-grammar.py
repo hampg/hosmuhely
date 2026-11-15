@@ -27,7 +27,7 @@ for stem,pl,harmony,ph in nouns:
   word=base+suf
   question(0,f'Milyen toldalék a(z) -{suf}?',f'{word} → {base} + {suf}', ['Képző','Jel','Rag'],2,f'A -{suf} rag: {roles[i]} jelöl. Nem hoz létre új szót.',kind='rag',word=word)
  word=plural(stem,pl); surface=word[len(stem):] if word.startswith(stem) else pl
- question(0,'Mit jelöl a többes szám toldaléka?',f'Egy {stem} → több {word}', ['Képző','Jel','Rag'],1,f'A {word} alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.',kind='jel',word=word)
+ question(0,'Mit jelöl a többes szám toldaléka?',f'Egy {stem} → {word}', ['Képző','Jel','Rag'],1,f'A {word} alakban a -k a többes szám jele. A kötőhangzót a toldalékkal együtt kezeljük; a szótő alakja is változhat.',kind='jel',word=word)
 # 60 explicitly recorded derivations.
 deriv=[
 ('olvas','ás','olvasás'),('ír','ás','írás'),('tanul','ás','tanulás'),('rajzol','ás','rajzolás'),('sétál','ás','sétálás'),('úsz','ás','úszás'),('fut','ás','futás'),('ugrál','ás','ugrálás'),('játsz','ás','játszás'),('vár','ás','várás'),
@@ -58,7 +58,7 @@ verbs=['olvasok','rajzolok','tanulok','sétálok','ugrálok','futok','úszok','j
 verbs[6]='indulok';verbs[7]='sétáltatok'
 for (stem,pl,*_),verb in zip(nouns[:25],verbs):
  word=plural(stem,pl)
- question(2,'Mi a -k szerepe a két szóalakban?',f'Több {word} van.\nÉn {verb}.', ['Előbb többesjel, aztán igei személyrag','Mindkettő többesjel','Mindkettő képző'],0,f'A(z) {word} főnévben a -k többes számot jelöl. A(z) {verb} igében személyrag: én, egyes szám első személy.',kind='k-pár')
+ question(2,'Mi a -k szerepe a két szóalakban?',f'Itt {word} vannak.\nÉn {verb}.', ['Előbb többesjel, aztán igei személyrag','Mindkettő többesjel','Mindkettő képző'],0,f'A(z) {word} főnévben a -k többes számot jelöl. A(z) {verb} igében személyrag: én, egyes szám első személy.',kind='k-pár')
 assert list(map(len,groups))==[300,150,50]
 allq=sum(groups,[])
 assert len({q['text']+'|'+q['example'] for q in allq})==500
